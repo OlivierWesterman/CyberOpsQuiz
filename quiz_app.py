@@ -1957,7 +1957,7 @@ class QuizApp:
                     "ip route 10.10.0.0 255.255.0.0 209.165.200.225 50",
                 ],
                 "correct": 2,
-                "image": None,
+                "image": resource_path("Images/Question2.png"),
             },
             {
                 "question": "Refer to the exhibit. What will router R1 do with a packet that has a destination IPv6 address of 2001:db8:cafe:5::1?",
@@ -1983,7 +1983,7 @@ class QuizApp:
 
         self.quiz_frame = ttk.Frame(self.root)
         self.quiz_frame.pack(fill=tk.BOTH, expand=True, padx=20)
-        
+
         self.counter_label = ttk.Label(self.quiz_frame, text="")
         self.counter_label.pack(pady=10)
 
@@ -1998,12 +1998,12 @@ class QuizApp:
         self.submit_btn = ttk.Button(self.quiz_frame, text="Controleer Antwoord", command=self.check_answer)
         self.submit_btn.pack(pady=20)
 
-        self.image_label = ttk.Label(self.quiz_frame)
-        self.image_label.pack(pady=10)
-
         self.next_btn = ttk.Button(self.quiz_frame, text="Volgende Vraag", command=self.next_question)
         self.next_btn.pack(pady=10)
         self.next_btn.pack_forget()
+
+        self.image_label = ttk.Label(self.quiz_frame)
+        self.image_label.pack(pady=10)
 
         self.quiz_frame.pack_forget()
 
@@ -2023,7 +2023,7 @@ class QuizApp:
         if self.current_question < len(self.selected_questions):
             question = self.selected_questions[self.current_question]
             self.question_label.config(text=question["question"])
-            
+
             self.counter_label.config(text=f"Vraag {self.current_question + 1}/{len(self.selected_questions)}")
 
             image_path = question.get("image")
@@ -2094,25 +2094,37 @@ class QuizApp:
             widget.destroy()
         self.setup_ui()
 
+
     def check_answer(self):
         selected_answers = [i for i, var in enumerate(self.answer_vars) if var.get() == 1]
 
         if set(selected_answers) == set(self.current_correct_answers):
             self.score += 1
-            for i in selected_answers:
-                self.answer_buttons[i].config(bg="green")
+            self.highlight_correct_selections(self.current_correct_answers)
         else:
-            self.highlight_correct_answer(self.current_correct_answers)
+            self.highlight_wrong_selections(selected_answers, self.current_correct_answers)
 
-        self.submit_btn.config(state='disabled')
+        self.submit_btn.config(state="disabled")
         self.next_btn.pack(pady=10)
 
-    def highlight_correct_answer(self, correct_indices):
+
+    def highlight_correct_selections(self, correct_indices):
         for i, btn in enumerate(self.answer_buttons):
             if i in correct_indices:
-                btn.config(bg="red")
+                btn.config(bg="green")
             else:
-                btn.config(bg=self.root.cget("bg"), fg="gray")
+                btn.config(bg="grey")
+
+
+    def highlight_wrong_selections(self, selected_indices, correct_indices):
+        for i, btn in enumerate(self.answer_buttons):
+            if i in selected_indices and i not in correct_indices:
+                btn.config(bg="red")
+            elif i in correct_indices:
+                btn.config(bg="green")
+            else:
+                btn.config(bg="grey")
+
 
 if __name__ == "__main__":
     root = tk.Tk()
