@@ -1983,6 +1983,9 @@ class QuizApp:
 
         self.quiz_frame = ttk.Frame(self.root)
         self.quiz_frame.pack(fill=tk.BOTH, expand=True, padx=20)
+        
+        self.counter_label = ttk.Label(self.quiz_frame, text="")
+        self.counter_label.pack(pady=10)
 
         self.question_label = ttk.Label(self.quiz_frame, text="", wraplength=700)
         self.question_label.pack(pady=20)
@@ -1997,6 +2000,10 @@ class QuizApp:
 
         self.image_label = ttk.Label(self.quiz_frame)
         self.image_label.pack(pady=10)
+
+        self.next_btn = ttk.Button(self.quiz_frame, text="Volgende Vraag", command=self.next_question)
+        self.next_btn.pack(pady=10)
+        self.next_btn.pack_forget()
 
         self.quiz_frame.pack_forget()
 
@@ -2016,6 +2023,8 @@ class QuizApp:
         if self.current_question < len(self.selected_questions):
             question = self.selected_questions[self.current_question]
             self.question_label.config(text=question["question"])
+            
+            self.counter_label.config(text=f"Vraag {self.current_question + 1}/{len(self.selected_questions)}")
 
             image_path = question.get("image")
             if image_path:
@@ -2063,6 +2072,7 @@ class QuizApp:
                 self.answer_buttons.append(btn)
 
             self.submit_btn.config(state='normal')
+            self.next_btn.pack_forget()
         else:
             self.show_results()
 
@@ -2095,7 +2105,7 @@ class QuizApp:
             self.highlight_correct_answer(self.current_correct_answers)
 
         self.submit_btn.config(state='disabled')
-        self.root.after(2000, self.next_question)
+        self.next_btn.pack(pady=10)
 
     def highlight_correct_answer(self, correct_indices):
         for i, btn in enumerate(self.answer_buttons):
