@@ -1127,7 +1127,7 @@ class QuizApp:
                 "image": None,
             },
             {
-                "question": "efer to the exhibit. Which trunk link will not forward any traffic after the root bridge election process is complete?",
+                "question": "Refer to the exhibit. Which trunk link will not forward any traffic after the root bridge election process is complete?",
                 "options": [
                     "Trunk1",
                     "Trunk2",
