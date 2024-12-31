@@ -695,7 +695,7 @@ class QuizApp:
                 "image": None,
             },
             {
-                "question": "",
+                "question": "Refer to the exhibit. The network administrator is configuring the port security feature on switch SWC. The administrator issued the command show port-security interface fa 0/2 to verify the configuration. What can be concluded from the output that is shown? (Choose three.)",
                 "options": [
                     "Three security violations have been detected on this interface.",
                     "This port is currently up.",
@@ -1801,7 +1801,7 @@ class QuizApp:
                     "native VLAN - carries untagged traffic",
                 ],
                 "correct": [0, 1, 2, 3],
-                "image": None
+                "image": None,
             },
             {
                 "question": "An administrator is trying to remove configurations from a switch. After using the command erase startup-config and reloading the switch, the administrator finds that VLANs 10 and 100 still exist on the switch. Why were these VLANs not removed?",
@@ -1812,7 +1812,7 @@ class QuizApp:
                     "These VLANs can only be removed from the switch by using the no vlan 10 and no vlan 100 commands.",
                 ],
                 "correct": 0,
-                "image": None
+                "image": None,
             },
             {
                 "question": "Refer to the exhibit. How is a frame sent from PCA forwarded to PCC if the MAC address table on switch SW1 is empty?",
@@ -1823,7 +1823,7 @@ class QuizApp:
                     "SW1 drops the frame because it does not know the destination MAC address.",
                 ],
                 "correct": 2,
-                "image": None
+                "image": None,
             },
             {
                 "question": "Match the link state to the interface and protocol status. (Not all options are used.)",
@@ -1834,7 +1834,7 @@ class QuizApp:
                     "operational - up/up",
                 ],
                 "correct": [0, 1, 2, 3],
-                "image": resource_path("Images/Question13.png")
+                "image": resource_path("Images/Question13.png"),
             },
             {
                 "question": "Which statement describes a result after multiple Cisco LAN switches are interconnected?",
@@ -1846,7 +1846,7 @@ class QuizApp:
                     "Unicast frames are always forwarded regardless of the destination MAC address.",
                 ],
                 "correct": 0,
-                "image": None
+                "image": None,
             },
             {
                 "question": "Which statement is correct about how a Layer 2 switch determines how to forward frames?",
@@ -1857,7 +1857,7 @@ class QuizApp:
                     "Unicast frames are always forwarded regardless of the destination MAC address.",
                 ],
                 "correct": 0,
-                "image": None
+                "image": None,
             },
             {
                 "question": "Match the forwarding characteristic to its type. (Not all options are used.)",
@@ -1867,10 +1867,10 @@ class QuizApp:
                     "cut-through - may forward invalid frames",
                     "store-and-forward - error checking before forwarding",
                     "store-and-forward - forwarding process only begins after receiving the entire frame",
-                    "store-and-forward - only forwards valid frames",               
+                    "store-and-forward - only forwards valid frames",
                 ],
                 "correct": [0, 1, 3, 4, 5],
-                "image": resource_path("Images/Question10.png")
+                "image": resource_path("Images/Question10.png"),
             },
             {
                 "question": "Refer to the exhibit. A network administrator configured routers R1 and R2 as part of HSRP group 1. After the routers have been reloaded, a user on Host1 complained of lack of connectivity to the Internet The network administrator issued the show standby brief command on both routers to verify the HSRP operations. In addition, the administrator observed the ARP table on Host1. Which entry should be seen in the ARP table on Host1 in order to gain connectivity to the Internet?",
@@ -1880,7 +1880,7 @@ class QuizApp:
                     "the virtual IP address of the HSRP group 1 and the MAC address of R2",
                 ],
                 "correct": 0,
-                "image": resource_path("Images/Question9.png")
+                "image": resource_path("Images/Question9.png"),
             },
             {
                 "question": "Refer to the exhibit. A network administrator is configuring a router as a DHCPv6 server. The administrator issues a show ipv6 dhcp pool command to verify the configuration. Which statement explains the reason that the number of active clients is 0?",
@@ -1891,7 +1891,7 @@ class QuizApp:
                     "The state is not maintained by the DHCPv6 server under stateless DHCPv6 operation.",
                 ],
                 "correct": 3,
-                "image": resource_path("Images/Question8.png")
+                "image": resource_path("Images/Question8.png"),
             },
             {
                 "question": "A cybersecurity analyst is using the macof tool to evaluate configurations of switches deployed in the backbone network of an organization. Which type of LAN attack is the analyst targeting during this evaluation?",
@@ -1902,7 +1902,7 @@ class QuizApp:
                     "VLAN double-tagging",
                 ],
                 "correct": 2,
-                "image": None
+                "image": None,
             },
             {
                 "question": "What is a method to launch a VLAN hopping attack?",
@@ -1913,7 +1913,7 @@ class QuizApp:
                     "flooding the switch with MAC addresses",
                 ],
                 "correct": 0,
-                "image": None
+                "image": None,
             },
             {
                 "question": "Refer to the exhibit. Which static route command can be entered on R1 to forward traffic to the LAN connected to R2?",
@@ -1924,7 +1924,7 @@ class QuizApp:
                     "ipv6 route 2001:db8:12:10::/64 S0/0/1 2001:db8:12:10::1",
                 ],
                 "correct": 1,
-                "image": resource_path("Images/Question5.png")
+                "image": resource_path("Images/Question5.png"),
             },
             {
                 "question": "Which option shows a correctly configured IPv4 default static route?",
@@ -1935,7 +1935,7 @@ class QuizApp:
                     "ip route 0.0.0.0 255.0.0.0 S0/0/0",
                 ],
                 "correct": 1,
-                "image": None
+                "image": None,
             },
             {
                 "question": "Refer to the exhibit. R1 was configured with the static route command ip route 209.165.200.224 255.255.255.224 S0/0/0 and consequently users on network 172.16.0.0/16 are unable to reach resources on the Internet. How should this static route be changed to allow user traffic from the LAN to reach the Internet?",
@@ -1946,7 +1946,7 @@ class QuizApp:
                     "Add the next-hop neighbor address of 209.165.200.226.",
                 ],
                 "correct": 1,
-                "image": resource_path("Images/Question3.png")
+                "image": resource_path("Images/Question3.png"),
             },
             {
                 "question": "Refer to the exhibit. Currently router R1 uses an EIGRP route learned from Branch2 to reach the 10.10.0.0/16 network. Which floating static route would create a backup route to the 10.10.0.0/16 network in the event that the link between R1 and Branch2 goes down?",
@@ -1957,7 +1957,7 @@ class QuizApp:
                     "ip route 10.10.0.0 255.255.0.0 209.165.200.225 50",
                 ],
                 "correct": 2,
-                "image": None
+                "image": None,
             },
             {
                 "question": "Refer to the exhibit. What will router R1 do with a packet that has a destination IPv6 address of 2001:db8:cafe:5::1?",
@@ -1967,9 +1967,9 @@ class QuizApp:
                     "forward the packet out GigabitEthernet0/1",
                     "forward the packet out Serial0/0/0",
                 ],
-                "correct":  3,
+                "correct": 3,
                 "image": resource_path("Images/Question1.png"),
-            },            
+            },
         ]
 
         self.setup_ui()
@@ -2016,7 +2016,7 @@ class QuizApp:
         if self.current_question < len(self.selected_questions):
             question = self.selected_questions[self.current_question]
             self.question_label.config(text=question["question"])
-        
+
             image_path = question.get("image")
             if image_path:
                 try:
@@ -2024,7 +2024,7 @@ class QuizApp:
                     image_filename = os.path.basename(image_path)
                     # Get full path using resource_path
                     full_path = resource_path(image_filename)
-                
+
                     image = Image.open(full_path)
                     image = image.resize((400, 300), Image.Resampling.LANCZOS)
                     photo = ImageTk.PhotoImage(image)
