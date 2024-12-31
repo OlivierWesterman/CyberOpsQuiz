@@ -7,15 +7,14 @@ import sys
 
 import os
 
-def resource_path(relative_path):
-    """ Get absolute path to resource, works for dev and for PyInstaller """
-    try:
-        # PyInstaller creates a temp folder and stores path in _MEIPASS
-        base_path = sys._MEIPASS
-    except Exception:
-        base_path = os.path.abspath(".")
 
-    return os.path.join(base_path, relative_path)
+def resource_path(relative_path):
+    # Get the directory where the script is located
+    script_dir = os.path.dirname(os.path.abspath(__file__))
+    # Construct absolute path, removing any duplicate path segments
+    full_path = os.path.normpath(os.path.join(script_dir, "Images", relative_path))
+    return full_path
+
 
 class QuizApp:
     def __init__(self, root):
@@ -2017,17 +2016,16 @@ class QuizApp:
         if self.current_question < len(self.selected_questions):
             question = self.selected_questions[self.current_question]
             self.question_label.config(text=question["question"])
-
-            image_path = question.get("image") or question.get("Image")
+        
+            image_path = question.get("image")
             if image_path:
                 try:
-                    # Get the directory where the script is located
-                    script_dir = os.path.dirname(os.path.abspath(__file__))
-                    # Construct absolute path to image
-                    full_path = os.path.join(script_dir, image_path.lstrip('/'))
-
+                    # Extract just the filename from the path
+                    image_filename = os.path.basename(image_path)
+                    # Get full path using resource_path
+                    full_path = resource_path(image_filename)
+                
                     image = Image.open(full_path)
-                    # Resize image if needed
                     image = image.resize((400, 300), Image.Resampling.LANCZOS)
                     photo = ImageTk.PhotoImage(image)
                     self.image_label.config(image=photo)
@@ -2102,7 +2100,7 @@ class QuizApp:
     def highlight_correct_answer(self, correct_indices):
         for i, btn in enumerate(self.answer_buttons):
             if i in correct_indices:
-                btn.config(bg="green")
+                btn.config(bg="red")
             else:
                 btn.config(bg=self.root.cget("bg"), fg="gray")
 
@@ -2110,4 +2108,3 @@ if __name__ == "__main__":
     root = tk.Tk()
     app = QuizApp(root)
     root.mainloop()
-
