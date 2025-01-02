@@ -1215,7 +1215,7 @@ class QuizApp:
                     "Add the switchport nonegotiate command to the configuration of SW2.",
                 ],
                 "correct": 1,
-                "image": resource_path("Images/Question68.png"),
+                "image": resource_path("Images/Question67.png"),
             },
             {
                 "question": "Refer to the exhibit. Which three hosts will receive ARP requests from host A, assuming that port Fa0/4 on both switches is configured to carry traffic for multiple VLANs? (Choose three.)",
@@ -1823,7 +1823,7 @@ class QuizApp:
                     "SW1 drops the frame because it does not know the destination MAC address.",
                 ],
                 "correct": 2,
-                "image": resource_path("Images/Question15.png"),
+                "image": None,
             },
             {
                 "question": "Match the link state to the interface and protocol status. (Not all options are used.)",
