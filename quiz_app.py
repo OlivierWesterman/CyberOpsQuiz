@@ -1250,7 +1250,7 @@ class QuizApp:
                     "R2(config)# ip route 172.16.3.0 255.255.255.0 172.16.2.254",
                 ],
                 "correct": 2,
-                "image": None,
+                "image": resource_path("Images/Question64.png"),
             },
             {
                 "question": "What action takes place when a frame entering a switch has a unicast destination MAC address appearing in the MAC address table?",
