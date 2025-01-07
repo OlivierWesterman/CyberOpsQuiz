@@ -11,7 +11,7 @@ To run this quiz, ensure you have Python version **3.11.0** installed on your co
 
 ### Required Package
 The following package is needed to run the quiz:  
-- **Pillow (PIL)**
+- **Pillow (PIL) version 10.2.0**
 
 ### Steps to Run the Quiz
 If Python is already installed, follow these steps to run the quiz:
