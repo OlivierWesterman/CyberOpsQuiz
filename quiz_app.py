@@ -1801,7 +1801,7 @@ class QuizApp:
                     "native VLAN - carries untagged traffic",
                 ],
                 "correct": [0, 1, 2, 3],
-                "image": None,
+                "image": resource_path("Images/Question16.png"),
             },
             {
                 "question": "An administrator is trying to remove configurations from a switch. After using the command erase startup-config and reloading the switch, the administrator finds that VLANs 10 and 100 still exist on the switch. Why were these VLANs not removed?",
