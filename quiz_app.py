@@ -1823,7 +1823,7 @@ class QuizApp:
                     "SW1 drops the frame because it does not know the destination MAC address.",
                 ],
                 "correct": 2,
-                "image": None,
+                "image": resource_path("Images/Question14.png"),
             },
             {
                 "question": "Match the link state to the interface and protocol status. (Not all options are used.)",
