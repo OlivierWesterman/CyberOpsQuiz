@@ -1,0 +1,17 @@
+{
+    "question": "Refer to the exhibit. Which three hosts will receive ARP requests from host A, assuming that port Fa0/4 on both switches is configured to carry traffic for multiple VLANs? (Choose three.)",
+    "options": [
+        "host B",
+        "host C",
+        "host D",
+        "host E",
+        "host F",
+        "host G"
+    ],
+    "correct": [
+        1,
+        2,
+        4
+    ],
+    "image": "Images\\Question66.png"
+}

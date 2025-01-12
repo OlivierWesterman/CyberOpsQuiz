@@ -1,0 +1,12 @@
+{
+    "question": "Which protocol adds security to remote connections?",
+    "options": [
+        "FTP",
+        "HTTP",
+        "NetBEUI",
+        "POP",
+        "SSH"
+    ],
+    "correct": 4,
+    "image": null
+}

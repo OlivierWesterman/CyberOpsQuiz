@@ -1,0 +1,11 @@
+{
+    "question": "A technician is configuring a router for a small company with multiple WLANs and doesn\u2019t need the complexity of a dynamic routing protocol. What should be done or checked?",
+    "options": [
+        "Verify that there is not a default route in any of the edge router routing tables.",
+        "Create static routes to all internal networks and a default route to the internet.",
+        "Create extra static routes to the same location with an AD of 1.",
+        "Check the statistics on the default route for oversaturation."
+    ],
+    "correct": 1,
+    "image": null
+}

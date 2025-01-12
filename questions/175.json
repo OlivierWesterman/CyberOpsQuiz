@@ -1,0 +1,11 @@
+{
+    "question": "Refer to the exhibit. What will router R1 do with a packet that has a destination IPv6 address of 2001:db8:cafe:5::1?",
+    "options": [
+        "forward the packet out GigabitEthernet0/0",
+        "drop the packet",
+        "forward the packet out GigabitEthernet0/1",
+        "forward the packet out Serial0/0/0"
+    ],
+    "correct": 3,
+    "image": "Images\\Question1.png"
+}

@@ -1,0 +1,11 @@
+{
+    "question": "Refer to the exhibit. Which destination MAC address is used when frames are sent from the workstation to the default gateway?",
+    "options": [
+        "MAC address of the virtual router",
+        "MAC address of the standby router",
+        "MAC addresses of both the forwarding and standby routers",
+        "MAC address of the forwarding router"
+    ],
+    "correct": 0,
+    "image": "Images\\Question91.png"
+}

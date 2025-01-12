@@ -1,0 +1,11 @@
+{
+    "question": "Which mitigation technique would prevent rogue servers from providing false IPv6 configuration parameters to clients?",
+    "options": [
+        "enabling DHCPv6 Guard",
+        "enabling RA Guard",
+        "implementing port security on edge ports",
+        "disabling CDP on edge ports"
+    ],
+    "correct": 0,
+    "image": null
+}

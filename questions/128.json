@@ -1,0 +1,11 @@
+{
+    "question": "A network administrator is configuring a WLAN. Why would the administrator change the default DHCP IPv4 addresses on an AP?",
+    "options": [
+        "to restrict access to the WLAN by authorized, authenticated users only",
+        "to monitor the operation of the wireless network",
+        "to reduce outsiders intercepting data or accessing the wireless network by using a well-known address range",
+        "to reduce the risk of interference by external devices such as microwave ovens"
+    ],
+    "correct": 2,
+    "image": null
+}

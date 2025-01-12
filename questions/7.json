@@ -1,0 +1,11 @@
+{
+    "question": "What else is required when configuring an IPv6 static route using a next-hop link-local address?",
+    "options": [
+        "administrative distance",
+        "ip address of the neighbor router",
+        "network number and subnet mask on the interface of the neighbor router",
+        "interface number and type"
+    ],
+    "correct": 3,
+    "image": null
+}

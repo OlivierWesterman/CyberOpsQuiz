@@ -1,0 +1,11 @@
+{
+    "question": "What action takes place when the source MAC address of a frame entering a switch is not in the MAC address table?",
+    "options": [
+        "The switch forwards the frame out of the specified port.",
+        "The switch will forward the frame out all ports except the incoming port.",
+        "The switch adds the MAC address and incoming port number to the table.",
+        "The switch adds a MAC address table entry mapping for the destination MAC address and the ingress port."
+    ],
+    "correct": 2,
+    "image": null
+}

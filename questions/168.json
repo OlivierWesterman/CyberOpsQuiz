@@ -1,0 +1,11 @@
+{
+    "question": "Refer to the exhibit. A network administrator is configuring a router as a DHCPv6 server. The administrator issues a show ipv6 dhcp pool command to verify the configuration. Which statement explains the reason that the number of active clients is 0?",
+    "options": [
+        "The default gateway address is not provided in the pool.",
+        "No clients have communicated with the DHCPv6 server yet.",
+        "The IPv6 DHCP pool configuration has no IPv6 address range specified.",
+        "The state is not maintained by the DHCPv6 server under stateless DHCPv6 operation."
+    ],
+    "correct": 3,
+    "image": "Images\\Question8.png"
+}

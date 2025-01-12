@@ -1,0 +1,16 @@
+{
+    "question": "Match each DHCP message type with its description. (Not all options are used.)",
+    "options": [
+        "DHCPDISCOVER - a client initiating a message to find a DHCP server",
+        "DHCPOFFER - a DHCP server responding to the initial request by a client",
+        "DHCPREQUEST - the client accepting the IP address provided by the DHCP server",
+        "DHCPACK - the DHCP server confirming that the lease has been accepted"
+    ],
+    "correct": [
+        0,
+        1,
+        2,
+        3
+    ],
+    "image": "Images\\Question97.png"
+}

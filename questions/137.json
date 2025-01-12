@@ -1,0 +1,11 @@
+{
+    "question": "A junior technician was adding a route to a LAN router. A traceroute to a device on the new network revealed a wrong path and unreachable status. What should be done or checked?",
+    "options": [
+        "Verify that there is not a default route in any of the edge router routing tables.",
+        "Check the configuration on the floating static route and adjust the AD.",
+        "Create a floating static route to that network.",
+        "Check the configuration of the exit interface on the new static route."
+    ],
+    "correct": 3,
+    "image": null
+}

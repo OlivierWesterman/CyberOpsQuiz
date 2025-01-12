@@ -1,0 +1,11 @@
+{
+    "question": "Refer to the exhibit. Router R1 has an OSPF neighbor relationship with the ISP router over the 192.168.0.32 network. The 192.168.0.36 network link should serve as a backup when the OSPF link goes down. The floating static route command ip route 0.0.0.0 0.0.0.0 S0/0/1 100 was issued on R1 and now traffic is using the backup link even when the OSPF link is up and functioning. Which change should be made to the static route command so that traffic will only use the OSPF link when it is up?",
+    "options": [
+        "Change the administrative distance to 120.",
+        "Add the next hop neighbor address of 192.168.0.36.",
+        "Change the destination network to 192.168.0.34.",
+        "Change the administrative distance to 1."
+    ],
+    "correct": 0,
+    "image": "Images\\Question53.png"
+}

@@ -1,0 +1,11 @@
+{
+    "question": "Refer to the exhibit. A network administrator is reviewing the configuration of switch S1. Which protocol has been implemented to group multiple physical ports into one logical link?",
+    "options": [
+        "PAgP",
+        "DTP",
+        "LACP",
+        "STP"
+    ],
+    "correct": 0,
+    "image": "Images\\Question61.png"
+}

@@ -1,0 +1,11 @@
+{
+    "question": "A network administrator uses the spanning-tree portfast bpduguard default global configuration command to enable BPDU guard on a switch. However, BPDU guard is not activated on all access ports. What is the cause of the issue?",
+    "options": [
+        "BPDU guard needs to be activated in the interface configuration command mode.",
+        "Access ports configured with root guard cannot be configured with BPDU guard.",
+        "Access ports belong to different VLANs.",
+        "PortFast is not configured on all access ports."
+    ],
+    "correct": 3,
+    "image": null
+}

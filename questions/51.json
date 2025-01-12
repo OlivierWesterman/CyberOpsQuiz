@@ -1,0 +1,11 @@
+{
+    "question": "Refer to the exhibit. A network administrator configures R1 for inter-VLAN routing between VLAN 10 and VLAN 20. However, the devices in VLAN 10 and VLAN 20 cannot communicate. Based on the configuration in the exhibit, what is a possible cause for the problem?",
+    "options": [
+        "The port Gi0/0 should be configured as trunk port.",
+        "The encapsulation is misconfigured on a subinterface.",
+        "A no shutdown command should be added in each subinterface configuration.",
+        "The command interface gigabitEthernet 0/0.1 is wrong."
+    ],
+    "correct": 1,
+    "image": "Images\\Question124.png"
+}

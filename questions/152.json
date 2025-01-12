@@ -1,0 +1,11 @@
+{
+    "question": "What protocol or technology disables redundant paths to eliminate Layer 2 loops?",
+    "options": [
+        "VTP",
+        "STP",
+        "EtherChannel",
+        "DTP"
+    ],
+    "correct": 1,
+    "image": null
+}

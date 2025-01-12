@@ -1,0 +1,11 @@
+{
+    "question": "During the AAA process, when will authorization be implemented?",
+    "options": [
+        "Immediately after successful authentication against an AAA data source",
+        "Immediately after AAA accounting and auditing receives detailed reports",
+        "Immediately after an AAA client sends authentication information to a centralized server",
+        "Immediately after the determination of which resources a user can access"
+    ],
+    "correct": 0,
+    "image": null
+}

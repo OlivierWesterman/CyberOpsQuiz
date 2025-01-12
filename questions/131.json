@@ -1,0 +1,15 @@
+{
+    "question": "What two default wireless router settings can affect network security? (Choose two.)",
+    "options": [
+        "The SSID is broadcast.",
+        "MAC address filtering is enabled.",
+        "WEP encryption is enabled.",
+        "The wireless channel is automatically selected.",
+        "A well-known administrator password is set."
+    ],
+    "correct": [
+        0,
+        4
+    ],
+    "image": "Images\\Question45.png"
+}

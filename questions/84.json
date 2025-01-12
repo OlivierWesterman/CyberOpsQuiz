@@ -1,0 +1,11 @@
+{
+    "question": "After a host has generated an IPv6 address by using the DHCPv6 or SLAAC process, how does the host verify that the address is unique and therefore usable?",
+    "options": [
+        "The host sends an ICMPv6 echo request message to the DHCPv6 or SLAAC-learned address and if no reply is returned, the address is considered unique.",
+        "The host sends an ICMPv6 neighbor solicitation message to the DHCP or SLAAC-learned address and if no neighbor advertisement is returned, the address is considered unique.",
+        "The host checks the local neighbor cache for the learned address and if the address is not cached, it it considered unique.",
+        "The host sends an ARP broadcast to the local link and if no hosts send a reply, the address is considered unique."
+    ],
+    "correct": 1,
+    "image": null
+}

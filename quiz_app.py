@@ -1,28 +1,70 @@
-import tkinter as tk
-from tkinter import ttk, messagebox
+import os
+import json
 import random
+import shutil
+import tkinter as tk
+from tkinter import messagebox, ttk
+from typing import TypedDict
 from PIL import Image, ImageTk
-import os
-import sys
-
-import os
 
 
-def resource_path(relative_path):
+class Question(TypedDict):
+    question: str
+    options: list[str]
+    correct: int | list[int]
+    image: str | None
+
+
+def resource_path(relative_path: str) -> str:
     # Get the directory where the script is located
-    script_dir = os.path.dirname(os.path.abspath(__file__))
-    # Construct absolute path, removing any duplicate path segments
-    full_path = os.path.normpath(os.path.join(script_dir, "Images", relative_path))
-    return full_path
+    # script_dir = os.path.dirname(os.path.abspath(__file__))
+    # # Construct absolute path, removing any duplicate path segments
+    # full_path = os.path.normpath(os.path.join(script_dir, "Images", relative_path))
+    return os.path.join(*relative_path.split("/"))
 
 
-class QuizApp:
-    def __init__(self, root):
+def save_questions_to_files(questions: list[Question]):
+    # Ensure the questions directory exists
+    os.makedirs(os.path.join("questions"), exist_ok=True)
+    os.makedirs(os.path.join("questions", "images"), exist_ok=True)
+
+    for i, question in enumerate(questions):
+        q_num = i + 1
+        file_path = os.path.join("questions", f"{q_num}.json")
+        with open(file_path, "w", encoding="utf-8") as file:
+            json.dump(question, file, indent=4)
+
+        # If the question has an image, copy it to the images directory
+        if question["image"]:
+            image_path = os.path.abspath(resource_path(question["image"]))
+            shutil.copy(
+                image_path,
+                os.path.abspath(
+                    os.path.join(
+                        "questions",
+                        "images",
+                        f"image-{q_num}.{os.path.basename(image_path).split(".")[-1]}",
+                    )
+                ),
+            )
+
+
+class QuizApp(tk.Frame):
+    selected_questions: list[Question]
+    current_question: int
+    score: int
+    current_correct_answers: list[int]
+    current_image: ImageTk.PhotoImage | None
+    answer_buttons: list[ttk.Button]
+    answer_vars: list[tk.IntVar]
+
+    def __init__(self, root: tk.Tk):
+        super().__init__(root)
         self.root = root
         self.root.title("CCNA Quiz")
         self.root.geometry("1000x800")
 
-        self.questions = [
+        self.questions: list[Question] = [
             {
                 "question": "On a Cisco 3504 WLC Summary page (Advanced > Summary), which tab allows a network administrator to configure a particular WLAN with a WPA2 policy?",
                 "options": ["SECURITY", "WLAN's", "WIRELESS", "MANAGEMENT"],
@@ -205,7 +247,6 @@ class QuizApp:
                     "It enables portfast on a specific switch interface.",
                 ],
                 "correct": 0,
-                "image": None,
                 "image": None,
             },
             {
@@ -486,12 +527,12 @@ class QuizApp:
                 "image": None,
             },
             {
-                "question": "Refer to the exhibit. Consider that the main power has just been restored. PC3 issues a broadcast IPv4 DHCP request. To which port will SW1 forward this request?​",
+                "question": "Refer to the exhibit. Consider that the main power has just been restored. PC3 issues a broadcast IPv4 DHCP request. To which port will SW1 forward this request?",
                 "options": [
                     "to Fa0/1, Fa0/2, and Fa0/3 only",
                     "to Fa0/1, Fa0/2, Fa0/3, and Fa0/4",
-                    "to Fa0/1 only​",
-                    "to Fa0/1, Fa0/2, and Fa0/4 only​",
+                    "to Fa0/1 only",
+                    "to Fa0/1, Fa0/2, and Fa0/4 only",
                     "to Fa0/1 and Fa0/2 only",
                 ],
                 "correct": 0,
@@ -629,7 +670,7 @@ class QuizApp:
                 "image": None,
             },
             {
-                "question": "Refer to the exhibit. A network engineer is configuring IPv6 routing on the network. Which command issued on router HQ will configure a default route to the Internet to forward packets to an IPv6 destination network that is not listed in the routing table?​",
+                "question": "Refer to the exhibit. A network engineer is configuring IPv6 routing on the network. Which command issued on router HQ will configure a default route to the Internet to forward packets to an IPv6 destination network that is not listed in the routing table?",
                 "options": [
                     "ipv6 route ::/0 serial 0/0/0",
                     "ip route 0.0.0.0 0.0.0.0 serial 0/1/1",
@@ -1336,11 +1377,11 @@ class QuizApp:
             {
                 "question": "Refer to the exhibit. Which statement shown in the output allows router R1 to respond to stateless DHCPv6 requests?",
                 "options": [
-                    "ipv6 nd other-config-flag​",
-                    "prefix-delegation 2001:DB8:8::/48 00030001000E84244E70​",
-                    "ipv6 dhcp server LAN1​",
+                    "ipv6 nd other-config-flag",
+                    "prefix-delegation 2001:DB8:8::/48 00030001000E84244E70",
+                    "ipv6 dhcp server LAN1",
                     "ipv6 unicast-routing",
-                    "dns-server 2001:DB8:8::8​",
+                    "dns-server 2001:DB8:8::8",
                 ],
                 "correct": 0,
                 "image": resource_path("Images/Question56.png"),
@@ -1372,7 +1413,7 @@ class QuizApp:
                 "image": resource_path("Images/Question54.png"),
             },
             {
-                "question": "Refer to the exhibit. Router R1 has an OSPF neighbor relationship with the ISP router over the 192.168.0.32 network. The 192.168.0.36 network link should serve as a backup when the OSPF link goes down. The floating static route command ip route 0.0.0.0 0.0.0.0 S0/0/1 100 was issued on R1 and now traffic is using the backup link even when the OSPF link is up and functioning. Which change should be made to the static route command so that traffic will only use the OSPF link when it is up?​",
+                "question": "Refer to the exhibit. Router R1 has an OSPF neighbor relationship with the ISP router over the 192.168.0.32 network. The 192.168.0.36 network link should serve as a backup when the OSPF link goes down. The floating static route command ip route 0.0.0.0 0.0.0.0 S0/0/1 100 was issued on R1 and now traffic is using the backup link even when the OSPF link is up and functioning. Which change should be made to the static route command so that traffic will only use the OSPF link when it is up?",
                 "options": [
                     "Change the administrative distance to 120.",
                     "Add the next hop neighbor address of 192.168.0.36.",
@@ -1473,10 +1514,10 @@ class QuizApp:
                 "image": resource_path("Images/Question45.png"),
             },
             {
-                "question": "Refer to the exhibit. R1 has been configured as shown. However, PC1 is not able to receive an IPv4 address. What is the problem?​",
+                "question": "Refer to the exhibit. R1 has been configured as shown. However, PC1 is not able to receive an IPv4 address. What is the problem?",
                 "options": [
                     "The ip helper-address command was applied on the wrong interface.",
-                    "R1 is not configured as a DHCPv4 server.​",
+                    "R1 is not configured as a DHCPv4 server.",
                     "A DHCP server must be installed on the same LAN as the host that is receiving the IP address.",
                     "The ip address dhcp command was not issued on the interface Gi0/1.",
                 ],
@@ -1576,7 +1617,7 @@ class QuizApp:
                 "image": None,
             },
             {
-                "question": "Which two statements are characteristics of routed ports on a multilayer switch? (Choose two.)​",
+                "question": "Which two statements are characteristics of routed ports on a multilayer switch? (Choose two.)",
                 "options": [
                     "In a switched network, they are mostly configured between switches at the core and distribution layers.",
                     "The interface vlan command has to be entered to create a VLAN on routed ports.",
@@ -1612,7 +1653,7 @@ class QuizApp:
             {
                 "question": "Compared with dynamic routes, what are two advantages of using static routes on a router? (Choose two.)",
                 "options": [
-                    "They improve netw​ork security.",
+                    "They improve network security.",
                     "They take less time to converge when the network topology changes.",
                     "They improve the efficiency of discovering neighboring networks.",
                     "They use fewer router resources.",
@@ -1975,6 +2016,7 @@ class QuizApp:
         self.setup_ui()
 
     def setup_ui(self):
+        save_questions_to_files(self.questions)
         ttk.Label(self.root, text="Aantal vragen:").pack(pady=10)
         self.question_count = ttk.Spinbox(self.root, from_=1, to=len(self.questions))
         self.question_count.pack()
@@ -1995,10 +2037,14 @@ class QuizApp:
         self.answers_frame = ttk.Frame(self.quiz_frame)
         self.answers_frame.pack(pady=10)
 
-        self.submit_btn = ttk.Button(self.quiz_frame, text="Controleer Antwoord", command=self.check_answer)
+        self.submit_btn = ttk.Button(
+            self.quiz_frame, text="Controleer Antwoord", command=self.check_answer
+        )
         self.submit_btn.pack(pady=20)
 
-        self.next_btn = ttk.Button(self.quiz_frame, text="Volgende Vraag", command=self.next_question)
+        self.next_btn = ttk.Button(
+            self.quiz_frame, text="Volgende Vraag", command=self.next_question
+        )
         self.next_btn.pack(pady=10)
         self.next_btn.pack_forget()
 
@@ -2010,7 +2056,9 @@ class QuizApp:
     def start_quiz(self):
         num_questions = int(self.question_count.get())
         if num_questions > len(self.questions):
-            messagebox.showerror("Error", f"Maximum aantal vragen is {len(self.questions)}")
+            messagebox.showerror(  # type: ignore
+                "Error", f"Maximum aantal vragen is {len(self.questions)}"
+            )
             return
 
         self.selected_questions = random.sample(self.questions, num_questions)
@@ -2024,7 +2072,9 @@ class QuizApp:
             question = self.selected_questions[self.current_question]
             self.question_label.config(text=question["question"])
 
-            self.counter_label.config(text=f"Vraag {self.current_question + 1}/{len(self.selected_questions)}")
+            self.counter_label.config(
+                text=f"Vraag {self.current_question + 1}/{len(self.selected_questions)}"
+            )
 
             image_path = question.get("image")
             if image_path:
@@ -2035,10 +2085,10 @@ class QuizApp:
                     full_path = resource_path(image_filename)
 
                     image = Image.open(full_path)
-                    image = image.resize((400, 300), Image.Resampling.LANCZOS)
+                    image = image.resize((400, 300), Image.Resampling.LANCZOS)  # type: ignore
                     photo = ImageTk.PhotoImage(image)
-                    self.image_label.config(image=photo)
-                    self.image_label.image = photo
+                    self.image_label.config(image=photo)  # type: ignore
+                    self.image_label.image = photo  # type: ignore
                     self.image_label.pack(pady=10)
                 except Exception as e:
                     print(f"Error loading image: {e}")
@@ -2046,12 +2096,20 @@ class QuizApp:
             else:
                 self.image_label.pack_forget()
 
-            correct_answers = question["correct"] if isinstance(question["correct"], list) else [question["correct"]]
-            option_pairs = [(opt, i in correct_answers) for i, opt in enumerate(question["options"])]
+            correct_answers = (
+                question["correct"]
+                if isinstance(question["correct"], list)
+                else [question["correct"]]
+            )
+            option_pairs = [
+                (opt, i in correct_answers) for i, opt in enumerate(question["options"])
+            ]
             random.shuffle(option_pairs)
 
             options, correct_statuses = zip(*option_pairs)
-            self.current_correct_answers = [i for i, is_correct in enumerate(correct_statuses) if is_correct]
+            self.current_correct_answers = [
+                i for i, is_correct in enumerate(correct_statuses) if is_correct
+            ]
 
             for btn in self.answer_buttons:
                 btn.destroy()
@@ -2061,17 +2119,13 @@ class QuizApp:
             for option in options:
                 var = tk.IntVar()
                 btn = tk.Checkbutton(
-                    self.answers_frame, 
-                    text=option,
-                    variable=var,
-                    padx=20,
-                    pady=5
+                    self.answers_frame, text=option, variable=var, padx=20, pady=5
                 )
                 btn.pack(anchor="w")
                 self.answer_vars.append(var)
-                self.answer_buttons.append(btn)
+                self.answer_buttons.append(btn)  # type: ignore
 
-            self.submit_btn.config(state='normal')
+            self.submit_btn.config(state="normal")
             self.next_btn.pack_forget()
         else:
             self.show_results()
@@ -2094,36 +2148,39 @@ class QuizApp:
             widget.destroy()
         self.setup_ui()
 
-
     def check_answer(self):
-        selected_answers = [i for i, var in enumerate(self.answer_vars) if var.get() == 1]
+        selected_answers = [
+            i for i, var in enumerate(self.answer_vars) if var.get() == 1
+        ]
 
         if set(selected_answers) == set(self.current_correct_answers):
             self.score += 1
             self.highlight_correct_selections(self.current_correct_answers)
         else:
-            self.highlight_wrong_selections(selected_answers, self.current_correct_answers)
+            self.highlight_wrong_selections(
+                selected_answers, self.current_correct_answers
+            )
 
         self.submit_btn.config(state="disabled")
         self.next_btn.pack(pady=10)
 
-
-    def highlight_correct_selections(self, correct_indices):
+    def highlight_correct_selections(self, correct_indices: list[int]):
         for i, btn in enumerate(self.answer_buttons):
             if i in correct_indices:
-                btn.config(bg="green")
+                btn.config(bg="green")  # type: ignore
             else:
-                btn.config(bg="grey")
+                btn.config(bg="grey")  # type: ignore
 
-
-    def highlight_wrong_selections(self, selected_indices, correct_indices):
+    def highlight_wrong_selections(
+        self, selected_indices: list[int], correct_indices: list[int]
+    ):
         for i, btn in enumerate(self.answer_buttons):
             if i in selected_indices and i not in correct_indices:
-                btn.config(bg="red")
+                btn.config(bg="red")  # type: ignore
             elif i in correct_indices:
-                btn.config(bg="green")
+                btn.config(bg="green")  # type: ignore
             else:
-                btn.config(bg="grey")
+                btn.config(bg="grey")  # type: ignore
 
 
 if __name__ == "__main__":

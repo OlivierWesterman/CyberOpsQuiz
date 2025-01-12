@@ -1,0 +1,11 @@
+{
+    "question": "Which type of static route is configured with a greater administrative distance to provide a backup route to a route learned from a dynamic routing protocol?",
+    "options": [
+        "floating static route",
+        "default static route",
+        "summary static route",
+        "standard static route"
+    ],
+    "correct": 0,
+    "image": null
+}

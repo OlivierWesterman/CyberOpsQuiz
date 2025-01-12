@@ -1,0 +1,11 @@
+{
+    "question": "Refer to the exhibit. Which static route command can be entered on R1 to forward traffic to the LAN connected to R2?",
+    "options": [
+        "ipv6 route 2001:db8:12:10::/64 S0/0/0",
+        "ipv6 route 2001:db8:12:10::/64 S0/0/1 fe80::2",
+        "ipv6 route 2001:db8:12:10::/64 S0/0/0 fe80::2",
+        "ipv6 route 2001:db8:12:10::/64 S0/0/1 2001:db8:12:10::1"
+    ],
+    "correct": 1,
+    "image": "Images\\Question5.png"
+}

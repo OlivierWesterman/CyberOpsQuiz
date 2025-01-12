@@ -1,0 +1,11 @@
+{
+    "question": "Refer to the exhibit. PC-A and PC-B are both in VLAN 60. PC-A is unable to communicate with PC-B. What is the problem?",
+    "options": [
+        "The native VLAN should be VLAN 60.",
+        "The native VLAN is being pruned from the link.",
+        "The trunk has been configured with the switchport nonegotiate command.",
+        "The VLAN that is used by PC-A is not in the list of allowed VLANs on the trunk."
+    ],
+    "correct": 3,
+    "image": "Images\\Question141.png"
+}

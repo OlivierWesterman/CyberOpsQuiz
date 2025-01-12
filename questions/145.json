@@ -1,0 +1,11 @@
+{
+    "question": "Refer to the exhibit. Which route was configured as a static route to a specific network using the next-hop address?",
+    "options": [
+        "S 10.17.2.0/24 [1/0] via 10.16.2.2",
+        "S 0.0.0.0/0 [1/0] via 10.16.2.2",
+        "S 10.17.2.0/24 is directly connected, Serial 0/0/0",
+        "C 10.16.2.0/24 is directly connected, Serial0/0/0"
+    ],
+    "correct": 0,
+    "image": "Images\\Question31.png"
+}

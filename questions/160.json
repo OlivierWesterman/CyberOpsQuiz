@@ -1,0 +1,16 @@
+{
+    "question": "Match the description to the correct VLAN type. (Not all options are used.)",
+    "options": [
+        "default VLAN - all switch ports are assigned to this VLAN after initial bootup of the switch",
+        "management VLAN - an IP address and subnet mask are assigned to this VLAN, allowiing the switch to be accessed by HTTP, Telnet, SSH, or SNMP",
+        "data VLAN - configured to carry user generated traffic",
+        "native VLAN - carries untagged traffic"
+    ],
+    "correct": [
+        0,
+        1,
+        2,
+        3
+    ],
+    "image": "Images\\Question16.png"
+}

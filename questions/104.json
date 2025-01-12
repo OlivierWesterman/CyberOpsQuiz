@@ -1,0 +1,16 @@
+{
+    "question": "Which three Wi-Fi standards operate in the 2.4GHz range of frequencies? (Choose three.)",
+    "options": [
+        "802.11a",
+        "802.11b",
+        "802.11g",
+        "802.11n",
+        "802.11ac"
+    ],
+    "correct": [
+        1,
+        2,
+        3
+    ],
+    "image": null
+}

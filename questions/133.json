@@ -1,0 +1,20 @@
+{
+    "question": "Match the step to each switch boot sequence description. (Not all options are used.)",
+    "options": [
+        "step 1 - execute POST",
+        "step 2 - load the boot loader from ROM",
+        "step 3 - perform the low-level CPU initialization",
+        "step 4 - flash file system initialization",
+        "step 5 - load the IOS",
+        "step 6 - transfer switch control to the IOS"
+    ],
+    "correct": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+    ],
+    "image": "Images\\Question43.png"
+}

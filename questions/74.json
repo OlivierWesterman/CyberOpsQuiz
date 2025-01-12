@@ -1,0 +1,11 @@
+{
+    "question": "What protocol should be disabled to help mitigate VLAN attacks?",
+    "options": [
+        "CDP",
+        "ARP",
+        "STP",
+        "DTP"
+    ],
+    "correct": 3,
+    "image": null
+}

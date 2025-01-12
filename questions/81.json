@@ -1,0 +1,12 @@
+{
+    "question": "Refer to the exhibit. A network administrator is verifying the configuration of inter-VLAN routing. Users complain that PC2 cannot communicate with PC1. Based on the output, what is the possible cause of the problem?",
+    "options": [
+        "Gi0/0 is not configured as a trunk port.",
+        "The command interface GigabitEthernet0/0.5 was entered incorrectly.",
+        "There is no IP address configured on the interface Gi0/0.",
+        "The no shutdown command is not entered on subinterfaces.",
+        "The encapsulation dot1Q 5 command contains the wrong VLAN."
+    ],
+    "correct": 4,
+    "image": "Images\\Question95.png"
+}
