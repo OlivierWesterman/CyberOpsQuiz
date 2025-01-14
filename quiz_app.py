@@ -1975,17 +1975,18 @@ class QuizApp:
         self.setup_ui()
 
     def setup_ui(self):
-        ttk.Label(self.root, text="Aantal vragen:").pack(pady=10)
+        ttk.Label(self.root, text="Aantal vragen:").pack(pady=5)
         self.question_count = ttk.Spinbox(self.root, from_=1, to=len(self.questions))
         self.question_count.pack()
+        ttk.Button(self.root, text="Alle vragen", command=lambda: self.question_count.set(len(self.questions))).pack(pady=5)
 
-        ttk.Button(self.root, text="Start Quiz", command=self.start_quiz).pack(pady=10)
-
+        ttk.Button(self.root, text="Start Quiz", command=self.start_quiz).pack(pady=5)
+        
         self.quiz_frame = ttk.Frame(self.root)
-        self.quiz_frame.pack(fill=tk.BOTH, expand=True, padx=20)
+        self.quiz_frame.pack(fill=tk.BOTH, expand=True, padx=10)
 
         self.counter_label = ttk.Label(self.quiz_frame, text="")
-        self.counter_label.pack(pady=10)
+        self.counter_label.pack(pady=5)
 
         self.question_label = ttk.Label(self.quiz_frame, text="", wraplength=700)
         self.question_label.pack(pady=20)
@@ -2012,7 +2013,7 @@ class QuizApp:
         if num_questions > len(self.questions):
             messagebox.showerror("Error", f"Maximum aantal vragen is {len(self.questions)}")
             return
-
+        
         self.selected_questions = random.sample(self.questions, num_questions)
         self.current_question = 0
         self.score = 0
@@ -2029,9 +2030,7 @@ class QuizApp:
             image_path = question.get("image")
             if image_path:
                 try:
-                    # Extract just the filename from the path
                     image_filename = os.path.basename(image_path)
-                    # Get full path using resource_path
                     full_path = resource_path(image_filename)
 
                     image = Image.open(full_path)
