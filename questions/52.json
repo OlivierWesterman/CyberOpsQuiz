@@ -1,0 +1,17 @@
+{
+    "question": "Which three statements accurately describe duplex and speed settings on Cisco 2960 switches? (Choose three.)",
+    "options": [
+        "An autonegotiation failure can result in connectivity issues.",
+        "When the speed is set to 1000 Mb/s, the switch ports will operate in full-duplex mode.",
+        "The duplex and speed settings of each switch port can be manually configured.",
+        "Enabling autonegotiation on a hub will prevent mismatched port speeds when connecting the hub to the switch.",
+        "By default, the speed is set to 100 Mb/s and the duplex mode is set to autonegotiation.",
+        "By default, the autonegotiation feature is disabled."
+    ],
+    "correct": [
+        0,
+        1,
+        2
+    ],
+    "image": null
+}

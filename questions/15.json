@@ -1,0 +1,11 @@
+{
+    "question": "Which term describes the role of a Cisco switch in the 802.1X port-based access control?",
+    "options": [
+        "agent",
+        "supplicant",
+        "authenticator",
+        "authentication server"
+    ],
+    "correct": 2,
+    "image": null
+}

@@ -1,0 +1,13 @@
+{
+    "question": "Refer to the exhibit. What is the metric to forward a data packet with the IPv6 destination address 2001:DB8:ACAD:E:240:BFF:FED4:9DD2?",
+    "options": [
+        "90",
+        "128",
+        "2170112",
+        "2681856",
+        "2682112",
+        "3193856"
+    ],
+    "correct": 4,
+    "image": "images/image-122.png"
+}

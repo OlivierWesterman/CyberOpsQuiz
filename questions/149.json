@@ -1,0 +1,17 @@
+{
+    "question": "Which three steps should be taken before moving a Cisco switch to a new VTP management domain? (Choose three.)",
+    "options": [
+        "Configure the switch with the name of the new management domain.",
+        "Reset the VTP counters to allow the switch to synchronize with the other switches in the domain.",
+        "Configure the VTP server in the domain to recognize the BID of the new switch.",
+        "Download the VTP database from the VTP server in the new domain.",
+        "Select the correct VTP mode and version.",
+        "Reboot the switch."
+    ],
+    "correct": [
+        0,
+        4,
+        5
+    ],
+    "image": null
+}

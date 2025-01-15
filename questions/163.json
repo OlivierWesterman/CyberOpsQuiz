@@ -1,0 +1,16 @@
+{
+    "question": "Match the link state to the interface and protocol status. (Not all options are used.)",
+    "options": [
+        "disabled - administratively down",
+        "layer 1 problem - down/down",
+        "layer 2 problem - up/down",
+        "operational - up/up"
+    ],
+    "correct": [
+        0,
+        1,
+        2,
+        3
+    ],
+    "image": "images/image-163.png"
+}

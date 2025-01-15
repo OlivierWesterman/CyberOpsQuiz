@@ -1,0 +1,11 @@
+{
+    "question": "A network administrator configures the port security feature on a switch. The security policy specifies that each access port should allow up to two MAC addresses. When the maximum number of MAC addresses is reached, a frame with the unknown source MAC address is dropped and a notification is sent to the syslog server. Which security violation mode should be configured for each access port?",
+    "options": [
+        "shutdown",
+        "restrict",
+        "warning",
+        "protect"
+    ],
+    "correct": 1,
+    "image": null
+}

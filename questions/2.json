@@ -1,0 +1,17 @@
+{
+    "question": "Which three components are combined to form a bridge ID?",
+    "options": [
+        "extended system ID",
+        "cost",
+        "IP address",
+        "bridge priority",
+        "MAC address",
+        "port ID"
+    ],
+    "correct": [
+        0,
+        3,
+        4
+    ],
+    "image": null
+}

@@ -1,0 +1,11 @@
+{
+    "question": "A network administrator of a small advertising company is configuring WLAN security by using the WPA2 PSK method. Which credential do office users need in order to connect their laptops to the WLAN?",
+    "options": [
+        "the company username and password through Active Directory service",
+        "a key that matches the key on the AP",
+        "a user passphrase",
+        "a username and password configured on the AP"
+    ],
+    "correct": 1,
+    "image": null
+}

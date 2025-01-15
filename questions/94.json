@@ -1,0 +1,17 @@
+{
+    "question": "Which three pairs of trunking modes will establish a functional trunk link between two Cisco switches? (Choose three.)",
+    "options": [
+        "dynamic auto - dynamic auto",
+        "access - trunk",
+        "dynamic desirable - trunk",
+        "access - dynamic auto",
+        "dynamic desirable - dynamic desirable",
+        "dynamic desirable - dynamic auto"
+    ],
+    "correct": [
+        2,
+        4,
+        5
+    ],
+    "image": null
+}

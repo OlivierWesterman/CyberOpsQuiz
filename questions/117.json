@@ -1,0 +1,11 @@
+{
+    "question": "A company has just switched to a new ISP. The ISP has completed and checked the connection from its site to the company. However, employees at the company are not able to access the internet. What should be done or checked?",
+    "options": [
+        "Verify that the static route to the server is present in the routing table.",
+        "Check the configuration on the floating static route and adjust the AD.",
+        "Ensure that the old default route has been removed from the company edge routers.",
+        "Create a floating static route to that network."
+    ],
+    "correct": 2,
+    "image": null
+}

@@ -1,0 +1,11 @@
+{
+    "question": "A junior technician was adding a route to a LAN router. A traceroute to a device on the new network revealed a wrong path and unreachable status. What should be done or checked?",
+    "options": [
+        "Create a floating static route to that network.",
+        "Check the configuration on the floating static route and adjust the AD.",
+        "Check the configuration of the exit interface on the new static route.",
+        "Verify that the static route to the server is present in the routing table."
+    ],
+    "correct": 2,
+    "image": null
+}

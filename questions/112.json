@@ -1,0 +1,11 @@
+{
+    "question": "The exhibit shows two PCs called PC A and PC B, two routes called R1 and R2, and two switches. PC A has the address 172.16.1.1/24 and is connected to a switch and into an interface on R1 that has the IP address 172.16.1.254. PC B has the address 172.16.2.1/24 and is connected to a switch that is connected to another interface on R1 with the IP address 172.16.2.254. The serial interface on R1 has the address 172.16.3.1 and is connected to the serial interface on R2 that has the address 172.16.3.2/24. R2 is connected to the internet cloud. Which command will create a static route on R2 in order to reach PC B?",
+    "options": [
+        "R2(config)# ip route 172.16.2.1 255.255.255.0 172.16.3.1",
+        "R2(config)# ip route 172.16.2.0 255.255.255.0 172.16.2.254",
+        "R2(config)# ip route 172.16.2.0 255.255.255.0 172.16.3.1",
+        "R2(config)# ip route 172.16.3.0 255.255.255.0 172.16.2.254"
+    ],
+    "correct": 2,
+    "image": "images/image-112.png"
+}

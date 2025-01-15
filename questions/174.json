@@ -1,0 +1,11 @@
+{
+    "question": "Refer to the exhibit. Currently router R1 uses an EIGRP route learned from Branch2 to reach the 10.10.0.0/16 network. Which floating static route would create a backup route to the 10.10.0.0/16 network in the event that the link between R1 and Branch2 goes down?",
+    "options": [
+        "ip route 10.10.0.0 255.255.0.0 Serial 0/0/0 100",
+        "ip route 10.10.0.0 255.255.0.0 209.165.200.226 100",
+        "ip route 10.10.0.0 255.255.0.0 209.165.200.225 100",
+        "ip route 10.10.0.0 255.255.0.0 209.165.200.225 50"
+    ],
+    "correct": 2,
+    "image": "images/image-174.png"
+}

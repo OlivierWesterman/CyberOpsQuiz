@@ -1,0 +1,11 @@
+{
+    "question": "Refer to the exhibit. Which trunk link will not forward any traffic after the root bridge election process is complete?",
+    "options": [
+        "Trunk1",
+        "Trunk2",
+        "Trunk3",
+        "Trunk4"
+    ],
+    "correct": 1,
+    "image": "images/image-102.png"
+}

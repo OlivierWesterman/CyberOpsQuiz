@@ -1,0 +1,14 @@
+{
+    "question": "Match the step number to the sequence of stages that occur during the HSRP failover process. (Not all options are used.)",
+    "options": [
+        "Step1: The forwarding router fails.",
+        "Step2: The standby router stops seeing hello messages from the forwarding router.",
+        "Step3: The standby router assumes the role of the forwarding router using both the IP and MAC addresses of the virtual router."
+    ],
+    "correct": [
+        0,
+        1,
+        2
+    ],
+    "image": "images/image-61.png"
+}

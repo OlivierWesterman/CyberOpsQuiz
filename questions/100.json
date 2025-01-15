@@ -1,0 +1,15 @@
+{
+    "question": "Which two protocols are used to provide server-based AAA authentication? (Choose two.)",
+    "options": [
+        "802.1x",
+        "SSH",
+        "SNMP",
+        "TACACS+",
+        "RADIUS"
+    ],
+    "correct": [
+        3,
+        4
+    ],
+    "image": null
+}

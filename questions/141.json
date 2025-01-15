@@ -1,0 +1,15 @@
+{
+    "question": "Which two statements are characteristics of routed ports on a multilayer switch? (Choose two.)",
+    "options": [
+        "In a switched network, they are mostly configured between switches at the core and distribution layers.",
+        "The interface vlan command has to be entered to create a VLAN on routed ports.",
+        "They support subinterfaces, like interfaces on the Cisco IOS routers.",
+        "They are used for point-to-multipoint links.",
+        "They are not associated with a particular VLAN."
+    ],
+    "correct": [
+        0,
+        4
+    ],
+    "image": null
+}

@@ -1,0 +1,11 @@
+{
+    "question": "What would be the primary reason an attacker would launch a MAC address overflow attack?",
+    "options": [
+        "so that the switch stops forwarding traffic",
+        "so that legitimate hosts cannot obtain a MAC address",
+        "so that the attacker can see frames that are destined for other hosts",
+        "so that the attacker can execute arbitrary code on the switch"
+    ],
+    "correct": 2,
+    "image": null
+}

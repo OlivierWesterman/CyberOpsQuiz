@@ -1,0 +1,11 @@
+{
+    "question": "What is a result of connecting two or more switches together?",
+    "options": [
+        "The number of broadcast domains is increased.",
+        "The size of the broadcast domain is increased.",
+        "The number of collision domains is reduced.",
+        "The size of the collision domain is increased."
+    ],
+    "correct": 1,
+    "image": null
+}

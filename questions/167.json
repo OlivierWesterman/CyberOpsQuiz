@@ -1,0 +1,10 @@
+{
+    "question": "Refer to the exhibit. A network administrator configured routers R1 and R2 as part of HSRP group 1. After the routers have been reloaded, a user on Host1 complained of lack of connectivity to the Internet The network administrator issued the show standby brief command on both routers to verify the HSRP operations. In addition, the administrator observed the ARP table on Host1. Which entry should be seen in the ARP table on Host1 in order to gain connectivity to the Internet?",
+    "options": [
+        "the virtual IP address and the virtual MAC address for the HSRP group 1",
+        "the virtual IP address of the HSRP group 1 and the MAC address of R1",
+        "the virtual IP address of the HSRP group 1 and the MAC address of R2"
+    ],
+    "correct": 0,
+    "image": "images/image-167.png"
+}

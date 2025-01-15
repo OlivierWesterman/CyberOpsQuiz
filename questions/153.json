@@ -1,0 +1,11 @@
+{
+    "question": "Refer to the exhibit. In addition to static routes directing traffic to networks 10.10.0.0/16 and 10.20.0.0/16, Router HQ is also configured with the following command: ip route 0.0.0.0 0.0.0.0 serial 0/1/1 What is the purpose of this command?",
+    "options": [
+        "packets that are received from the internet will be forwarded to one of the lans connected to r1 or r2. ",
+        "packets with a destination network that is not 10. 10. 0. 0/16 or is not 10. 20. 0. 0/16 or is not a directly connected network will be forwarded to the internet. ",
+        "packets from the 10. 10. 0. 0/16 network will be forwarded to network 10. 20. 0. 0/16, and packets from the 10. 20. 0. 0/16 network will be forwarded to network 10. 10. 0. 0/16. ",
+        "packets that are destined for networks that are not in the routing table of hq will be dropped. "
+    ],
+    "correct": 1,
+    "image": "images/image-153.png"
+}

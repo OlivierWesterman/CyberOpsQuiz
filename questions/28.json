@@ -1,0 +1,11 @@
+{
+    "question": " What action takes place when a frame entering a switch has a unicast destination MAC address that is not in the MAC address table?",
+    "options": [
+        "The switch updates the refresh timer for the entry.",
+        "The switch resets the refresh timer on all MAC address table entries.",
+        "The switch replaces the old entry and uses the more current port.",
+        "The switch will forward the frame out all ports except the incoming port."
+    ],
+    "correct": 3,
+    "image": null
+}

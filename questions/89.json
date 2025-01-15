@@ -1,0 +1,11 @@
+{
+    "question": "Refer to the exhibit. Which static route would an IT technician enter to create a backup route to the 172.16.1.0 network that is only used if the primary RIP learned route fails?",
+    "options": [
+        "ip route 172.16.1.0 255.255.255.0 s0/0/0",
+        "ip route 172.16.1.0 255.255.255.0 s0/0/0 121",
+        "ip route 172.16.1.0 255.255.255.0 s0/0/0 111",
+        "ip route 172.16.1.0 255.255.255.0 s0/0/0 91"
+    ],
+    "correct": 1,
+    "image": "images/image-89.png"
+}

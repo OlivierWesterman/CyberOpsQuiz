@@ -1,0 +1,11 @@
+{
+    "question": "Refer to the exhibit. A network engineer is configuring IPv6 routing on the network. Which command issued on router HQ will configure a default route to the Internet to forward packets to an IPv6 destination network that is not listed in the routing table?",
+    "options": [
+        "ipv6 route ::/0 serial 0/0/0",
+        "ip route 0.0.0.0 0.0.0.0 serial 0/1/1",
+        "ipv6 route ::1/0 serial 0/1/1",
+        "ipv6 route ::/0 serial 0/1/1"
+    ],
+    "correct": 3,
+    "image": "images/image-58.png"
+}

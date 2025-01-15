@@ -1,0 +1,11 @@
+{
+    "question": "Which option shows a correctly configured IPv4 default static route?",
+    "options": [
+        "ip route 0.0.0.0 255.255.255.0 S0/0/0",
+        "ip route 0.0.0.0 0.0.0.0 S0/0/0",
+        "ip route 0.0.0.0 255.255.255.255 S0/0/0",
+        "ip route 0.0.0.0 255.0.0.0 S0/0/0"
+    ],
+    "correct": 1,
+    "image": null
+}

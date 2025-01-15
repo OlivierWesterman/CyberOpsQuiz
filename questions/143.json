@@ -1,0 +1,11 @@
+{
+    "question": "What is the IPv6 prefix that is used for link-local addresses?",
+    "options": [
+        "FF01::/8",
+        "2001::/3",
+        "FC00::/7",
+        "FE80::/10"
+    ],
+    "correct": 4,
+    "image": null
+}

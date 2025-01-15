@@ -1,0 +1,11 @@
+{
+    "question": "What is the effect of entering the switchport port-security configuration command on a switch?",
+    "options": [
+        "It dynamically learns the L2 address and copies it to the running configuration.",
+        "It enables port security on an interface.",
+        "It enables port security globally on the switch.",
+        "It restricts the number of discovery messages, per second, to be received on the interface."
+    ],
+    "correct": 1,
+    "image": null
+}
