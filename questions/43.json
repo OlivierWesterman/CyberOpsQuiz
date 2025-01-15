@@ -1,0 +1,11 @@
+{
+    "question": "What action takes place when the source MAC address of a frame entering a switch is not in the MAC address table?",
+    "options": [
+        "The switch adds a MAC address table entry for the destination MAC address and the egress port.",
+        "The switch adds the MAC address and incoming port number to the table.",
+        "The switch replaces the old entry and uses the more current port.",
+        "The switch updates the refresh timer for the entry."
+    ],
+    "correct": 1,
+    "image": null
+}

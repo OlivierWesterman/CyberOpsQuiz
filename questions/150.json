@@ -1,0 +1,11 @@
+{
+    "question": "Refer to the exhibit. Based on the exhibited configuration and output, why is VLAN 99 missing?",
+    "options": [
+        "because VLAN 99 is not a valid management VLAN",
+        "because there is a cabling problem on VLAN 99",
+        "because VLAN 1 is up and there can only be one management VLAN on the switch",
+        "because VLAN 99 has not yet been created"
+    ],
+    "correct": 3,
+    "image": "images/image-150.png"
+}

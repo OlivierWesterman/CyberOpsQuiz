@@ -1,0 +1,11 @@
+{
+    "question": "Refer to the exhibit. How is a frame sent from PCA forwarded to PCC if the MAC address table on switch SW1 is empty?",
+    "options": [
+        "SW1 forwards the frame directly to SW2. SW2 floods the frame to all ports connected to SW2, excluding the port through which the frame entered the switch.",
+        "SW1 floods the frame on all ports on the switch, excluding the interconnected port to switch SW2 and the port through which the frame entered the switch.",
+        "SW1 floods the frame on all ports on SW1, excluding the port through which the frame entered the switch.",
+        "SW1 drops the frame because it does not know the destination MAC address."
+    ],
+    "correct": 2,
+    "image": "images/image-162.png"
+}

@@ -1,0 +1,11 @@
+{
+    "question": "Refer to the exhibit. What can be concluded about the configuration shown on R1?",
+    "options": [
+        "R1 is configured as a DHCPv4 relay agent.",
+        "R1 is operating as a DHCPv4 server.",
+        "R1 will broadcast DHCPv4 requests on behalf of local DHCPv4 clients.",
+        "R1 will send a message to a local DHCPv4 client to contact a DHCPv4 server at 10.10.10.8."
+    ],
+    "correct": 0,
+    "image": "images/image-134.png"
+}

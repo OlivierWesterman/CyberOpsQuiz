@@ -1,0 +1,11 @@
+{
+    "question": "What is the effect of entering the switchport mode access configuration command on a switch?",
+    "options": [
+        "It enables BPDU guard on a specific port.",
+        "It manually enables a trunk link.",
+        "It disables an unused port.",
+        "It disables DTP on a non-trunking interface."
+    ],
+    "correct": 3,
+    "image": null
+}

@@ -1,0 +1,11 @@
+{
+    "question": "What network attack seeks to create a DoS for clients by preventing them from being able to obtain a DHCP lease?",
+    "options": [
+        "IP address spoofing",
+        "DHCP starvation",
+        "CAM table attack",
+        "DHCP spoofing"
+    ],
+    "correct": 1,
+    "image": null
+}

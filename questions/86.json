@@ -1,0 +1,11 @@
+{
+    "question": "Which DHCPv4 message will a client send to accept an IPv4 address that is offered by a DHCP server?",
+    "options": [
+        "broadcast DHCPACK",
+        "broadcast DHCPREQUEST",
+        "unicast DHCPACK",
+        "unicast DHCPREQUEST"
+    ],
+    "correct": 1,
+    "image": null
+}

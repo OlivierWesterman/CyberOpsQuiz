@@ -1,0 +1,18 @@
+{
+    "question": "A new Layer 3 switch is connected to a router and is being configured for interVLAN routing. What are three of the five steps required for the configuration? (Choose three.)",
+    "options": [
+        "installing a static route",
+        "assigning the ports to the native VLAN",
+        "entering 'no switchport' on the port connected to the router",
+        "modifying the default VLAN",
+        "assigning ports to VLANs",
+        "enabling IP routing",
+        "adjusting the route metric"
+    ],
+    "correct": [
+        2,
+        4,
+        5
+    ],
+    "image": null
+}

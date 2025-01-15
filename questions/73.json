@@ -1,0 +1,11 @@
+{
+    "question": "What protocol or technology requires switches to be in server mode or client mode?",
+    "options": [
+        "EtherChannel",
+        "STP",
+        "VTP",
+        "DTP"
+    ],
+    "correct": 2,
+    "image": null
+}

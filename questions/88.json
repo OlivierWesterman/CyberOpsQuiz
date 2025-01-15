@@ -1,0 +1,11 @@
+{
+    "question": "What mitigation plan is best for thwarting a DoS attack that is creating a MAC address table overflow?",
+    "options": [
+        "Disable DTP.",
+        "Disable STP.",
+        "Enable port security.",
+        "Place unused ports in an unused VLAN."
+    ],
+    "correct": 2,
+    "image": null
+}

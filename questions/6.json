@@ -1,0 +1,15 @@
+{
+    "question": "A technician is configuring a wireless network for a small business using a SOHO wireless router. Which two authentication methods are used, if the router is configured with WPA2? (Choose two.)",
+    "options": [
+        "personal",
+        "AES",
+        "TKIP",
+        "WEP",
+        "enterprise"
+    ],
+    "correct": [
+        0,
+        5
+    ],
+    "image": null
+}

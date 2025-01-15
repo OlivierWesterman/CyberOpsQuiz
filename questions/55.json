@@ -1,0 +1,11 @@
+{
+    "question": "Users are complaining of sporadic access to the internet every afternoon. What should be done or checked?",
+    "options": [
+        "Create static routes to all internal networks and a default route to the internet.",
+        "Verify that there is not a default route in any of the edge router routing tables.",
+        "Create a floating static route to that network.",
+        "Check the statistics on the default route for oversaturation."
+    ],
+    "correct": 3,
+    "image": null
+}

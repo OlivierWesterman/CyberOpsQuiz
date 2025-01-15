@@ -1,0 +1,11 @@
+{
+    "question": "A company security policy requires that all MAC addressing be dynamically learned and added to both the MAC address table and the running configuration on each switch. Which port security configuration will accomplish this?",
+    "options": [
+        "auto secure MAC addresses",
+        "dynamic secure MAC addresses",
+        "static secure MAC addresses",
+        "sticky secure MAC addresses"
+    ],
+    "correct": 3,
+    "image": null
+}

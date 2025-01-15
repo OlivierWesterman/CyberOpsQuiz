@@ -1,0 +1,11 @@
+{
+    "question": "Which Cisco solution helps prevent ARP spoofing and ARP poisoning attacks?",
+    "options": [
+        "Dynamic ARP Inspection",
+        "IP Source Guard",
+        "DHCP Snooping",
+        "Port Security"
+    ],
+    "correct": 0,
+    "image": null
+}

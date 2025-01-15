@@ -1,0 +1,15 @@
+{
+    "question": "What are two switch characteristics that could help alleviate network congestion? (Choose two.)",
+    "options": [
+        "fast internal switching",
+        "large frame buffers",
+        "store-and-forward switching",
+        "low port density",
+        "frame check sequence (FCS) check"
+    ],
+    "correct": [
+        0,
+        1
+    ],
+    "image": null
+}

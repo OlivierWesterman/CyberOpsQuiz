@@ -1,0 +1,11 @@
+{
+    "question": "A cybersecurity analyst is using the macof tool to evaluate configurations of switches deployed in the backbone network of an organization. Which type of LAN attack is the analyst targeting during this evaluation?",
+    "options": [
+        "VLAN hopping",
+        "DHCP spoofing",
+        "MAC address table overflow",
+        "VLAN double-tagging"
+    ],
+    "correct": 2,
+    "image": null
+}

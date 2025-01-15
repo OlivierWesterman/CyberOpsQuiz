@@ -1,0 +1,16 @@
+{
+    "question": "Refer to the exhibit. A network administrator has added a new subnet to the network and needs hosts on that subnet to receive IPv4 addresses from the DHCPv4 server. What two commands will allow hosts on the new subnet to receive addresses from the DHCP4 server? (Choose two.)",
+    "options": [
+        "R1(config-if)# ip helper-address 10.2.0.250",
+        "R1(config)# interface G0/1",
+        "R1(config)# interface G0/0",
+        "R2(config-if)# ip helper-address 10.2.0.250",
+        "R2(config)# interface G0/0",
+        "R1(config-if)# ip helper-address 10.1.0.254"
+    ],
+    "correct": [
+        0,
+        2
+    ],
+    "image": "images/image-76.png"
+}

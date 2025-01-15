@@ -1,0 +1,12 @@
+{
+    "question": "Refer to the exhibit. Host A has sent a packet to host B. What will be the source MAC and IP addresses on the packet when it arrives at host B?",
+    "options": [
+        "Source MAC: 00E0.FE91.7799 Source IP: 10.1.1.10",
+        "Source MAC: 00E0.FE10.17A3 Source IP: 10.1.1.10",
+        "Source MAC: 00E0.FE10.17A3 Source IP: 192.168.1.1",
+        "Source MAC: 00E0.FE91.7799 Source IP: 10.1.1.1",
+        "Source MAC: 00E0.FE91.7799 Source IP: 192.168.1.1"
+    ],
+    "correct": 0,
+    "image": "images/image-154.png"
+}

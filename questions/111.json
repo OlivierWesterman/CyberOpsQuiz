@@ -1,0 +1,11 @@
+{
+    "question": "What protocol or technology allows data to transmit over redundant switch links?",
+    "options": [
+        "EtherChannel",
+        "DTP",
+        "STP",
+        "VTP"
+    ],
+    "correct": 0,
+    "image": null
+}

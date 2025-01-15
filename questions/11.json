@@ -1,0 +1,11 @@
+{
+    "question": "What is the effect of entering the show ip dhcp snooping binding configuration command on a switch?",
+    "options": [
+        "It switches a trunk port to access mode.",
+        "It checks the source L2 address in the Ethernet header against the sender L2 address in the ARP body.",
+        "It restricts the number of discovery messages, per second, to be received on the interface.",
+        "It displays the IP-to-MAC address associations for switch interfaces."
+    ],
+    "correct": 4,
+    "image": null
+}

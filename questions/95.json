@@ -1,0 +1,11 @@
+{
+    "question": "Refer to the exhibit. After attempting to enter the configuration that is shown in router RTA, an administrator receives an error and users on VLAN 20 report that they are unable to reach users on VLAN 30. What is causing the problem?",
+    "options": [
+        "There is no address on Fa0/0 to use as a default gateway.",
+        "RTA is using the same subnet for VLAN 20 and VLAN 30.",
+        "Dot1q does not support subinterfaces.",
+        "The no shutdown command should have been issued on Fa0/0.20 and Fa0/0.30."
+    ],
+    "correct": 1,
+    "image": "images/image-95.png"
+}

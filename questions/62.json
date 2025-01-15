@@ -1,0 +1,11 @@
+{
+    "question": "A network administrator has found a user sending a double-tagged 802.1Q frame to a switch. What is the best solution to prevent this type of attack?",
+    "options": [
+        "The native VLAN number used on any trunk should be one of the active data VLANs.",
+        "The VLANs for user access ports should be different VLANs than any native VLANs used on trunk ports.",
+        "Trunk ports should be configured with port security.",
+        "Trunk ports should use the default VLAN as the native VLAN number."
+    ],
+    "correct": 1,
+    "image": null
+}

@@ -1,0 +1,11 @@
+{
+    "question": "A network administrator is configuring a WLAN. Why would the administrator disable the broadcast feature for the SSID?",
+    "options": [
+        "to eliminate outsiders scanning for available SSIDs in the area",
+        "to reduce the risk of interference by external devices such as microwave ovens",
+        "to reduce the risk of unauthorized APs being added to the network",
+        "to provide privacy and integrity to wireless traffic by using encryption"
+    ],
+    "correct": 0,
+    "image": null
+}

@@ -1,0 +1,11 @@
+{
+    "question": "What method of wireless authentication is dependent on a RADIUS authentication server?",
+    "options": [
+        "WEP",
+        "WPA Personal",
+        "WPA2 Personal",
+        "WPA2 Enterprise"
+    ],
+    "correct": 3,
+    "image": null
+}

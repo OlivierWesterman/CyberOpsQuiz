@@ -1,0 +1,11 @@
+{
+    "question": "Refer to the exhibit. What are the possible port roles for ports A, B, C, and D in this RSTP-enabled network?",
+    "options": [
+        "alternate, designated, root, root",
+        "designated, alternate, root, root",
+        "alternate, root, designated, root",
+        "designated, root, alternate, root"
+    ],
+    "correct": 0,
+    "image": "images/image-90.png"
+}

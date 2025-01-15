@@ -1,0 +1,11 @@
+{
+    "question": "Which mitigation technique would prevent rogue servers from providing false IP configuration parameters to clients?",
+    "options": [
+        "implementing port security",
+        "turning on DHCP snooping",
+        "disabling CDP on edge ports",
+        "implementing port-security on edge ports"
+    ],
+    "correct": 1,
+    "image": null
+}

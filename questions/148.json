@@ -1,0 +1,11 @@
+{
+    "question": "A network administrator is preparing the implementation of Rapid PVST+ on a production network. How are the Rapid PVST+ link types determined on the switch interfaces?",
+    "options": [
+        "Link types can only be configured on access ports configured with a single VLAN.",
+        "Link types can only be determined if PortFast has been configured.",
+        "Link types are determined automatically.",
+        "Link types must be configured with specific port configuration commands."
+    ],
+    "correct": 2,
+    "image": null
+}
