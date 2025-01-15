@@ -7,5 +7,5 @@
         "R1 will send a message to a local DHCPv4 client to contact a DHCPv4 server at 10.10.10.8."
     ],
     "correct": 0,
-    "image": "Images\\Question42.png"
+    "image": "images/image-134.png"
 }

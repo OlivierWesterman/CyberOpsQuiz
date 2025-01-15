@@ -7,5 +7,5 @@
         "SW1 drops the frame because it does not know the destination MAC address."
     ],
     "correct": 2,
-    "image": "Images\\Question14.png"
+    "image": "images/image-162.png"
 }

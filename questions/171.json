@@ -7,5 +7,5 @@
         "ipv6 route 2001:db8:12:10::/64 S0/0/1 2001:db8:12:10::1"
     ],
     "correct": 1,
-    "image": "Images\\Question5.png"
+    "image": "images/image-171.png"
 }

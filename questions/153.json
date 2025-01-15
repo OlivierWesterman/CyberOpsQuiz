@@ -7,5 +7,5 @@
         "packets that are destined for networks that are not in the routing table of hq will be dropped. "
     ],
     "correct": 1,
-    "image": "Images\\Question23.png"
+    "image": "images/image-153.png"
 }

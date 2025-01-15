@@ -7,5 +7,5 @@
         "The VLAN that is used by PC-A is not in the list of allowed VLANs on the trunk."
     ],
     "correct": 3,
-    "image": "Images\\Question141.png"
+    "image": "images/image-34.png"
 }

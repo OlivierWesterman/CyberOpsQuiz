@@ -8,5 +8,5 @@
         "Add the switchport nonegotiate command to the configuration of SW2."
     ],
     "correct": 1,
-    "image": "Images\\Question67.png"
+    "image": "images/image-109.png"
 }

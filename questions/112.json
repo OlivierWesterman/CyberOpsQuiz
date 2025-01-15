@@ -7,5 +7,5 @@
         "R2(config)# ip route 172.16.3.0 255.255.255.0 172.16.2.254"
     ],
     "correct": 2,
-    "image": "Images\\Question64.png"
+    "image": "images/image-112.png"
 }
