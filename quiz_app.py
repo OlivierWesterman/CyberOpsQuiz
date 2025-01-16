@@ -1138,7 +1138,7 @@ class QuizApp:
                 "image": resource_path("Images/Question74.png"),
             },
             {
-                "question": "o obtain an overview of the spanning tree status of a switched network, a network engineer issues the show spanning-tree command on a switch. Which two items of information will this command display? (Choose two.)",
+                "question": "To obtain an overview of the spanning tree status of a switched network, a network engineer issues the show spanning-tree command on a switch. Which two items of information will this command display? (Choose two.)",
                 "options": [
                     "The root bridge BID.",
                     "The role of the ports in all VLANs.",
