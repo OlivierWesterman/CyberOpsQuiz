@@ -97,7 +97,7 @@ class QuizApp:
                     "A host route is designated with a C in the routing table.",
                     "A static IPv6 host route must include the interface type and the interface number of the next hop router.",
                 ],
-                "correct": 2,
+                "correct": 1,
                 "image": None,
             },
             {
@@ -1446,7 +1446,7 @@ class QuizApp:
                     "CONTROLLER",
                     "WLANs",
                 ],
-                "correct": 3,
+                "correct": 2,
                 "image": None,
             },
             {
