@@ -1256,25 +1256,537 @@
         "image": null
     },
     {
-        "id": 5,
-        "question": "Question",
+        "id": 108,
+        "question": "What are two drawbacks to using HIPS? (Choose two.)",
         "options": [
-            "Answer",
-            "Answer",
-            "Answer",
-            "Answer"
+            "With HIPS, the success or failure of an attack cannot be readily determined.",
+            "With HIPS, the network administrator must verify support for all the different operating systems used in the network.",
+            "HIPS has difficulty constructing an accurate network picture or coordinating events that occur across the entire network.",
+            "If the network traffic stream is encrypted, HIPS is unable to access unencrypted forms of the traffic.",
+            "HIPS installations are vulnerable to fragmentation attacks or variable TTL attacks"
+        ],
+        "correct": [1,2],
+        "image": null
+    },
+    {
+        "id": 109,
+        "question": "What are three functions provided by the syslog service? (Choose three.)",
+        "options": [
+            "to select the type of logging information that is captured",
+            "to periodically poll agents for data",
+            "to provide statistics on packets that are flowing through a Cisco device",
+            "to provide traffic analysis",
+            "to gather logging information for monitoring and troubleshooting",
+            "to specify the destinations of captured messages"
+        ],
+        "correct": [0,4,5],
+        "image": null
+    },
+    {
+        "id": 110,
+        "question": "Which consideration is important when implementing syslog in a network?",
+        "options": [
+            "Synchronize clocks on all network devices with a protocol such as Network Time Protocol.",
+            "Enable the highest level of syslog available to ensure logging of all possible event messages.",
+            "Log all messages to the system buffer so that they can be displayed when accessing the router.",
+            "Use SSH to access syslog information"
         ],
         "correct": 0,
         "image": null
     },
     {
-        "id": 5,
-        "question": "Question",
+        "id": 111,
+        "question": "What are the two ways threat actors use NTP? (Choose two.)",
         "options": [
-            "Answer",
-            "Answer",
-            "Answer",
-            "Answer"
+            "They place an attachment inside an email message.",
+            "They attack the NTP infrastructure in order to corrupt the information used to log the attack.",
+            "They attack the NTP infrastructure in order to corrupt the information used to log the attack.",
+            "They encode stolen data as the subdomain portion where the nameserver is under control of an attacker.",
+            "Threat actors use NTP systems to direct DDoS attacks."
+        ],
+        "correct": [1,4],
+        "image": null
+    },
+    {
+        "id": 112,
+        "question": "Which two features are included by both TACACS+ and RADIUS protocols? (Choose two.)",
+        "options": [
+            "password encryption",
+            "utilization of transport layer protocols",
+            "802.1X support",
+            "separate authentication and authorization processes",
+            "SIP support"
+        ],
+        "correct": [0,1],
+        "image": null
+    },
+    {
+        "id":113,
+        "question": "Match the SIEM function to the description.",
+        "left_items": ["aggregation", "reporting", "correlation", "forensic analysis"],
+        "right_items": ["reduces the volume of event data by consolidating duplicate event records", "presents event data in real-time monitoring and long-time summaries", "speeds detection of and reaction to security threats by examining logs and events from different systems", "searches logs and events from sources throughout the organization for complete information analysis"],
+        "correct_matches": [[0, 0], [1, 1], [2, 2],[3, 3]],
+        "image": null,
+        "type": "matching"
+    },
+    {
+        "id": 114,
+        "question": "What are two types of attacks used on DNS open resolvers? (Choose two.)",
+        "options": [
+            "amplification and reflection",
+            "fast flux",
+            "ARP poisoning",
+            "resource utilization",
+            "cushioning"
+        ],
+        "correct": [0,3],
+        "image": null
+    },
+    {
+        "id": 115,
+        "question": "What are three goals of a port scan attack? (Choose three.)",
+        "options": [
+            "to identify peripheral configurations",
+            "to determine potential vulnerabilities",
+            "to disable used ports and services",
+            "to identify operating systems",
+            "to identify active services",
+            "to discover system passwords"
+        ],
+        "correct": 0,
+        "image": null
+    },
+    {
+        "id": 116,
+        "question": "Which protocol or service uses UDP for a client-to-server communication and TCP for server-to-server communication?",
+        "options": [
+            "DNS",
+            "HTTP",
+            "FTP",
+            "SMTP"
+        ],
+        "correct": 0,
+        "image": null
+    },
+    {
+        "id": 117,
+        "question": "What is one difference between the client-server and peer-to-peer network models?",
+        "options": [
+            "Every device in a peer-to-peer network can function as a client or a server.",
+            "A peer-to-peer network transfers data faster than a transfer using a client-server network.",
+            "A data transfer that uses a device serving in a client role requires that a dedicated server be present.",
+            "Only in the client-server model can file transfers occur."
+        ],
+        "correct": 0,
+        "image": null
+    },
+    {
+        "id": 118,
+        "question": "Which statement is correct about network protocols?",
+        "options": [
+            "They define how messages are exchanged between the source and the destination.",
+            "They all function in the network access layer of TCP/IP.",
+            "They are only required for exchange of messages between devices on remote networks.",
+            "Network protocols define the type of hardware that is used and how it is mounted in racks."
+        ],
+        "correct": 0,
+        "image": null
+    },
+    {
+        "id": 119,
+        "question": "Which approach can help block potential malware delivery methods, as described in the Cyber Kill Chain model, on an Internet-faced web server?",
+        "options": [
+            "Analyze the infrastructure storage path used for files.",
+            "Build detections for the behavior of known malware.",
+            "Collect malware files and metadata for future analysis.",
+            "Audit the web server to forensically determine the origin of exploit."
+        ],
+        "correct": 0,
+        "image": null
+    },
+    {
+        "id": 120,
+        "question": "Which meta-feature element in the Diamond Model classifies the general type of intrusion event?",
+        "options": [
+            "methodology",
+            "phase",
+            "results",
+            "direction"
+        ],
+        "correct": 0,
+        "image": null
+    },
+    {
+        "id": 121,
+        "question": "Which Linux command is used to manage processes?",
+        "options": [
+            "kill",
+            "chrootkit",
+            "ls",
+            "grep"
+        ],
+        "correct": 0,
+        "image": null
+    },
+    {
+        "id": 122,
+        "question": "Which tool can be used in a Cisco AVC system to analyze and present the application analysis data into dashboard reports?",
+        "options": [
+            "Prime",
+            "NetFlow",
+            "NBAR2",
+            "IPFIX"
+        ],
+        "correct": 0,
+        "image": null
+    },
+    {
+        "id": 123,
+        "question": "Which Windows Event Viewer log includes events regarding the operation of drivers, processes, and hardware?",
+        "options": [
+            "system logs",
+            "application logs",
+            "security logs",
+            "setup logs"
+        ],
+        "correct": 0,
+        "image": null
+    },
+    {
+        "id": 124,
+        "question": "Which method is used to make data unreadable to unauthorized users?",
+        "options": [
+            "Encrypt the data.",
+            "Fragment the data.",
+            "Add a checksum to the end of the data.",
+            "Assign it a username and password."
+        ],
+        "correct": 0,
+        "image": null
+    },
+    {
+        "id":125,
+        "question": "Match the tabs of the Windows 10 Task Manager to their functions.",
+        "left_items": ["Details", "Performance", "Startup","Services"],
+        "right_items": ["Allows for a process to have its affinity set.", "Displays resource utilization information for CPU, memory, network, disk, and others.", "Allows programs that are running on system startup to be disabled.", "Allows for a start, stop or restart of a particular service."],
+        "correct_matches": [[0, 0], [1, 1], [2, 2],[3, 3]],
+        "image": null,
+        "type": "matching"
+    },
+    {
+        "id": 126,
+        "question": "For network systems, which management system addresses the inventory and control of hardware and software configurations?",
+        "options": [
+            "configuration management",
+            "asset management",
+            "vulnerability management",
+            "risk management"
+        ],
+        "correct": 0,
+        "image": null
+    },
+    {
+        "id":127,
+        "question": "Match the common network technology or protocol with the description. (Not all options are used.)",
+        "left_items": ["NTP", "DNS", "Syslog", "ICMP"],
+        "right_items": ["uses a hierarchy of authorative time sources to send time information between devices on a network", "used by attackers to exfiltrate data in traffic disguised as normal client queries", "uses UDP port 514 for logging event messages from network devices and endpoints", "used by attackers to identify hosts on a network and the structure of the network", "uses application protocols that are commonly responsible for bringen malware to a host"],
+        "correct_matches": [[0, 0], [1, 1], [2, 2],[3, 3]],
+        "image": null,
+        "type": "matching"
+    },
+    {
+        "id": 128,
+        "question": "What are the three core functions provided by the Security Onion? (Choose three.)",
+        "options": [
+            "business continuity planning",
+            "full packet capture",
+            "alert analysis",
+            "intrusion detection",
+            "security device management",
+            "threat containment"
+        ],
+        "correct": [1,2,3],
+        "image": null
+    },
+    {
+        "id": 129,
+        "question": "In NAT terms, what address type refers to the globally routable IPv4 address of a destination host on the Internet?",
+        "options": [
+            "outside global",
+            "inside global",
+            "outside local",
+            "inside local"
+        ],
+        "correct": 0,
+        "image": null
+    },
+    {
+        "id": 130,
+        "question": " Which two fields or features does Ethernet examine to determine if a received frame is passed to the data link layer or discarded by the NIC? (Choose two.)",
+        "options": [
+            "CEF",
+            "source MAC address",
+            "minimum frame size",
+            "auto-MDIX",
+            "Frame Check Sequence"
+        ],
+        "correct": [2,4],
+        "image": null
+    },
+    {
+        "id": 131,
+        "question": "Which type of data would be considered an example of volatile data?",
+        "options": [
+            "memory registers",
+            "web browser cache",
+            "log files",
+            "temp files"
+        ],
+        "correct": 0,
+        "image": null
+    },
+    {
+        "id": 132,
+        "question": "What is the main purpose of exploitations by a threat actor through the weapon delivered to a target during the Cyber Kill Chain exploitation phase?",
+        "options": [
+            "Break the vulnerability and gain control of the target.",
+            "Launch a DoS attack.",
+            "Send a message back to a CnC controlled by the threat actor.",
+            "Establish a back door into the system."
+        ],
+        "correct": 0,
+        "image": null
+    },
+    {
+        "id": 133,
+        "question": "Refer to the exhibit. An administrator is trying to troubleshoot connectivity between PC1 and PC2 and uses the tracert command from PC1 to do it. Based on the displayed output, where should the administrator begin troubleshooting?",
+        "options": [
+            "R1",
+            "PC2",
+            "SW2",
+            "R2",
+            "SW1"
+        ],
+        "correct": 0,
+        "image": "133.jpg"
+    },
+    {
+        "id": 134,
+        "question": "What three security tools does Cisco Talos maintain security incident detection rule sets for? (Choose three.)",
+        "options": [
+            "Snort",
+            "NetSlumber",
+            "Socat",
+            "SpamCop",
+            "ClamAV"
+        ],
+        "correct": [0,3,4],
+        "image": null
+    },
+    {
+        "id": 135,
+        "question": "Which host-based firewall uses a three-profile approach to configure the firewall functionality?",
+        "options": [
+            "Windows Firewall",
+            "iptables",
+            "TCP Wrapper",
+            "nftables"
+        ],
+        "correct": 0,
+        "image": null
+    },
+    {
+        "id": 136,
+        "question": "When a user visits an online store website that uses HTTPS, the user browser queries the CA for a CRL. What is the purpose of this query?",
+        "options": [
+            "to verify the validity of the digital certificate",
+            "to check the length of key used for the digital certificate",
+            "to request the CA self-signed digital certificate",
+            "to negotiate the best encryption to use"
+        ],
+        "correct": 0,
+        "image": null
+    },
+    {
+        "id": 137,
+        "question": "Which step in the Vulnerability Management Life Cycle determines a baseline risk profile to eliminate risks based on asset criticality, vulnerability threat, and asset classification?",
+        "options": [
+            "assess",
+            "discover",
+            "prioritize assets",
+            "verify"
+        ],
+        "correct": 0,
+        "image": null
+    },
+    {
+        "id": 138,
+        "question": "Which management system implements systems that track the location and configuration of networked devices and software across an enterprise?",
+        "options": [
+            "asset management",
+            "vulnerability management",
+            "risk management",
+            "configuration management"
+        ],
+        "correct": 0,
+        "image": null
+    },
+    {
+        "id": 139,
+        "question": "A network administrator is reviewing server alerts because of reports of network slowness. The administrator confirms that an alert was an actual security incident. What is the security alert classification of this type of scenario?",
+        "options": [
+            "true positive",
+            "false negative",
+            "true negative",
+            "false positive"
+        ],
+        "correct": 0,
+        "image": null
+    },
+    {
+        "id": 140,
+        "question": "Which application layer protocol is used to provide file-sharing and print services to Microsoft applications?",
+        "options": [
+            "SMB",
+            "SMTP",
+            "HTTP",
+            "DHCP"
+        ],
+        "correct": 0,
+        "image": null
+    },
+    {
+        "id": 141,
+        "question": "Which device in a layered defense-in-depth approach denies connections initiated from untrusted networks to internal networks, but allows internal users within an organization to connect to untrusted networks?",
+        "options": [
+            "firewall",
+            "IPS",
+            "acces layer switch",
+            "internal router"
+        ],
+        "correct": 0,
+        "image": null
+    },
+    {
+        "id": 142,
+        "question": "What are two potential network problems that can result from ARP operation? (Choose two.)",
+        "options": [
+            "Large numbers of ARP request broadcasts could cause the host MAC address table to overflow and prevent the host from communicating on the network.",
+            "On large networks with low bandwidth, multiple ARP broadcasts could cause data communication delays.",
+            "Network attackers could manipulate MAC address and IP address mappings in ARP messages with the intent of intercepting network traffic.",
+            "Multiple ARP replies result in the switch MAC address table containing entries that match the MAC addresses of hosts that are connected to the relevant switch port.",
+            "Manually configuring static ARP associations could facilitate ARP poisoning or MAC address spoofing."
+        ],
+        "correct": [1,2],
+        "image": null
+    },
+    {
+        "id": 143,
+        "question": "Which three procedures in Sguil are provided to security analysts to address alerts? (Choose three.)",
+        "options": [
+            "Escalate an uncertain alert.",
+            "Correlate similar alerts into a single line.",
+            "Categorize true positives.",
+            "Pivot to other information sources and tools.",
+            "Construct queries using Query Builder.",
+            "Expire false positives."
+        ],
+        "correct": [0,2,5],
+        "image": null
+    },
+    {
+        "id": 144,
+        "question": "Match the SOC metric with the description. (Not all options apply.)",
+        "left_items": ["MTTD", "MTTC", "MTTR"],
+        "right_items": ["The average time it takes for the SOC personnel to identify that valid security incidents have occured in the network", "The time required to stop the incident from causing further damage to systems or data", "The average time that it takes to stop and remediate a security incident", "The average length of time that threat actors have access to a network before they are detected and their access is stopped"],
+        "correct_matches": [[0, 0], [1, 1], [2, 2]],
+        "image": null,
+        "type": "matching"
+    },
+    {
+        "id": 145,
+        "question": "Which two services are provided by the NetFlow tool? (Choose two.)",
+        "options": [
+            "QoS configuration",
+            "usage-based network billing",
+            "log analysis",
+            "access list monitoring",
+            "network monitoring"
+        ],
+        "correct": [1,4],
+        "image": null
+    },
+    {
+        "id": 146,
+        "question": "An administrator discovers that a user is accessing a newly established website that may be detrimental to company security. What action should the administrator take first in terms of the security policy?",
+        "options": [
+            "Revise the AUP immediately and get all users to sign the updated AUP.",
+            "Ask the user to stop immediately and inform the user that this constitutes grounds for dismissal.",
+            "Create a firewall rule blocking the respective website.",
+            "Immediately suspend the network privileges of the user."
+        ],
+        "correct": 0,
+        "image": null
+    },
+    {
+        "id": 147,
+        "question": "Which two tasks can be performed by a local DNS server? (Choose two.)",
+        "options": [
+            "allowing data transfer between two network devices",
+            "retrieving email messages",
+            "providing IP addresses to local hosts",
+            "forwarding name resolution requests between servers",
+            "mapping name-to-IP addresses for internal hosts"
+        ],
+        "correct": [3,4],
+        "image": null
+    },
+    {
+        "id": 148,
+        "question": "Which type of event is logged in Cisco Next-Generation IPS devices (NGIPS) using FirePOWER Services when changes have been detected in the monitored network?",
+        "options": [
+            "network discovery",
+            "intrusion",
+            "connection",
+            "host or endpoint"
+        ],
+        "correct": 0,
+        "image": null
+    },
+    {
+        "id": 149,
+        "question": "Which two actions should be taken during the preparation phase of the incident response life cycle defined by NIST? (Choose two.)",
+        "options": [
+            "Acquire and deploy the tools that are needed to investigate incidents.",
+            "Detect all the incidents that occurred.",
+            "Meet with all involved parties to discuss the incident that took place.",
+            "Create and train the CSIRT.",
+            "Fully analyze the incident."
+        ],
+        "correct": [0,3],
+        "image": null
+    },
+    {
+        "id": 150,
+        "question": "What subnet mask is represented by the slash notation /20?",
+        "options": [
+            "255.255.240.0",
+            "255.255.255.0",
+            "255.255.255.248",
+            "255.255.255.192",
+            "255.255.224.0"
+        ],
+        "correct": 0,
+        "image": null
+    },
+    {
+        "id": 151,
+        "question": "What is the benefit of converting log file data into a common schema?",
+        "options": [
+            "allows easy processing and analysis of datasets",
+            "allows the implementation of partial normalization and inspection",
+            "creates a set of regex-based field extractions",
+            "creates a data model based on fields of data from a source"
         ],
         "correct": 0,
         "image": null
