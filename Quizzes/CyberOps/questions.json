@@ -1790,5 +1790,455 @@
         ],
         "correct": 0,
         "image": null
+    },
+    {
+        "id": 152,
+        "question": "Which Cisco sponsored certification is designed to provide the first step in acquiring the knowledge and skills to work with a SOC team?",
+        "options": [
+            "CCNA CyberOps Associate",
+            "CCNA Cloud",
+            "CCNA Security",
+            "CCNA Data Center"
+        ],
+        "correct": 0,
+        "image": null
+    },    {
+        "id": 153,
+        "question": "Which three IP addresses are considered private addresses? (Choose three.)",
+        "options": [
+            "192.168.5.29",
+            "198.168.6.18",
+            "172.68.83.35",
+            "128.37.255.6",
+            "172.17.254.4",
+            "10.234.2.1"
+        ],
+        "correct": [1,4,5],
+        "image": null
+    },    {
+        "id": 154,
+        "question": "When establishing a network profile for an organization, which element describes the time between the establishment of a data flow and its termination?",
+        "options": [
+            "session duration",
+            "bandwidth of the Internet connection",
+            "routing protocol convergence",
+            "total throughput"
+        ],
+        "correct": 0,
+        "image": null
+    },    {
+        "id": 155,
+        "question": "What are the stages that a wireless device completes before it can communicate over a wireless LAN network?",
+        "options": [
+            "discover a wireless AP, authenticate with the AP, associate with the AP",
+            "discover a wireless AP, associate with the AP, authorize with the AP",
+            "discover a wireless AP, associate with the AP, authenticate with the AP",
+            "discover a wireless AP, authorize with the AP, associate with the AP"
+        ],
+        "correct": 0,
+        "image": null
+    },    
+    {
+        "id":156,
+        "question": "Match the correct sequence of steps typically taken by a threat actor carrying out a domain shadowing attack.",
+        "left_items": ["Step 1", "Step 2", "Step 3", "Step 4", "Step 5"],
+        "right_items": ["The website is compromised", "HTTP 302 cushioning is used", "Domain shadowing is used", "An exploit kit landing page is created", "Malware us spread through its payload"],
+        "correct_matches": [[0, 0], [1, 1], [2, 2],[3, 3],[4, 4]],
+        "image": null,
+        "type": "matching"
+    },
+    {
+        "id": 157,
+        "question": "What are two properties of a cryptographic hash function? (Choose two.)",
+        "options": [
+            "Complex inputs will produce complex hashes.",
+            "The output is a fixed length.",
+            "The hash function is one way and irreversible.",
+            "Hash functions can be duplicated for authentication purposes.",
+            "The input for a particular hash algorithm has to have a fixed size."
+        ],
+        "correct": [1,2],
+        "image": null
+    },    {
+        "id": 158,
+        "question": "Refer to the exhibit. The switches have a default configuration. Host A needs to communicate with host D, but host A does not have the MAC address for the default gateway. Which network devices will receive the ARP request sent by host A?",
+        "options": [
+            "only hosts B, C, and router R1",
+            "only host D",
+            "only hosts A, B, C, and D",
+            "only hosts B and C",
+            "only hosts A, B, and C",
+            "only router R1"
+        ],
+        "correct": 0,
+        "image": "158.jpg"
+    },    {
+        "id": 159,
+        "question": "Which type of evidence cannot prove an IT security fact on its own?",
+        "options": [
+            "indirect",
+            "best",
+            "hearsay",
+            "corroborative"
+        ],
+        "correct": 0,
+        "image": null
+    },    {
+        "id": 160,
+        "question": "What is a characteristic of a probabilistic analysis in an alert evaluation?",
+        "options": [
+            "random variables that create difficulty in knowing the outcome of any given event with certainty",
+            "each event an inevitable result of antecedent causes",
+            "precise methods that yield the same result every time by relying on predefined conditions",
+            "analysis of applications that conform to application/networking standards"
+        ],
+        "correct": 0,
+        "image": null
+    },    {
+        "id": 161,
+        "question": "Why would a network administrator choose Linux as an operating system in the Security Operations Center (SOC)?",
+        "options": [
+            "It can be acquired at no charge.",
+            "It is easier to use than other server operating systems.",
+            "More network applications are created for this environment.",
+            "The administrator has control over specific security functions, but not standard applications."
+        ],
+        "correct": 0,
+        "image": null
+    },    {
+        "id": 162,
+        "question": "A technician needs to verify file permissions on a specific Linux file. Which command would the technician use?",
+        "options": [
+            "ls -l",
+            "cd",
+            "sudo",
+            "vi"
+        ],
+        "correct": 0,
+        "image": null
+    },    {
+        "id": 163,
+        "question": "Which two protocols may devices use in the application process that sends email? (Choose two.)",
+        "options": [
+            "DNS",
+            "SMTP",
+            "HTTP",
+            "POP",
+            "POP3",
+            "IMAP"
+        ],
+        "correct": [0,1],
+        "image": null
+    },    {
+        "id": 164,
+        "question": "Which file system type was specifically created for optical disk media?",
+        "options": [
+            "CDFS",
+            "ext3",
+            "HFS+",
+            "ext2"
+        ],
+        "correct": 0,
+        "image": null
+    },    {
+        "id": 165,
+        "question": "A piece of malware has gained access to a workstation and issued a DNS lookup query to a CnC server. What is the purpose of this attack?",
+        "options": [
+            "to send stolen sensitive data with encoding",
+            "to check the domain name of the workstation",
+            "to masquerade the IP address of the workstation",
+            "to request a change of the IP address"
+        ],
+        "correct": 0,
+        "image": null
+    },    {
+        "id": 167,
+        "question": "167. Refer to the exhibit. The IP address of which device interface should be used as the default gateway setting of host H1?",
+        "options": [
+            "R1: G0/0",
+            "R2: S0/0/0",
+            "R2: S0/0/1",
+            "R1: S0/0/0"
+        ],
+        "correct": 0,
+        "image": "167.jpg"
+    },    {
+        "id": 168,
+        "question": "According to information outlined by the Cyber Kill Chain, which two approaches can help identify reconnaissance threats? (Choose two.)",
+        "options": [
+            "Analyze web log alerts and historical search data.",
+            "Build playbooks for detecting browser behavior.",
+            "Conduct full malware analysis.",
+            "Understand targeted servers, people, and data available to attack.",
+            "Audit endpoints to forensically determine origin of exploit."
+        ],
+        "correct": [0,1],
+        "image": null
+    },    {
+        "id": 169,
+        "question": "Which two ICMPv6 messages are used during the Ethernet MAC address resolution process? (Choose two.)",
+        "options": [
+            "neighbor solicitation",
+            "neighbor advertisement",
+            "echo request",
+            "router solicitation",
+            "router advertisement"
+        ],
+        "correct": [0,1],
+        "image": null
+    },    {
+        "id": 170,
+        "question": "What best describes the destination IPv4 address that is used by multicasting?",
+        "options": [
+            "a single IP multicast address that is used by all destinations in a group",
+            "an IP address that is unique for each destination in the group",
+            "a group address that shares the last 23 bits with the source IPv4 address",
+            "a 48 bit address that is determined by the number of members in the multicast group"
+        ],
+        "correct": 0,
+        "image": null
+    },    {
+        "id": 171,
+        "question": "What is the result of using security devices that include HTTPS decryption and inspection services?",
+        "options": [
+            "The devices introduce processing delays and privacy issues.",
+            "The devices require continuous monitoring and fine tuning.",
+            "The devices must have preconfigured usernames and passwords for all users.",
+            "Monthly service contracts with reputable web filtering sites can be costly."
+        ],
+        "correct": 0,
+        "image": null
+    },    {
+        "id": 172,
+        "question": "What is a disadvantage of DDNS?",
+        "options": [
+            "Using free DDNS services, threat actors can quickly and easily generate subdomains and change DNS records.",
+            "DDNS is considered malignant and must be monitored by security software.",
+            "DDNS is unable to co-exist on a network subdomain that also uses DNS.",
+            "Using DDNS, a change in an existing IP address mapping can take over 24 hours and could result in a disruption of connectivity."
+        ],
+        "correct": 0,
+        "image": null
+    },
+    {
+        "id":173,
+        "question": "Match the network-based antimalware solution to the function. (Not all options are used.)",
+        "left_items": ["web security appliance", "email security appliance", "network admission control", "advanced malware protection"],
+        "right_items": ["provides filtering of websites and blacklisting before they reach the endpoint","provides filtering of SPAM and potentially malicious emails before they reach the endpoint", "permits only authorized and compliant systems to connect to the network", "provides endpoint protection from viruses and malware", "provides dynamic IP address to authenticated endpoints"],
+        "correct_matches": [[0, 0], [1, 1], [2, 2],[3, 3]],
+        "image": null,
+        "type": "matching"
+    },
+    {
+        "id": 174,
+        "question": "A threat actor has identified the potential vulnerability of the web server of an organization and is building an attack. What will the threat actor possibly do to build an attack weapon?",
+        "options": [
+            "Obtain an automated tool in order to deliver the malware payload through the vulnerability.",
+            "Install a webshell on the web server for persistent access.",
+            "Create a point of persistence by adding services.",
+            "Collect credentials of the web server developers and administrators."
+        ],
+        "correct": 0,
+        "image": null
+    },
+    {
+        "id": 175,
+        "question": "Which tool included in the Security Onion is a series of software plugins that send different types of data to the Elasticsearch data stores?",
+        "options": [
+            "Beats",
+            "OSSEC",
+            "ElastAlert",
+            "Curator"
+        ],
+        "correct": 0,
+        "image": null
+    },
+    {
+        "id": 176,
+        "question": "Which term is used to describe the process of identifying the NSM-related data to be gathered?",
+        "options": [
+            "data reduction",
+            "data archiving",
+            "data normalization",
+            "data retention"
+        ],
+        "correct": 0,
+        "image": null
+    },
+    {
+        "id":177,
+        "question": "Match the alert classification with the description.",
+        "left_items": ["true positive", "false positive", "false negative", "true negative"],
+        "right_items": ["malicios traffic is correctly identified as a threat", "normal traffic is incorrectly identified as a threat", "malicious traffic is not identified as a threat", "normal traffic is not identified as a threat"],
+        "correct_matches": [[0, 0], [1, 1], [2, 2],[3, 3]],
+        "image": null,
+        "type": "matching"
+    },
+    {
+        "id": 178,
+        "question": "According to NIST, which step in the digital forensics process involves preparing and presenting information that resulted from scrutinizing data?",
+        "options": [
+            "reporting",
+            "collection",
+            "examination",
+            "analysis"
+        ],
+        "correct": 0,
+        "image": null
+    },
+    {
+        "id": 179,
+        "question": "Refer to the exhibit. A cybersecurity analyst is using Sguil to verify security alerts. How is the current view sorted?",
+        "options": [
+            "by frequency",
+            "by sensor number",
+            "by source IP",
+            "by date/time"
+        ],
+        "correct": 0,
+        "image": "179.jpg"
+    },
+    {
+        "id": 180,
+        "question": "Which two options are window managers for Linux? (Choose two.)",
+        "options": [
+            "Gnome",
+            "KDE",
+            "Kali",
+            "File Explorer",
+            "PenTesting"
+        ],
+        "correct": [0,1],
+        "image": null
+    },
+    {
+        "id": 181,
+        "question": "What are the two methods that a wireless NIC can use to discover an AP? (Choose two.)",
+        "options": [
+            "transmitting a probe request",
+            "receiving a broadcast beacon frame",
+            "sending an ARP request broadcast",
+            "initiating a three-way handshake",
+            "sending a multicast frame"
+        ],
+        "correct": 0,
+        "image": null
+    },
+    {
+        "id": 182,
+        "question": "A client device has initiated a secure HTTP request to a web browser. Which well-known port address number is associated with the destination address?",
+        "options": [
+            "443",
+            "110",
+            "80",
+            "404"
+        ],
+        "correct": 0,
+        "image": null
+    },
+    {
+        "id": 183,
+        "question": "Which term describes evidence that is in its original state?",
+        "options": [
+            "Best evidence",
+            "Corroborating evidence",
+            "Indirect evidence",
+            "Direct evidence"
+        ],
+        "correct": 0,
+        "image": null
+    },
+    {
+        "id": 184,
+        "question": "Which three statements describe a DHCP Discover message? (Choose three.)",
+        "options": [
+            "The destination IP address is 255.255.255.255.",
+            "The message comes from a client seeking an IP address.",
+            "All hosts receive the message, but only a DHCP server replies.",
+            "The source MAC address is 48 ones (FF-FF-FF-FF-FF-FF).",
+            "The message comes from a server offering an IP address.",
+            "Only the DHCP server receives the message."
+        ],
+        "correct": [0,1,2],
+        "image": null
+    },
+    {
+        "id":185,
+        "question": "Refer to the exhibit. The PC is sending a packet to the Server on the remote network. Router R1 is performing NAT overload. From the perspective of the PC, match the NAT address type with the correct IP address. (Not all options are used.)",
+        "left_items": ["Outside global", "Inside global", "Inside local"],
+        "right_items": ["203.0.113.5", "192.0.2.1", "10.130.5.76"," 203.0.113.14", "192.0.2.2","10.130.5.1"],
+        "correct_matches": [[0, 0], [1, 1], [2, 2]],
+        "image": "185.jpg",
+        "type": "matching"
+    },
+    {
+        "id": 186,
+        "question": "Which step in the Vulnerability Management Life Cycle categorizes assets into groups or business units, and assigns a business value to asset groups based on their criticality to business operations?",
+        "options": [
+            "prioritize assets",
+            "remediate",
+            "report",
+            "assess"
+        ],
+        "correct": 0,
+        "image": null
+    },
+    {
+        "id":187,
+        "question": "A client application needs to terminate a TCP communication session with a server. Place the termination process steps in the order that they will occur. ",
+        "left_items": ["Step 1","Step 2","Step 3","Step 4"],
+        "right_items": ["client sends FIN", "server sends ACK", "Server sends FIN", "Client sends ACK"],
+        "correct_matches": [[0, 0], [1, 1], [2, 2],[3, 3]],
+        "image": null,
+        "type": "matching"
+    },
+    {
+        "id":188,
+        "question": "Match the attack vector with the description.",
+        "left_items": ["email", "media", "attrition", "web"],
+        "right_items": ["initiated through an email attachment", "initiated from external storage", "uses brute force against devices or services", "initiated from a website application"],
+        "correct_matches": [[0, 0], [1, 1], [2, 2],[3, 3]],
+        "image": null,
+        "type": "matching"
+    },
+    {
+        "id":189,
+        "question": "Match the security management function with the description.",
+        "left_items": ["risk management", "configuration management", "asset managment", "vulnerability management"],
+        "right_items": ["the comprehensive analysis of impacts of attacks on core company assets and functioning", "the inventory and control of hardware and software configurations of systems", "the implementation of systems that track the location and configuration of networked devices and software across an enterprise", "the security practice designed to proactively prevent the exploitation of IT vulnerabilities that exist within an organization"],
+        "correct_matches": [[0, 0], [1, 1], [2, 2],[3, 3]],
+        "image": null,
+        "type": "matching"
+    },
+    {
+        "id": 190,
+        "question": "What are two functions that are provided by the network layer? (Choose two.)",
+        "options": [
+            "directing data packets to destination hosts on other networks",
+            "providing end devices with a unique network identifier",
+            "placing data on the network medium",
+            "carrying data between processes that are running on source and destination hosts",
+            "providing dedicated end-to-end connections"
+        ],
+        "correct": [0,1],
+        "image": null
+    },
+    {
+        "id": 191,
+        "question": "Match the phase in the NIST incident response life cycle to the action.",
+        "left_items": ["post-incident actvities", "preparation", "detection and analysis", "containment, eradication, and recovery"],
+        "right_items": ["Document incident handling.","Conduct CSIRT response training.", "Identify, analyze, and validate an incident.", "Implement procedures to contain the threat."],
+        "correct_matches": [[0, 0], [1, 1], [2, 2],[3, 3]],
+        "image": null,
+        "type": "matching"
+    },
+    {
+        "id":192,
+        "question": "Match the Linux CLI commands to their function. (Not all options are used.)",
+        "left_items": ["rm", "man", "ls", "cd", "mkdir"],
+        "right_items": ["removes files", "displays the documentation for a specific command", "displays the files inside a directory", "changes the current directory", "creates a directory under the current directory", "copies files from source to destination", "moves files to a different directory"],
+        "correct_matches": [[0, 0], [1, 1], [2, 2],[3, 3],[4, 4]],
+        "image": null,
+        "type": "matching"
     }
 ]
