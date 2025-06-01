@@ -204,8 +204,29 @@ class QuizApp:
                  command=self.start_quiz).pack(pady=10)
         
         # Quiz frame (initially hidden)
-        self.quiz_frame = ttk.Frame(self.main_frame)
-        
+        # Scrollable quiz_frame
+        self.quiz_canvas = tk.Canvas(self.main_frame, borderwidth=0, background="#f5f5f5")
+        self.quiz_scrollbar = ttk.Scrollbar(self.main_frame, orient="vertical", command=self.quiz_canvas.yview)
+        self.quiz_canvas.configure(yscrollcommand=self.quiz_scrollbar.set)
+
+        self.quiz_scrollbar.pack(side="right", fill="y")
+        self.quiz_canvas.pack(side="left", fill="both", expand=True)
+
+        self.quiz_frame = ttk.Frame(self.quiz_canvas)
+        self.quiz_frame_id = self.quiz_canvas.create_window((0, 0), window=self.quiz_frame, anchor='nw')
+
+        # Ensure the scrollbar reacts to size changes
+        def on_frame_configure(event):
+            self.quiz_canvas.configure(scrollregion=self.quiz_canvas.bbox("all"))
+
+        self.quiz_frame.bind("<Configure>", on_frame_configure)
+
+        # Scrollwheel behavior
+        def _on_mousewheel(event):
+            self.quiz_canvas.yview_scroll(int(-1 * (event.delta / 120)), "units")
+
+        self.quiz_canvas.bind_all("<MouseWheel>", _on_mousewheel)
+        self.quiz_frame.pack_forget()  # Initially hidden        
         # Question counter
         self.counter_label = ttk.Label(self.quiz_frame, text="", style='Counter.TLabel')
         self.counter_label.pack(pady=5)

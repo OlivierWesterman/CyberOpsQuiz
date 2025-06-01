@@ -9,7 +9,10 @@
             "A virus replicates itself by exploiting vulnerabilities in networks.",
             "A virus typically requires end-user activation."
         ],
-        "correct": [0, 4],
+        "correct": [
+            0,
+            4
+        ],
         "image": null
     },
     {
@@ -71,15 +74,46 @@
             "Sguil",
             "Wireshark"
         ],
-        "correct": [0,1,3],
+        "correct": [
+            0,
+            1,
+            3
+        ],
         "image": null
     },
     {
-        "id":7,
+        "id": 7,
         "question": "Match the Security Onion tool with the description.",
-        "left_items": ["Snort", "OSSEC", "Sguil", "Wireshark"],
-        "right_items": ["network-based intrusion detection system", "packet capture application", "host-based intrusion detection system", "high-level cybersecurity analysis console"],
-        "correct_matches": [[0, 0], [1, 2], [2, 3],[3, 1]],
+        "left_items": [
+            "Snort",
+            "OSSEC",
+            "Sguil",
+            "Wireshark"
+        ],
+        "right_items": [
+            "network-based intrusion detection system",
+            "packet capture application",
+            "host-based intrusion detection system",
+            "high-level cybersecurity analysis console"
+        ],
+        "correct_matches": [
+            [
+                0,
+                0
+            ],
+            [
+                1,
+                2
+            ],
+            [
+                2,
+                3
+            ],
+            [
+                3,
+                1
+            ]
+        ],
         "image": null,
         "type": "matching"
     },
@@ -96,11 +130,39 @@
         "image": null
     },
     {
-        "id":9,
+        "id": 9,
         "question": "Match the server profile element to the description. (Not all options are used.)",
-        "left_items": ["user account", "listening ports", "software environment", "service accounts"],
-        "right_items": ["the parameters defining user access and behaviour", "the TCP and UDP daemons and ports that are allowed to be open on the server", "the tasks, processes and applications that are permitted to run on the server","the definitions of the type of service that an application is allowed to run on a given host", "the number of times the server is powered on and off"],
-        "correct_matches": [[0, 0], [1, 1], [2, 2],[3, 3]],
+        "left_items": [
+            "user account",
+            "listening ports",
+            "software environment",
+            "service accounts"
+        ],
+        "right_items": [
+            "the parameters defining user access and behaviour",
+            "the TCP and UDP daemons and ports that are allowed to be open on the server",
+            "the tasks, processes and applications that are permitted to run on the server",
+            "the definitions of the type of service that an application is allowed to run on a given host",
+            "the number of times the server is powered on and off"
+        ],
+        "correct_matches": [
+            [
+                0,
+                0
+            ],
+            [
+                1,
+                1
+            ],
+            [
+                2,
+                2
+            ],
+            [
+                3,
+                3
+            ]
+        ],
         "image": null,
         "type": "matching"
     },
@@ -129,11 +191,38 @@
         "image": null
     },
     {
-        "id":12,
+        "id": 12,
         "question": "Match the monitoring tool to the definition.",
-        "left_items": ["SIEM", "NetFlow", "Wireshark", "SNMP"],
-        "right_items": ["presents real-time reporting and long term analysis of security events","provides statistics on packets flowing through a Cisco router or multilayer switch", "captures packets and saves them in a PCAP file", "retrieves information on the operation of network devices"],
-        "correct_matches": [[0, 0], [1, 1], [2, 2],[3, 3]],
+        "left_items": [
+            "SIEM",
+            "NetFlow",
+            "Wireshark",
+            "SNMP"
+        ],
+        "right_items": [
+            "presents real-time reporting and long term analysis of security events",
+            "provides statistics on packets flowing through a Cisco router or multilayer switch",
+            "captures packets and saves them in a PCAP file",
+            "retrieves information on the operation of network devices"
+        ],
+        "correct_matches": [
+            [
+                0,
+                0
+            ],
+            [
+                1,
+                1
+            ],
+            [
+                2,
+                2
+            ],
+            [
+                3,
+                3
+            ]
+        ],
         "image": null,
         "type": "matching"
     },
@@ -186,11 +275,33 @@
         "image": null
     },
     {
-        "id":17,
+        "id": 17,
         "question": "Match the attack tools with the description. (Not all options are used.)",
-        "left_items": ["RainbowCrack", "Yersinia", "Nmap"],
-        "right_items": ["this is used for password cracking by either removing the original password, after bypassing the data encryption, or by outright discovery of the password", "this is a packet crafting tool used to probe and test the robustness of a firewall by using specially crafted, forged packets.", "This is a network scanning tool used to probe network devices, servers, and hosts for open TCP or UDP ports.", "this is a wireless hacking tool used to detect security vurnerabilities in wireless networks."],
-        "correct_matches": [[0, 0], [1, 1], [2, 2]],
+        "left_items": [
+            "RainbowCrack",
+            "Yersinia",
+            "Nmap"
+        ],
+        "right_items": [
+            "this is used for password cracking by either removing the original password, after bypassing the data encryption, or by outright discovery of the password",
+            "this is a packet crafting tool used to probe and test the robustness of a firewall by using specially crafted, forged packets.",
+            "This is a network scanning tool used to probe network devices, servers, and hosts for open TCP or UDP ports.",
+            "this is a wireless hacking tool used to detect security vurnerabilities in wireless networks."
+        ],
+        "correct_matches": [
+            [
+                0,
+                0
+            ],
+            [
+                1,
+                1
+            ],
+            [
+                2,
+                2
+            ]
+        ],
         "image": null,
         "type": "matching"
     },
@@ -204,7 +315,10 @@
             "If no device responds to the ARP request, then the originating node will broadcast the data packet to all devices on the network segment.",
             "An ARP request is sent to all devices on the Ethernet LAN and contains the IP address of the destination host and the multicast MAC address."
         ],
-        "correct": [1,2],
+        "correct": [
+            1,
+            2
+        ],
         "image": null
     },
     {
@@ -241,7 +355,10 @@
             "syslog",
             "SMTP"
         ],
-        "correct": [1,2],
+        "correct": [
+            1,
+            2
+        ],
         "image": null
     },
     {
@@ -302,7 +419,10 @@
             "separate processes for authentication and authorization",
             "hidden passwords during transmission"
         ],
-        "correct": [2,4],
+        "correct": [
+            2,
+            4
+        ],
         "image": null
     },
     {
@@ -327,7 +447,10 @@
             "The code contains no errors.",
             "The code was encrypted with both a private and public key."
         ],
-        "correct": [1,2],
+        "correct": [
+            1,
+            2
+        ],
         "image": null
     },
     {
@@ -340,7 +463,10 @@
             "FTP transfers",
             "file and directory access permission"
         ],
-        "correct": [0,1],
+        "correct": [
+            0,
+            1
+        ],
         "image": null
     },
     {
@@ -366,24 +492,78 @@
             "The level of access of employees when connecting to the corporate network must be defined.",
             "All devices should be allowed to attach to the corporate network flawlessly."
         ],
-        "correct": [2,3,4],
+        "correct": [
+            2,
+            3,
+            4
+        ],
         "image": null
     },
     {
-        "id":32,
+        "id": 32,
         "question": "Match the security policy with the description. (Not all options are used.)",
-        "left_items": ["acceptable use policy (AUP)", "identification and authentication policy", "network maintenance policy", "remote access policy"],
-        "right_items": ["identifies network applications and uses that are acceptable to the organisation", "specifies authorized persons that can have access to network resources and identity verifaction procedures", "specifies network device operating systems and end user application update procedures", "identifies how remote users can access a network and what is accessible via remote connectivity","ensures that passwords meet minimum requirements and are changed regularly"],
-        "correct_matches": [[0, 0], [1, 1], [2, 2],[3, 3]],
+        "left_items": [
+            "acceptable use policy (AUP)",
+            "identification and authentication policy",
+            "network maintenance policy",
+            "remote access policy"
+        ],
+        "right_items": [
+            "identifies network applications and uses that are acceptable to the organisation",
+            "specifies authorized persons that can have access to network resources and identity verifaction procedures",
+            "specifies network device operating systems and end user application update procedures",
+            "identifies how remote users can access a network and what is accessible via remote connectivity",
+            "ensures that passwords meet minimum requirements and are changed regularly"
+        ],
+        "correct_matches": [
+            [
+                0,
+                0
+            ],
+            [
+                1,
+                1
+            ],
+            [
+                2,
+                2
+            ],
+            [
+                3,
+                3
+            ]
+        ],
         "image": null,
         "type": "matching"
     },
     {
-        "id":33,
+        "id": 33,
         "question": "Match the attack to the definition. (Not all options are used.)",
-        "left_items": ["attacker sends multiple packets that consume server resources", "attacker sends falsified information to redirect users to malicious sites", "attacker uses open resolvers to increase the volume of attacks and mask the true source of the attck"],
-        "right_items": ["resource utilization attack", "ARP cache poisoning", "amplification and reflection", "domain generation"],
-        "correct_matches": [[0, 0], [1, 1], [2, 2]],
+        "left_items": [
+            "attacker sends multiple packets that consume server resources",
+            "attacker sends falsified information to redirect users to malicious sites",
+            "attacker uses open resolvers to increase the volume of attacks and mask the true source of the attck"
+        ],
+        "right_items": [
+            "resource utilization attack",
+            "ARP cache poisoning",
+            "amplification and reflection",
+            "domain generation"
+        ],
+        "correct_matches": [
+            [
+                0,
+                0
+            ],
+            [
+                1,
+                1
+            ],
+            [
+                2,
+                2
+            ]
+        ],
         "image": null,
         "type": "matching"
     },
@@ -409,7 +589,10 @@
             "They are routable on the Internet.",
             "MAC addresses must be unique for both Ethernet and serial interfaces on a device."
         ],
-        "correct": [1,2],
+        "correct": [
+            1,
+            2
+        ],
         "image": null
     },
     {
@@ -482,7 +665,10 @@
             "SSL traffic",
             "broadcast traffic"
         ],
-        "correct": [1,3],
+        "correct": [
+            1,
+            3
+        ],
         "image": null
     },
     {
@@ -498,11 +684,44 @@
         "image": null
     },
     {
-        "id":43,
+        "id": 43,
         "question": "Match the security incident stakeholder with the role.",
-        "left_items": ["human resources","information assurance","IT support","management","legal department"],
-        "right_items": ["performs disciplinary measures", "changes firewall rules", "preserves attack evidence", "designs the budget", "reviews policies for local or federal guideline violations"],
-        "correct_matches": [[0, 0], [1, 1], [2, 2],[3, 3],[4, 4]],
+        "left_items": [
+            "human resources",
+            "information assurance",
+            "IT support",
+            "management",
+            "legal department"
+        ],
+        "right_items": [
+            "performs disciplinary measures",
+            "changes firewall rules",
+            "preserves attack evidence",
+            "designs the budget",
+            "reviews policies for local or federal guideline violations"
+        ],
+        "correct_matches": [
+            [
+                0,
+                0
+            ],
+            [
+                1,
+                1
+            ],
+            [
+                2,
+                2
+            ],
+            [
+                3,
+                3
+            ],
+            [
+                4,
+                4
+            ]
+        ],
         "image": null,
         "type": "matching"
     },
@@ -519,11 +738,33 @@
         "image": null
     },
     {
-        "id":45,
+        "id": 45,
         "question": "Match the security organization with its security functions. (Not all options are used.)",
-        "left_items": ["SANS","MITRE","FIRST"],
-        "right_items": ["It maintains ans supports the internet Storm Center and also develops security courses", "It maintains a list of common vurnerabilities and exposures (CVE)", "It brings together a variety of computer security incident response teams from government, commercial, and educational orginisations to foster cooperation.", "It provides vendor neutral educational products and career services to industry professionals globally"],
-        "correct_matches": [[0, 0], [1, 1], [2, 2]],
+        "left_items": [
+            "SANS",
+            "MITRE",
+            "FIRST"
+        ],
+        "right_items": [
+            "It maintains ans supports the internet Storm Center and also develops security courses",
+            "It maintains a list of common vurnerabilities and exposures (CVE)",
+            "It brings together a variety of computer security incident response teams from government, commercial, and educational orginisations to foster cooperation.",
+            "It provides vendor neutral educational products and career services to industry professionals globally"
+        ],
+        "correct_matches": [
+            [
+                0,
+                0
+            ],
+            [
+                1,
+                1
+            ],
+            [
+                2,
+                2
+            ]
+        ],
         "image": null,
         "type": "matching"
     },
@@ -540,11 +781,39 @@
         "image": null
     },
     {
-        "id":47,
+        "id": 47,
         "question": "After host A receives a web page from server B, host A terminates the connection with server B. Match each step to its correct option in the normal termination process for a TCP connection. (Not all options are used.)",
-        "left_items": ["Step 4", "Step 3", "Step 2", "Step 1"],
-        "right_items": ["Host A sends an ACK to server B", "Server B sends a FIN to host A", "Host A sends a FIN to server B", "Server B sends an ACK to host A", "Server B sends a SYN-ACK to Host A"],
-        "correct_matches": [[0, 0], [1, 1], [2, 2],[3, 3]],
+        "left_items": [
+            "Step 4",
+            "Step 3",
+            "Step 2",
+            "Step 1"
+        ],
+        "right_items": [
+            "Host A sends an ACK to server B",
+            "Server B sends a FIN to host A",
+            "Host A sends a FIN to server B",
+            "Server B sends an ACK to host A",
+            "Server B sends a SYN-ACK to Host A"
+        ],
+        "correct_matches": [
+            [
+                0,
+                0
+            ],
+            [
+                1,
+                1
+            ],
+            [
+                2,
+                2
+            ],
+            [
+                3,
+                3
+            ]
+        ],
         "image": null,
         "type": "matching"
     },
@@ -558,7 +827,10 @@
             "by corrupting network IP data packets",
             "by providing a conduit for DoS attacks"
         ],
-        "correct": [0,4],
+        "correct": [
+            0,
+            4
+        ],
         "image": null
     },
     {
@@ -572,7 +844,11 @@
             "identification",
             "version"
         ],
-        "correct": [0,2,4],
+        "correct": [
+            0,
+            2,
+            4
+        ],
         "image": null
     },
     {
@@ -585,15 +861,45 @@
             "net use",
             "net stop"
         ],
-        "correct": [2, 3],
+        "correct": [
+            2,
+            3
+        ],
         "image": null
     },
     {
-        "id":51,
+        "id": 51,
         "question": "Match the Windows 10 Registry key with its description. (Not all options are used.)",
-        "left_items": ["HKEY_USERS", "HKEY_CLASSES_ROOT","HKEY_CURRENT_USER","HKEY_CURRENT_CONFIG"],
-        "right_items": ["all of the configuration settings for the hardware and sotware configured on the computer for all users", "settings about the file system, file associations, shortcuts used when you ask Windows to run a file, or view a directory", "data about the preferences or the currently logged on user, including personalization settings, default devices and programs, etc", "information about the current hardware profile of the machine"],
-        "correct_matches": [[0, 0], [1, 1], [2, 2],[3, 3]],
+        "left_items": [
+            "HKEY_USERS",
+            "HKEY_CLASSES_ROOT",
+            "HKEY_CURRENT_USER",
+            "HKEY_CURRENT_CONFIG"
+        ],
+        "right_items": [
+            "all of the configuration settings for the hardware and sotware configured on the computer for all users",
+            "settings about the file system, file associations, shortcuts used when you ask Windows to run a file, or view a directory",
+            "data about the preferences or the currently logged on user, including personalization settings, default devices and programs, etc",
+            "information about the current hardware profile of the machine"
+        ],
+        "correct_matches": [
+            [
+                0,
+                0
+            ],
+            [
+                1,
+                1
+            ],
+            [
+                2,
+                2
+            ],
+            [
+                3,
+                3
+            ]
+        ],
         "image": null,
         "type": "matching"
     },
@@ -647,29 +953,98 @@
         "image": null
     },
     {
-        "id":56,
+        "id": 56,
         "question": "Match the network service with the description.",
-        "left_items": ["provides statistics on IP packets flowing through network devices", "notifies the administrator with detailed system messages", "allows administrators to manage network nodes", "synchronizes the time across all devices on the network"],
-        "right_items": ["NetFlow", "syslog", "SNMP", "NTP"],
-        "correct_matches": [[0, 0], [1, 1], [2, 2],[3, 3]],
+        "left_items": [
+            "provides statistics on IP packets flowing through network devices",
+            "notifies the administrator with detailed system messages",
+            "allows administrators to manage network nodes",
+            "synchronizes the time across all devices on the network"
+        ],
+        "right_items": [
+            "NetFlow",
+            "syslog",
+            "SNMP",
+            "NTP"
+        ],
+        "correct_matches": [
+            [
+                0,
+                0
+            ],
+            [
+                1,
+                1
+            ],
+            [
+                2,
+                2
+            ],
+            [
+                3,
+                3
+            ]
+        ],
         "image": null,
         "type": "matching"
     },
     {
-        "id":58,
+        "id": 58,
         "question": "Match the attack surface with attack exploits.",
-        "left_items": ["Software Attack Surface", "Network Attack Surface","Human Attack Surface"],
-        "right_items": ["These attacks are delivered through exploitation of vurnerabilities in web, cloud, or host-based software applications", "These attack include conventional wired and wireless network protocols, as well as other wireless protocols used by smartphones or IoT devices. The attacks target vurneabilities at the transport layer", "These attacks include social engineering, malicious behaviour by trusted insiders, and user error."],
-        "correct_matches": [[0, 0], [1, 1], [2, 2]],
+        "left_items": [
+            "Software Attack Surface",
+            "Network Attack Surface",
+            "Human Attack Surface"
+        ],
+        "right_items": [
+            "These attacks are delivered through exploitation of vurnerabilities in web, cloud, or host-based software applications",
+            "These attack include conventional wired and wireless network protocols, as well as other wireless protocols used by smartphones or IoT devices. The attacks target vurneabilities at the transport layer",
+            "These attacks include social engineering, malicious behaviour by trusted insiders, and user error."
+        ],
+        "correct_matches": [
+            [
+                0,
+                0
+            ],
+            [
+                1,
+                1
+            ],
+            [
+                2,
+                2
+            ]
+        ],
         "image": null,
         "type": "matching"
     },
     {
-        "id":59,
+        "id": 59,
         "question": "Match the Linux host-based firewall application with its description.",
-        "left_items": ["This is a rule-based access control an logging system for Linux Packet filtering based on IP addresses and network services.", "This is an application that allows Linux system administrators to configure network access rules that are part of the Linux kernel Netfilter modules.","This application uses a simple virtual machine in the Linux kernel where code is executed and network packets are inspected"],
-        "right_items": ["TCP Wrappers", "iptables", "nftables"],
-        "correct_matches": [[0, 0], [1, 1], [2, 2]],
+        "left_items": [
+            "This is a rule-based access control an logging system for Linux Packet filtering based on IP addresses and network services.",
+            "This is an application that allows Linux system administrators to configure network access rules that are part of the Linux kernel Netfilter modules.",
+            "This application uses a simple virtual machine in the Linux kernel where code is executed and network packets are inspected"
+        ],
+        "right_items": [
+            "TCP Wrappers",
+            "iptables",
+            "nftables"
+        ],
+        "correct_matches": [
+            [
+                0,
+                0
+            ],
+            [
+                1,
+                1
+            ],
+            [
+                2,
+                2
+            ]
+        ],
         "image": null,
         "type": "matching"
     },
@@ -712,11 +1087,38 @@
         "image": null
     },
     {
-        "id":63,
+        "id": 63,
         "question": "Match the destination network routing table entry type with a defintion.",
-        "left_items": ["found only in routers running IOS 15+ or IPv6 routing", "automatically added when an interface is configured and active", "added when a protocol such as OSPF or EIGRP discovers a route", "manually configured by a network administrator"],
-        "right_items": ["local route interface", "directly connected interface", "dynamic route", "static route"],
-        "correct_matches": [[0, 0], [1, 1], [2, 2],[3, 3]],
+        "left_items": [
+            "found only in routers running IOS 15+ or IPv6 routing",
+            "automatically added when an interface is configured and active",
+            "added when a protocol such as OSPF or EIGRP discovers a route",
+            "manually configured by a network administrator"
+        ],
+        "right_items": [
+            "local route interface",
+            "directly connected interface",
+            "dynamic route",
+            "static route"
+        ],
+        "correct_matches": [
+            [
+                0,
+                0
+            ],
+            [
+                1,
+                1
+            ],
+            [
+                2,
+                2
+            ],
+            [
+                3,
+                3
+            ]
+        ],
         "image": null,
         "type": "matching"
     },
@@ -793,7 +1195,11 @@
             "It consists of a management framework through which an organization identifies, analyzes, and addresses information security risks.",
             "It is based on the application of servers and security devices."
         ],
-        "correct": [1,3,4],
+        "correct": [
+            1,
+            3,
+            4
+        ],
         "image": null
     },
     {
@@ -807,7 +1213,11 @@
             "intrusion prevention",
             "threat intelligence"
         ],
-        "correct": [0,1,5],
+        "correct": [
+            0,
+            1,
+            5
+        ],
         "image": null
     },
     {
@@ -861,9 +1271,36 @@
     {
         "id": 75,
         "question": "Match the network monitoring data type with the description.",
-        "left_items": ["includes device-specific server and host logs", "generated by IPS or IDS devices when suspicious traffic is detected", "used to describe and analyze network flow or perfomance data", "contains details of network flows including the 5-tuples, the amount of data transmitted, and the duration of data transmission"],
-        "right_items": ["transaction data", "alert data", "statistical data", "session data"],
-        "correct_matches": [[0, 0], [1, 1], [2, 2],[3, 3]],
+        "left_items": [
+            "includes device-specific server and host logs",
+            "generated by IPS or IDS devices when suspicious traffic is detected",
+            "used to describe and analyze network flow or perfomance data",
+            "contains details of network flows including the 5-tuples, the amount of data transmitted, and the duration of data transmission"
+        ],
+        "right_items": [
+            "transaction data",
+            "alert data",
+            "statistical data",
+            "session data"
+        ],
+        "correct_matches": [
+            [
+                0,
+                0
+            ],
+            [
+                1,
+                1
+            ],
+            [
+                2,
+                2
+            ],
+            [
+                3,
+                3
+            ]
+        ],
         "image": null,
         "type": "matching"
     },
@@ -925,7 +1362,10 @@
             "hospital emergency use per region",
             "Facebook photographs"
         ],
-        "correct": [2, 4],
+        "correct": [
+            2,
+            4
+        ],
         "image": null
     },
     {
@@ -938,7 +1378,10 @@
             "to withhold access to a computer or files until money has been paid",
             "to gain access to the restricted part of the operating system"
         ],
-        "correct": [0,2],
+        "correct": [
+            0,
+            2
+        ],
         "image": null
     },
     {
@@ -951,7 +1394,10 @@
             "They are commonly implemented in the SSL and SSH protocols.",
             "They are slower than symmetric algorithms."
         ],
-        "correct": [2, 4],
+        "correct": [
+            2,
+            4
+        ],
         "image": null
     },
     {
@@ -965,7 +1411,11 @@
             "provides confidentiality of digitally signed data",
             "authenticates the destination"
         ],
-        "correct": [1,2,3],
+        "correct": [
+            1,
+            2,
+            3
+        ],
         "image": null
     },
     {
@@ -978,7 +1428,10 @@
             "OCSP",
             "LDAP"
         ],
-        "correct": [0, 3],
+        "correct": [
+            0,
+            3
+        ],
         "image": null
     },
     {
@@ -991,7 +1444,10 @@
             "ACLs assist the router in determining the best path to a destination.",
             "ACLs can permit or deny traffic based upon the MAC address originating on the router."
         ],
-        "correct": [0, 1],
+        "correct": [
+            0,
+            1
+        ],
         "image": null
     },
     {
@@ -1028,7 +1484,10 @@
             "reconnaissance",
             "phishing"
         ],
-        "correct": [1,2],
+        "correct": [
+            1,
+            2
+        ],
         "image": null
     },
     {
@@ -1041,15 +1500,63 @@
             "Collect malware files and metadata for future analysis.",
             "Detect data exfiltration, lateral movement, and unauthorized credential usage."
         ],
-        "correct": [0,4],
+        "correct": [
+            0,
+            4
+        ],
         "image": null
     },
     {
         "id": 90,
         "question": "Place the seven steps defined in the Cyber Kill Chain in the correct order.",
-        "left_items": ["Step 1", "Step 2", "Step 3", "Step 4", "Step 5", "Step 6", "Step 7"],
-        "right_items": ["reconnaissance", "weaponization", "delivery", "exploitation", "installation", "command and control", "action on onjectives"],
-        "correct_matches": [[0, 0], [1, 1], [2, 2],[3, 3],[4, 4],[5, 5],[6, 6]],
+        "left_items": [
+            "Step 1",
+            "Step 2",
+            "Step 3",
+            "Step 4",
+            "Step 5",
+            "Step 6",
+            "Step 7"
+        ],
+        "right_items": [
+            "reconnaissance",
+            "weaponization",
+            "delivery",
+            "exploitation",
+            "installation",
+            "command and control",
+            "action on onjectives"
+        ],
+        "correct_matches": [
+            [
+                0,
+                0
+            ],
+            [
+                1,
+                1
+            ],
+            [
+                2,
+                2
+            ],
+            [
+                3,
+                3
+            ],
+            [
+                4,
+                4
+            ],
+            [
+                5,
+                5
+            ],
+            [
+                6,
+                6
+            ]
+        ],
         "image": null,
         "type": "matching"
     },
@@ -1087,7 +1594,10 @@
             "when analyzing applications designed to circumvent firewalls",
             "when analyzing events with the assumption that they follow predefined steps"
         ],
-        "correct": [1,3],
+        "correct": [
+            1,
+            3
+        ],
         "image": null
     },
     {
@@ -1105,9 +1615,31 @@
     {
         "id": 95,
         "question": "Match the category of attacks with the description. (Not all options are used.)",
-        "left_items": ["DoS", "MiTM", "sniffer attack"],
-        "right_items": ["It can crash applications or network services. It can also flood a computer or the entire network with traffic until a shutdown occurs because of the overload.", "It occurs when threat actors have positioned themselves between a source and a destination and can actively monitor, capture, and control the communication transparently.", "It uses an application or device that can read, monitor, and capture network data exchanges and read network packets.", "It constructs an IP packet that appears to originate from a valid address inside a corporate network."],
-        "correct_matches": [[0, 0], [1, 1], [2, 2]],
+        "left_items": [
+            "DoS",
+            "MiTM",
+            "sniffer attack"
+        ],
+        "right_items": [
+            "It can crash applications or network services. It can also flood a computer or the entire network with traffic until a shutdown occurs because of the overload.",
+            "It occurs when threat actors have positioned themselves between a source and a destination and can actively monitor, capture, and control the communication transparently.",
+            "It uses an application or device that can read, monitor, and capture network data exchanges and read network packets.",
+            "It constructs an IP packet that appears to originate from a valid address inside a corporate network."
+        ],
+        "correct_matches": [
+            [
+                0,
+                0
+            ],
+            [
+                1,
+                1
+            ],
+            [
+                2,
+                2
+            ]
+        ],
         "image": null,
         "type": "matching"
     },
@@ -1121,7 +1653,10 @@
             "IPv6 addressing is dynamically assigned to clients through the use of ICMPv6.",
             "Router solicitation messages are sent by the router to offer IPv6 addressing to clients."
         ],
-        "correct": [0,3],
+        "correct": [
+            0,
+            3
+        ],
         "image": null
     },
     {
@@ -1183,7 +1718,10 @@
             "amplification",
             "reflection"
         ],
-        "correct": [3, 4],
+        "correct": [
+            3,
+            4
+        ],
         "image": null
     },
     {
@@ -1213,9 +1751,48 @@
     {
         "id": 104,
         "question": "Match the field in the Event table of Sguil to the description.",
-        "left_items": ["the unique ID of the sensor", "IP protocol type of the packet", "the human readable name of the event", "the unique event number from the sensor", "the time the event occured on the sensor", "the Sguil classification assigned to this event"],
-        "right_items": ["sid", "ip_proto", "signature", "cid", "timestamp", "status"],
-        "correct_matches": [[0, 0], [1, 1], [2, 2],[3, 3],[4, 4],[5, 5]],
+        "left_items": [
+            "the unique ID of the sensor",
+            "IP protocol type of the packet",
+            "the human readable name of the event",
+            "the unique event number from the sensor",
+            "the time the event occured on the sensor",
+            "the Sguil classification assigned to this event"
+        ],
+        "right_items": [
+            "sid",
+            "ip_proto",
+            "signature",
+            "cid",
+            "timestamp",
+            "status"
+        ],
+        "correct_matches": [
+            [
+                0,
+                0
+            ],
+            [
+                1,
+                1
+            ],
+            [
+                2,
+                2
+            ],
+            [
+                3,
+                3
+            ],
+            [
+                4,
+                4
+            ],
+            [
+                5,
+                5
+            ]
+        ],
         "image": null,
         "type": "matching"
     },
@@ -1252,7 +1829,10 @@
             "They are commonly used with VPN traffic.",
             "They provide confidentiality, integrity, and availability."
         ],
-        "correct": [0,2],
+        "correct": [
+            0,
+            2
+        ],
         "image": null
     },
     {
@@ -1265,7 +1845,10 @@
             "If the network traffic stream is encrypted, HIPS is unable to access unencrypted forms of the traffic.",
             "HIPS installations are vulnerable to fragmentation attacks or variable TTL attacks"
         ],
-        "correct": [1,2],
+        "correct": [
+            1,
+            2
+        ],
         "image": null
     },
     {
@@ -1279,7 +1862,11 @@
             "to gather logging information for monitoring and troubleshooting",
             "to specify the destinations of captured messages"
         ],
-        "correct": [0,4,5],
+        "correct": [
+            0,
+            4,
+            5
+        ],
         "image": null
     },
     {
@@ -1304,7 +1891,10 @@
             "They encode stolen data as the subdomain portion where the nameserver is under control of an attacker.",
             "Threat actors use NTP systems to direct DDoS attacks."
         ],
-        "correct": [1,4],
+        "correct": [
+            1,
+            4
+        ],
         "image": null
     },
     {
@@ -1317,15 +1907,45 @@
             "separate authentication and authorization processes",
             "SIP support"
         ],
-        "correct": [0,1],
+        "correct": [
+            0,
+            1
+        ],
         "image": null
     },
     {
-        "id":113,
+        "id": 113,
         "question": "Match the SIEM function to the description.",
-        "left_items": ["aggregation", "reporting", "correlation", "forensic analysis"],
-        "right_items": ["reduces the volume of event data by consolidating duplicate event records", "presents event data in real-time monitoring and long-time summaries", "speeds detection of and reaction to security threats by examining logs and events from different systems", "searches logs and events from sources throughout the organization for complete information analysis"],
-        "correct_matches": [[0, 0], [1, 1], [2, 2],[3, 3]],
+        "left_items": [
+            "aggregation",
+            "reporting",
+            "correlation",
+            "forensic analysis"
+        ],
+        "right_items": [
+            "reduces the volume of event data by consolidating duplicate event records",
+            "presents event data in real-time monitoring and long-time summaries",
+            "speeds detection of and reaction to security threats by examining logs and events from different systems",
+            "searches logs and events from sources throughout the organization for complete information analysis"
+        ],
+        "correct_matches": [
+            [
+                0,
+                0
+            ],
+            [
+                1,
+                1
+            ],
+            [
+                2,
+                2
+            ],
+            [
+                3,
+                3
+            ]
+        ],
         "image": null,
         "type": "matching"
     },
@@ -1339,7 +1959,10 @@
             "resource utilization",
             "cushioning"
         ],
-        "correct": [0,3],
+        "correct": [
+            0,
+            3
+        ],
         "image": null
     },
     {
@@ -1353,7 +1976,7 @@
             "to identify active services",
             "to discover system passwords"
         ],
-        "correct": [1,3,4],
+        "correct": 0,
         "image": null
     },
     {
@@ -1465,11 +2088,38 @@
         "image": null
     },
     {
-        "id":125,
+        "id": 125,
         "question": "Match the tabs of the Windows 10 Task Manager to their functions.",
-        "left_items": ["Details", "Performance", "Startup","Services"],
-        "right_items": ["Allows for a process to have its affinity set.", "Displays resource utilization information for CPU, memory, network, disk, and others.", "Allows programs that are running on system startup to be disabled.", "Allows for a start, stop or restart of a particular service."],
-        "correct_matches": [[0, 0], [1, 1], [2, 2],[3, 3]],
+        "left_items": [
+            "Details",
+            "Performance",
+            "Startup",
+            "Services"
+        ],
+        "right_items": [
+            "Allows for a process to have its affinity set.",
+            "Displays resource utilization information for CPU, memory, network, disk, and others.",
+            "Allows programs that are running on system startup to be disabled.",
+            "Allows for a start, stop or restart of a particular service."
+        ],
+        "correct_matches": [
+            [
+                0,
+                0
+            ],
+            [
+                1,
+                1
+            ],
+            [
+                2,
+                2
+            ],
+            [
+                3,
+                3
+            ]
+        ],
         "image": null,
         "type": "matching"
     },
@@ -1486,11 +2136,39 @@
         "image": null
     },
     {
-        "id":127,
+        "id": 127,
         "question": "Match the common network technology or protocol with the description. (Not all options are used.)",
-        "left_items": ["NTP", "DNS", "Syslog", "ICMP"],
-        "right_items": ["uses a hierarchy of authorative time sources to send time information between devices on a network", "used by attackers to exfiltrate data in traffic disguised as normal client queries", "uses UDP port 514 for logging event messages from network devices and endpoints", "used by attackers to identify hosts on a network and the structure of the network", "uses application protocols that are commonly responsible for bringen malware to a host"],
-        "correct_matches": [[0, 0], [1, 1], [2, 2],[3, 3]],
+        "left_items": [
+            "NTP",
+            "DNS",
+            "Syslog",
+            "ICMP"
+        ],
+        "right_items": [
+            "uses a hierarchy of authorative time sources to send time information between devices on a network",
+            "used by attackers to exfiltrate data in traffic disguised as normal client queries",
+            "uses UDP port 514 for logging event messages from network devices and endpoints",
+            "used by attackers to identify hosts on a network and the structure of the network",
+            "uses application protocols that are commonly responsible for bringen malware to a host"
+        ],
+        "correct_matches": [
+            [
+                0,
+                0
+            ],
+            [
+                1,
+                1
+            ],
+            [
+                2,
+                2
+            ],
+            [
+                3,
+                3
+            ]
+        ],
         "image": null,
         "type": "matching"
     },
@@ -1505,7 +2183,11 @@
             "security device management",
             "threat containment"
         ],
-        "correct": [1,2,3],
+        "correct": [
+            1,
+            2,
+            3
+        ],
         "image": null
     },
     {
@@ -1530,7 +2212,10 @@
             "auto-MDIX",
             "Frame Check Sequence"
         ],
-        "correct": [2,4],
+        "correct": [
+            2,
+            4
+        ],
         "image": null
     },
     {
@@ -1580,7 +2265,11 @@
             "SpamCop",
             "ClamAV"
         ],
-        "correct": [0,3,4],
+        "correct": [
+            0,
+            3,
+            4
+        ],
         "image": null
     },
     {
@@ -1677,7 +2366,10 @@
             "Multiple ARP replies result in the switch MAC address table containing entries that match the MAC addresses of hosts that are connected to the relevant switch port.",
             "Manually configuring static ARP associations could facilitate ARP poisoning or MAC address spoofing."
         ],
-        "correct": [1,2],
+        "correct": [
+            1,
+            2
+        ],
         "image": null
     },
     {
@@ -1691,15 +2383,41 @@
             "Construct queries using Query Builder.",
             "Expire false positives."
         ],
-        "correct": [0,2,5],
+        "correct": [
+            0,
+            2,
+            5
+        ],
         "image": null
     },
     {
         "id": 144,
         "question": "Match the SOC metric with the description. (Not all options apply.)",
-        "left_items": ["MTTD", "MTTC", "MTTR"],
-        "right_items": ["The average time it takes for the SOC personnel to identify that valid security incidents have occured in the network", "The time required to stop the incident from causing further damage to systems or data", "The average time that it takes to stop and remediate a security incident", "The average length of time that threat actors have access to a network before they are detected and their access is stopped"],
-        "correct_matches": [[0, 0], [1, 1], [2, 2]],
+        "left_items": [
+            "MTTD",
+            "MTTC",
+            "MTTR"
+        ],
+        "right_items": [
+            "The average time it takes for the SOC personnel to identify that valid security incidents have occured in the network",
+            "The time required to stop the incident from causing further damage to systems or data",
+            "The average time that it takes to stop and remediate a security incident",
+            "The average length of time that threat actors have access to a network before they are detected and their access is stopped"
+        ],
+        "correct_matches": [
+            [
+                0,
+                0
+            ],
+            [
+                1,
+                1
+            ],
+            [
+                2,
+                2
+            ]
+        ],
         "image": null,
         "type": "matching"
     },
@@ -1713,7 +2431,10 @@
             "access list monitoring",
             "network monitoring"
         ],
-        "correct": [1,4],
+        "correct": [
+            1,
+            4
+        ],
         "image": null
     },
     {
@@ -1738,7 +2459,10 @@
             "forwarding name resolution requests between servers",
             "mapping name-to-IP addresses for internal hosts"
         ],
-        "correct": [3,4],
+        "correct": [
+            3,
+            4
+        ],
         "image": null
     },
     {
@@ -1763,7 +2487,10 @@
             "Create and train the CSIRT.",
             "Fully analyze the incident."
         ],
-        "correct": [0,3],
+        "correct": [
+            0,
+            3
+        ],
         "image": null
     },
     {
@@ -1802,7 +2529,8 @@
         ],
         "correct": 0,
         "image": null
-    },    {
+    },
+    {
         "id": 153,
         "question": "Which three IP addresses are considered private addresses? (Choose three.)",
         "options": [
@@ -1813,9 +2541,14 @@
             "172.17.254.4",
             "10.234.2.1"
         ],
-        "correct": [1,4,5],
+        "correct": [
+            1,
+            4,
+            5
+        ],
         "image": null
-    },    {
+    },
+    {
         "id": 154,
         "question": "When establishing a network profile for an organization, which element describes the time between the establishment of a data flow and its termination?",
         "options": [
@@ -1826,7 +2559,8 @@
         ],
         "correct": 0,
         "image": null
-    },    {
+    },
+    {
         "id": 155,
         "question": "What are the stages that a wireless device completes before it can communicate over a wireless LAN network?",
         "options": [
@@ -1837,13 +2571,46 @@
         ],
         "correct": 0,
         "image": null
-    },    
+    },
     {
-        "id":156,
+        "id": 156,
         "question": "Match the correct sequence of steps typically taken by a threat actor carrying out a domain shadowing attack.",
-        "left_items": ["Step 1", "Step 2", "Step 3", "Step 4", "Step 5"],
-        "right_items": ["The website is compromised", "HTTP 302 cushioning is used", "Domain shadowing is used", "An exploit kit landing page is created", "Malware us spread through its payload"],
-        "correct_matches": [[0, 0], [1, 1], [2, 2],[3, 3],[4, 4]],
+        "left_items": [
+            "Step 1",
+            "Step 2",
+            "Step 3",
+            "Step 4",
+            "Step 5"
+        ],
+        "right_items": [
+            "The website is compromised",
+            "HTTP 302 cushioning is used",
+            "Domain shadowing is used",
+            "An exploit kit landing page is created",
+            "Malware us spread through its payload"
+        ],
+        "correct_matches": [
+            [
+                0,
+                0
+            ],
+            [
+                1,
+                1
+            ],
+            [
+                2,
+                2
+            ],
+            [
+                3,
+                3
+            ],
+            [
+                4,
+                4
+            ]
+        ],
         "image": null,
         "type": "matching"
     },
@@ -1857,9 +2624,13 @@
             "Hash functions can be duplicated for authentication purposes.",
             "The input for a particular hash algorithm has to have a fixed size."
         ],
-        "correct": [1,2],
+        "correct": [
+            1,
+            2
+        ],
         "image": null
-    },    {
+    },
+    {
         "id": 158,
         "question": "Refer to the exhibit. The switches have a default configuration. Host A needs to communicate with host D, but host A does not have the MAC address for the default gateway. Which network devices will receive the ARP request sent by host A?",
         "options": [
@@ -1872,7 +2643,8 @@
         ],
         "correct": 0,
         "image": "158.jpg"
-    },    {
+    },
+    {
         "id": 159,
         "question": "Which type of evidence cannot prove an IT security fact on its own?",
         "options": [
@@ -1883,7 +2655,8 @@
         ],
         "correct": 0,
         "image": null
-    },    {
+    },
+    {
         "id": 160,
         "question": "What is a characteristic of a probabilistic analysis in an alert evaluation?",
         "options": [
@@ -1894,7 +2667,8 @@
         ],
         "correct": 0,
         "image": null
-    },    {
+    },
+    {
         "id": 161,
         "question": "Why would a network administrator choose Linux as an operating system in the Security Operations Center (SOC)?",
         "options": [
@@ -1905,7 +2679,8 @@
         ],
         "correct": 0,
         "image": null
-    },    {
+    },
+    {
         "id": 162,
         "question": "A technician needs to verify file permissions on a specific Linux file. Which command would the technician use?",
         "options": [
@@ -1916,7 +2691,8 @@
         ],
         "correct": 0,
         "image": null
-    },    {
+    },
+    {
         "id": 163,
         "question": "Which two protocols may devices use in the application process that sends email? (Choose two.)",
         "options": [
@@ -1927,9 +2703,13 @@
             "POP3",
             "IMAP"
         ],
-        "correct": [0,1],
+        "correct": [
+            0,
+            1
+        ],
         "image": null
-    },    {
+    },
+    {
         "id": 164,
         "question": "Which file system type was specifically created for optical disk media?",
         "options": [
@@ -1940,7 +2720,8 @@
         ],
         "correct": 0,
         "image": null
-    },    {
+    },
+    {
         "id": 165,
         "question": "A piece of malware has gained access to a workstation and issued a DNS lookup query to a CnC server. What is the purpose of this attack?",
         "options": [
@@ -1951,7 +2732,8 @@
         ],
         "correct": 0,
         "image": null
-    },    {
+    },
+    {
         "id": 167,
         "question": "167. Refer to the exhibit. The IP address of which device interface should be used as the default gateway setting of host H1?",
         "options": [
@@ -1962,7 +2744,8 @@
         ],
         "correct": 0,
         "image": "167.jpg"
-    },    {
+    },
+    {
         "id": 168,
         "question": "According to information outlined by the Cyber Kill Chain, which two approaches can help identify reconnaissance threats? (Choose two.)",
         "options": [
@@ -1972,9 +2755,13 @@
             "Understand targeted servers, people, and data available to attack.",
             "Audit endpoints to forensically determine origin of exploit."
         ],
-        "correct": [0,1],
+        "correct": [
+            0,
+            1
+        ],
         "image": null
-    },    {
+    },
+    {
         "id": 169,
         "question": "Which two ICMPv6 messages are used during the Ethernet MAC address resolution process? (Choose two.)",
         "options": [
@@ -1984,9 +2771,13 @@
             "router solicitation",
             "router advertisement"
         ],
-        "correct": [0,1],
+        "correct": [
+            0,
+            1
+        ],
         "image": null
-    },    {
+    },
+    {
         "id": 170,
         "question": "What best describes the destination IPv4 address that is used by multicasting?",
         "options": [
@@ -1997,7 +2788,8 @@
         ],
         "correct": 0,
         "image": null
-    },    {
+    },
+    {
         "id": 171,
         "question": "What is the result of using security devices that include HTTPS decryption and inspection services?",
         "options": [
@@ -2008,7 +2800,8 @@
         ],
         "correct": 0,
         "image": null
-    },    {
+    },
+    {
         "id": 172,
         "question": "What is a disadvantage of DDNS?",
         "options": [
@@ -2021,11 +2814,39 @@
         "image": null
     },
     {
-        "id":173,
+        "id": 173,
         "question": "Match the network-based antimalware solution to the function. (Not all options are used.)",
-        "left_items": ["web security appliance", "email security appliance", "network admission control", "advanced malware protection"],
-        "right_items": ["provides filtering of websites and blacklisting before they reach the endpoint","provides filtering of SPAM and potentially malicious emails before they reach the endpoint", "permits only authorized and compliant systems to connect to the network", "provides endpoint protection from viruses and malware", "provides dynamic IP address to authenticated endpoints"],
-        "correct_matches": [[0, 0], [1, 1], [2, 2],[3, 3]],
+        "left_items": [
+            "web security appliance",
+            "email security appliance",
+            "network admission control",
+            "advanced malware protection"
+        ],
+        "right_items": [
+            "provides filtering of websites and blacklisting before they reach the endpoint",
+            "provides filtering of SPAM and potentially malicious emails before they reach the endpoint",
+            "permits only authorized and compliant systems to connect to the network",
+            "provides endpoint protection from viruses and malware",
+            "provides dynamic IP address to authenticated endpoints"
+        ],
+        "correct_matches": [
+            [
+                0,
+                0
+            ],
+            [
+                1,
+                1
+            ],
+            [
+                2,
+                2
+            ],
+            [
+                3,
+                3
+            ]
+        ],
         "image": null,
         "type": "matching"
     },
@@ -2037,18 +2858,6 @@
             "Install a webshell on the web server for persistent access.",
             "Create a point of persistence by adding services.",
             "Collect credentials of the web server developers and administrators."
-        ],
-        "correct": 0,
-        "image": null
-    },
-    {
-        "id": 175,
-        "question": "Which tool included in the Security Onion is a series of software plugins that send different types of data to the Elasticsearch data stores?",
-        "options": [
-            "Beats",
-            "OSSEC",
-            "ElastAlert",
-            "Curator"
         ],
         "correct": 0,
         "image": null
@@ -2066,11 +2875,38 @@
         "image": null
     },
     {
-        "id":177,
+        "id": 177,
         "question": "Match the alert classification with the description.",
-        "left_items": ["true positive", "false positive", "false negative", "true negative"],
-        "right_items": ["malicios traffic is correctly identified as a threat", "normal traffic is incorrectly identified as a threat", "malicious traffic is not identified as a threat", "normal traffic is not identified as a threat"],
-        "correct_matches": [[0, 0], [1, 1], [2, 2],[3, 3]],
+        "left_items": [
+            "true positive",
+            "false positive",
+            "false negative",
+            "true negative"
+        ],
+        "right_items": [
+            "malicios traffic is correctly identified as a threat",
+            "normal traffic is incorrectly identified as a threat",
+            "malicious traffic is not identified as a threat",
+            "normal traffic is not identified as a threat"
+        ],
+        "correct_matches": [
+            [
+                0,
+                0
+            ],
+            [
+                1,
+                1
+            ],
+            [
+                2,
+                2
+            ],
+            [
+                3,
+                3
+            ]
+        ],
         "image": null,
         "type": "matching"
     },
@@ -2108,7 +2944,10 @@
             "File Explorer",
             "PenTesting"
         ],
-        "correct": [0,1],
+        "correct": [
+            0,
+            1
+        ],
         "image": null
     },
     {
@@ -2121,7 +2960,7 @@
             "initiating a three-way handshake",
             "sending a multicast frame"
         ],
-        "correct": [0,1],
+        "correct": 0,
         "image": null
     },
     {
@@ -2159,15 +2998,43 @@
             "The message comes from a server offering an IP address.",
             "Only the DHCP server receives the message."
         ],
-        "correct": [0,1,2],
+        "correct": [
+            0,
+            1,
+            2
+        ],
         "image": null
     },
     {
-        "id":185,
+        "id": 185,
         "question": "Refer to the exhibit. The PC is sending a packet to the Server on the remote network. Router R1 is performing NAT overload. From the perspective of the PC, match the NAT address type with the correct IP address. (Not all options are used.)",
-        "left_items": ["Outside global", "Inside global", "Inside local"],
-        "right_items": ["203.0.113.5", "192.0.2.1", "10.130.5.76"," 203.0.113.14", "192.0.2.2","10.130.5.1"],
-        "correct_matches": [[0, 0], [1, 1], [2, 2]],
+        "left_items": [
+            "Outside global",
+            "Inside global",
+            "Inside local"
+        ],
+        "right_items": [
+            "203.0.113.5",
+            "192.0.2.1",
+            "10.130.5.76",
+            " 203.0.113.14",
+            "192.0.2.2",
+            "10.130.5.1"
+        ],
+        "correct_matches": [
+            [
+                0,
+                0
+            ],
+            [
+                1,
+                1
+            ],
+            [
+                2,
+                2
+            ]
+        ],
         "image": "185.jpg",
         "type": "matching"
     },
@@ -2184,29 +3051,110 @@
         "image": null
     },
     {
-        "id":187,
+        "id": 187,
         "question": "A client application needs to terminate a TCP communication session with a server. Place the termination process steps in the order that they will occur. ",
-        "left_items": ["Step 1","Step 2","Step 3","Step 4"],
-        "right_items": ["client sends FIN", "server sends ACK", "Server sends FIN", "Client sends ACK"],
-        "correct_matches": [[0, 0], [1, 1], [2, 2],[3, 3]],
+        "left_items": [
+            "Step 1",
+            "Step 2",
+            "Step 3",
+            "Step 4"
+        ],
+        "right_items": [
+            "client sends FIN",
+            "server sends ACK",
+            "Server sends FIN",
+            "Client sends ACK"
+        ],
+        "correct_matches": [
+            [
+                0,
+                0
+            ],
+            [
+                1,
+                1
+            ],
+            [
+                2,
+                2
+            ],
+            [
+                3,
+                3
+            ]
+        ],
         "image": null,
         "type": "matching"
     },
     {
-        "id":188,
+        "id": 188,
         "question": "Match the attack vector with the description.",
-        "left_items": ["email", "media", "attrition", "web"],
-        "right_items": ["initiated through an email attachment", "initiated from external storage", "uses brute force against devices or services", "initiated from a website application"],
-        "correct_matches": [[0, 0], [1, 1], [2, 2],[3, 3]],
+        "left_items": [
+            "email",
+            "media",
+            "attrition",
+            "web"
+        ],
+        "right_items": [
+            "initiated through an email attachment",
+            "initiated from external storage",
+            "uses brute force against devices or services",
+            "initiated from a website application"
+        ],
+        "correct_matches": [
+            [
+                0,
+                0
+            ],
+            [
+                1,
+                1
+            ],
+            [
+                2,
+                2
+            ],
+            [
+                3,
+                3
+            ]
+        ],
         "image": null,
         "type": "matching"
     },
     {
-        "id":189,
+        "id": 189,
         "question": "Match the security management function with the description.",
-        "left_items": ["risk management", "configuration management", "asset managment", "vulnerability management"],
-        "right_items": ["the comprehensive analysis of impacts of attacks on core company assets and functioning", "the inventory and control of hardware and software configurations of systems", "the implementation of systems that track the location and configuration of networked devices and software across an enterprise", "the security practice designed to proactively prevent the exploitation of IT vulnerabilities that exist within an organization"],
-        "correct_matches": [[0, 0], [1, 1], [2, 2],[3, 3]],
+        "left_items": [
+            "risk management",
+            "configuration management",
+            "asset managment",
+            "vulnerability management"
+        ],
+        "right_items": [
+            "the comprehensive analysis of impacts of attacks on core company assets and functioning",
+            "the inventory and control of hardware and software configurations of systems",
+            "the implementation of systems that track the location and configuration of networked devices and software across an enterprise",
+            "the security practice designed to proactively prevent the exploitation of IT vulnerabilities that exist within an organization"
+        ],
+        "correct_matches": [
+            [
+                0,
+                0
+            ],
+            [
+                1,
+                1
+            ],
+            [
+                2,
+                2
+            ],
+            [
+                3,
+                3
+            ]
+        ],
         "image": null,
         "type": "matching"
     },
@@ -2220,24 +3168,89 @@
             "carrying data between processes that are running on source and destination hosts",
             "providing dedicated end-to-end connections"
         ],
-        "correct": [0,1],
+        "correct": [
+            0,
+            1
+        ],
         "image": null
     },
     {
         "id": 191,
         "question": "Match the phase in the NIST incident response life cycle to the action.",
-        "left_items": ["post-incident actvities", "preparation", "detection and analysis", "containment, eradication, and recovery"],
-        "right_items": ["Document incident handling.","Conduct CSIRT response training.", "Identify, analyze, and validate an incident.", "Implement procedures to contain the threat."],
-        "correct_matches": [[0, 0], [1, 1], [2, 2],[3, 3]],
+        "left_items": [
+            "post-incident actvities",
+            "preparation",
+            "detection and analysis",
+            "containment, eradication, and recovery"
+        ],
+        "right_items": [
+            "Document incident handling.",
+            "Conduct CSIRT response training.",
+            "Identify, analyze, and validate an incident.",
+            "Implement procedures to contain the threat."
+        ],
+        "correct_matches": [
+            [
+                0,
+                0
+            ],
+            [
+                1,
+                1
+            ],
+            [
+                2,
+                2
+            ],
+            [
+                3,
+                3
+            ]
+        ],
         "image": null,
         "type": "matching"
     },
     {
-        "id":192,
+        "id": 192,
         "question": "Match the Linux CLI commands to their function. (Not all options are used.)",
-        "left_items": ["rm", "man", "ls", "cd", "mkdir"],
-        "right_items": ["removes files", "displays the documentation for a specific command", "displays the files inside a directory", "changes the current directory", "creates a directory under the current directory", "copies files from source to destination", "moves files to a different directory"],
-        "correct_matches": [[0, 0], [1, 1], [2, 2],[3, 3],[4, 4]],
+        "left_items": [
+            "rm",
+            "man",
+            "ls",
+            "cd",
+            "mkdir"
+        ],
+        "right_items": [
+            "removes files",
+            "displays the documentation for a specific command",
+            "displays the files inside a directory",
+            "changes the current directory",
+            "creates a directory under the current directory",
+            "copies files from source to destination",
+            "moves files to a different directory"
+        ],
+        "correct_matches": [
+            [
+                0,
+                0
+            ],
+            [
+                1,
+                1
+            ],
+            [
+                2,
+                2
+            ],
+            [
+                3,
+                3
+            ],
+            [
+                4,
+                4
+            ]
+        ],
         "image": null,
         "type": "matching"
     }
