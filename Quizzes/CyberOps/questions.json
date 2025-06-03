@@ -543,7 +543,7 @@
         "id":47,
         "question": "After host A receives a web page from server B, host A terminates the connection with server B. Match each step to its correct option in the normal termination process for a TCP connection. (Not all options are used.)",
         "left_items": ["Step 4", "Step 3", "Step 2", "Step 1"],
-        "right_items": ["Host A sends an ACK to server B", "Server B sends a FIN to host A", "Host A sends a FIN to server B", "Server B sends an ACK to host A", "Server B sends a SYN-ACK to Host A"],
+        "right_items": ["Host A sends an ACK to server B", "Server B sends a FIN to host A", "Server B sends an ACK to host A", "Host A sends a FIN to server B",  "Server B sends a SYN-ACK to Host A"],
         "correct_matches": [[0, 0], [1, 1], [2, 2],[3, 3]],
         "image": null,
         "type": "matching"
