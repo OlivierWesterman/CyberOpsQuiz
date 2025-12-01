@@ -26,14 +26,17 @@ class QuizDataManager:
                 if os.path.isdir(os.path.join(self.quiz_dir, d))]
 
     def load_questions(self, subject):
-        path = os.path.join(self.quiz_dir, subject, "questions_deduplicated.json")
-        if not os.path.exists(path): return []
-        try:
-            with open(path, 'r') as f:
-                return json.load(f)
-        except Exception as e:
-            print(f"Error loading {subject}: {e}")
-            return []
+        # Look for deduplicated first, then standard
+        files = ["questions_deduplicated.json", "questions.json"]
+        for fname in files:
+            path = os.path.join(self.quiz_dir, subject, fname)
+            if os.path.exists(path):
+                try:
+                    with open(path, 'r') as f:
+                        return json.load(f)
+                except Exception as e:
+                    print(f"Error loading {path}: {e}")
+        return []
 
     def get_image_path(self, subject, image_name):
         if not image_name: return None
@@ -85,6 +88,11 @@ class QuizApp:
         style.configure('Match.Selected.TLabel', background='#b0d0ff')
         style.configure('Match.Correct.TLabel', background='#90EE90') # Green
         style.configure('Match.Wrong.TLabel', background='#FFCCCB')   # Red
+
+        # Result Frame Styles (Used for MC options)
+        style.configure('Result.Correct.TFrame', background='#90EE90')
+        style.configure('Result.Wrong.TFrame', background='#FFCCCB')
+        style.configure('Result.Neutral.TFrame', background=THEME_COLOR)
 
     def _init_ui(self):
         # --- Main Container ---
@@ -236,18 +244,13 @@ class QuizApp:
         if img_path and os.path.exists(img_path):
             try:
                 pil_img = Image.open(img_path)
-                
-                # Calculate resize ratio considering BOTH width and height limits
                 w, h = pil_img.size
                 ratio_w = IMG_MAX_WIDTH / w
                 ratio_h = IMG_MAX_HEIGHT / h
                 ratio = min(ratio_w, ratio_h)
-                
                 new_w = int(w * ratio)
                 new_h = int(h * ratio)
-                
                 pil_img = pil_img.resize((new_w, new_h), Image.Resampling.LANCZOS)
-                
                 photo = ImageTk.PhotoImage(pil_img)
                 lbl = ttk.Label(self.scrollable_frame, image=photo)
                 lbl.image = photo 
@@ -259,7 +262,8 @@ class QuizApp:
 
     def _render_multichoice(self, q_data):
         self.mc_vars = []
-        self.mc_widgets = []
+        self.mc_widgets = [] 
+        self.mc_frames = [] # Store frames to color them later
         options = q_data['options']
         
         indexed_options = list(enumerate(options))
@@ -268,11 +272,21 @@ class QuizApp:
         self.mc_mapping = {ui_idx: orig_idx for ui_idx, (orig_idx, _) in enumerate(indexed_options)}
         
         for ui_idx, (_, text) in enumerate(indexed_options):
+            # Create a frame for the option to handle background coloring reliability
+            frame = ttk.Frame(self.scrollable_frame, padding=5)
+            frame.pack(anchor="w", pady=2, padx=20, fill=tk.X)
+            self.mc_frames.append(frame)
+
             var = tk.IntVar()
-            chk = ttk.Checkbutton(self.scrollable_frame, text=text, variable=var)
-            chk.pack(anchor="w", pady=5, padx=20, fill=tk.X)
+            chk = ttk.Checkbutton(frame, text=text, variable=var)
+            chk.pack(side=tk.LEFT, fill=tk.X)
+            
+            # Label for feedback icon (checkmark/cross)
+            lbl = ttk.Label(frame, text="", font=("Arial", 12, "bold"))
+            lbl.pack(side=tk.RIGHT)
+            
             self.mc_vars.append(var)
-            self.mc_widgets.append(chk)
+            self.mc_widgets.append((chk, lbl))
 
     def _render_matching(self, q_data):
         self.match_state = {'left_selected': None, 'right_selected': None, 'pairs': {}}
@@ -283,7 +297,6 @@ class QuizApp:
         left_col = ttk.Frame(container)
         left_col.pack(side=tk.LEFT, expand=True, fill=tk.BOTH, padx=10)
         
-        # Save reference to right column so we can hide it later
         self.match_right_col = ttk.Frame(container)
         self.match_right_col.pack(side=tk.RIGHT, expand=True, fill=tk.BOTH, padx=10)
         
@@ -319,7 +332,6 @@ class QuizApp:
             r_txt = self.match_state['right_selected']['text']
             self.match_state['pairs'][l_txt] = r_txt
             
-            # Temporary "Selected" visual
             self.match_state['left_selected'].configure(style='Match.Selected.TLabel')
             self.match_state['right_selected'].configure(style='Match.Selected.TLabel')
             self.match_state['left_selected'] = None
@@ -352,18 +364,27 @@ class QuizApp:
         
         is_correct = set(selected_orig_indices) == set(correct)
         
-        for i, (orig_idx, _) in enumerate(sorted(self.mc_mapping.items())):
-            widget = self.mc_widgets[i]
-            widget.config(state="disabled")
+        # --- BUG FIX IS HERE ---
+        # Old: for i, (orig_idx, _) in enumerate(sorted(self.mc_mapping.items())):
+        # New: We unpack (ui_index, original_index)
+        for i, (ui_idx, orig_idx) in enumerate(sorted(self.mc_mapping.items())):
+            chk, lbl = self.mc_widgets[i]
+            frame = self.mc_frames[i]
+            chk.config(state="disabled")
             
-            style_name = f"Result{self.current_idx}_{i}.TCheckbutton"
-            
+            # Now 'orig_idx' actually refers to the JSON index, not the screen position
             if orig_idx in correct:
-                ttk.Style().configure(style_name, background='#90EE90', font=FONT_BOLD)
-                widget.configure(style=style_name)
+                # It was a correct answer
+                frame.configure(style='Result.Correct.TFrame')
+                lbl.config(text="✓", foreground="green")
             elif i in [k for k,v in enumerate(self.mc_vars) if v.get() == 1]:
-                ttk.Style().configure(style_name, background='#FFCCCB')
-                widget.configure(style=style_name)
+                # User selected it but it was WRONG
+                frame.configure(style='Result.Wrong.TFrame')
+                lbl.config(text="✗", foreground="red")
+            else:
+                # Neutral (not correct, not selected)
+                frame.configure(style='Result.Neutral.TFrame')
+                lbl.config(text="")
                 
         return is_correct
 
@@ -374,34 +395,25 @@ class QuizApp:
         right_items = q_data['right_items']
         
         correct_count = 0
-        
-        # Hide the right column entirely during feedback to reduce clutter
         self.match_right_col.pack_forget()
         
-        # Iterate through the CORRECT relationships to show the full answer key on the left
         for l_idx, r_idx in correct_indices:
             l_text = left_items[l_idx]
             correct_r_text = right_items[r_idx]
-            
-            # User's answer
             user_r_text = user_pairs.get(l_text)
             
-            # Find the Left Widget
             l_widget = next((w for w in self.match_left_widgets if w['text'] == l_text), None)
             
             if l_widget:
-                # Update text to show connection
                 new_text = f"{l_text}\n   ➔ {correct_r_text}"
                 l_widget.config(text=new_text)
                 
-                # Color Coding
                 if user_r_text == correct_r_text:
                     correct_count += 1
                     l_widget.configure(style='Match.Correct.TLabel')
                 else:
                     l_widget.configure(style='Match.Wrong.TLabel')
 
-        # Disable clicks
         for w in self.match_left_widgets:
             w.unbind("<Button-1>")
 
