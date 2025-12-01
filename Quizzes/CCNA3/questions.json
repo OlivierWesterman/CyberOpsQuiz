@@ -1825,88 +1825,715 @@
         "image": "150.jpg"
     },
     {
-        "id": 1,
-        "question": "",
+        "id": 151,
+        "question": "A network administrator is troubleshooting an OSPF problem that involves neighbor adjacency. What should the administrator do?",
         "options": [
-            "",
-            "",
-            "",
-            ""
+            "Make sure that the hello and dead interval timers are the same on all routers.",
+            "Make sure that the router ID is included in the hello packet.",
+            "Make sure that the DR/BDR election is complete.",
+            "Make sure that the router priority is unique on each router."
         ],
         "correct": 0,
         "image": null
     },
     {
-        "id": 1,
-        "question": "",
+        "id": 152,
+        "question": "Refer to the exhibit. Internet privileges for an employee have been revoked because of abuse but the employee still needs access to company resources. What is the best ACL type and placement to use in this situation?",
         "options": [
-            "",
-            "",
-            "",
-            ""
+            "standard ACL outbound on R2 WAN interface towards the internet",
+            "standard ACL inbound on R2 WAN interface connecting to the internet",
+            "standard ACL inbound on R1 G0/0",
+            "standard ACL outbound on R1 G0/0"
+        ],
+        "correct": 0,
+        "image": "152.jpg"
+    },
+    {
+        "id": 153,
+        "question": "If a packet with a source address of 192.168.10.244, a destination address of 172.17.200.56, and a protocol of 80 is received on the interface, is the packet permitted or denied?",
+        "options": [
+            "permitted",
+            "denied"
+        ],
+        "correct": 0,
+        "image": "153.jpg"
+    },
+    {
+        "id": 154,
+        "question": "A company has contracted with a network security firm to help identify the vulnerabilities of the corporate network. The firm sends a team to perform penetration tests to the company network. Why would the team use applications such as Nmap, SuperScan, and Angry IP Scanner?",
+        "options": [
+            "to probe network devices, servers, and hosts for open TCP or UDP ports",
+            "to reverse engineer binary files when writing exploits and when analyzing malware",
+            "to detect any evidence of a hack or malware in a computer or network",
+            "to detect installed tools within files and directories that provide threat actors remote access and control over a computer or network"
         ],
         "correct": 0,
         "image": null
     },
     {
-        "id": 1,
-        "question": "",
+        "id": 155,
+        "question": "What command would be used as part of configuring NAT or PAT to display any dynamic PAT translations that have been created by traffic?",
         "options": [
-            "",
-            "",
-            "",
-            ""
+            "show ip nat translations",
+            "show running-config",
+            "show ip cache",
+            "show ip pat translations"
         ],
         "correct": 0,
         "image": null
     },
     {
-        "id": 1,
-        "question": "",
+        "id": 156,
+        "question": "An administrator is configuring single-area OSPF on a router. One of the networks that must be advertised is 172.16.91.0 255.255.255.192. What wildcard mask would the administrator use in the OSPF network statement?",
         "options": [
-            "",
-            "",
-            "",
-            ""
+            "0.0.0.63",
+            "0.0.31.255",
+            "0.0.15.255",
+            "0.0.7.255"
         ],
         "correct": 0,
         "image": null
     },
     {
-        "id": 1,
-        "question": "",
+        "id": 157,
+        "question": "What type of traffic is described as requiring latency to be no more than 400 milliseconds (ms)?",
         "options": [
-            "",
-            "",
-            "",
-            ""
+            "video",
+            "data",
+            "voice"
         ],
         "correct": 0,
         "image": null
     },
     {
-        "id": 1,
-        "question": "",
+        "id": 158,
+        "question": "Refer to the exhibit. Which two configurations would be used to create and apply a standard access list on R1, so that only the 10.0.70.0/25 network devices are allowed to access the internal database server? (Choose two.)",
         "options": [
-            "",
-            "",
-            "",
-            ""
+            "R1(config)# interface GigabitEthernet0/0 R1(config-if)# ip access-group 5 out",
+            "R1(config)# access-list 5 permit 10.0.70.0 0.0.0.127",
+            "R1(config)# access-list 5 permit 10.0.54.0 0.0.1.255",
+            "R1(config)# interface Serial0/0/0 R1(config-if)# ip access-group 5 in",
+            "R1(config)# access-list 5 permit any"
+        ],
+        "correct": [0,1],
+        "image": "158.jpg"
+    },
+    {
+        "id": 159,
+        "question": "A network administrator is writing a standard ACL that will deny any traffic from the 172.16.0.0/16 network, but permit all other traffic. Which two commands should be used? (Choose two.)",
+        "options": [
+            "Router(config)# access-list 95 permit any",
+            "Router(config)# access-list 95 deny 172.16.0.0 0.0.255.255",
+            "Router(config)# access-list 95 deny 172.16.0.0 255.255.0.0",
+            "Router(config)# access-list 95 host 172.16.0.0",
+            "Router(config)# access-list 95 172.16.0.0 255.255.255.255",
+            "Router(config)# access-list 95 deny any"
+        ],
+        "correct": [0,1],
+        "image": null
+    },
+    {
+        "id": 160,
+        "question": "Refer to the exhibit. The company has decided that no traffic initiating from any other existing or future network can be transmitted to the Research and Development network. Furthermore, no traffic that originates from the Research and Development network can be transmitted to any other existing or future networks in the company. The network administrator has decided that extended ACLs are better suited for these requirements. Based on the information given, what will the network administrator do?",
+        "options": [
+            "Two ACLs (one in each direction) will be placed on the R2 Gi0/0 interface.",
+            "One ACL will be placed on the R2 Gi0/0 interface and one ACL will be placed on the R2 S0/0/0 interface.",
+            "Only a numbered ACL will work for this situation.",
+            "One ACL will be placed on the R1 Gi0/0 interface and one ACL will be placed on the R2 Gi0/0 interface."
+        ],
+        "correct": 0,
+        "image": "160.jpg"
+    },
+    {
+        "id": 161,
+        "question": "What protocol uses smaller stratum numbers to indicate that the server is closer to the authorized time source than larger stratum numbers?",
+        "options": [
+            "NTP",
+            "TFTP",
+            "SYSLOG",
+            "MPLS"
         ],
         "correct": 0,
         "image": null
     },
     {
-        "id": 1,
-        "question": "",
+        "id": 162,
+        "question": "Refer to the exhibit. If no router ID was manually configured, what would router Branch1 use as its OSPF router ID?",
         "options": [
-            "",
-            "",
-            "",
-            ""
+            "192.168.1.100",
+            "10.0.0.1",
+            "10.1.0.1",
+            "209.165.201.1"
+        ],
+        "correct": 0,
+        "image": "162.jpg"
+    },
+    {
+        "id": 164,
+        "question": "Refer to the exhibit. A web designer calls to report that the web server web-s1.cisco.com is not reachable through a web browser. The technician uses command line utilities to verify the problem and to begin the troubleshooting process. Which two things can be determined about the problem? (Choose two.)",
+        "options": [
+            "The web server at 192.168.0.10 is reachable from the source host.",
+            "DNS cannot resolve the IP address for the server web-s1.cisco.com.",
+            "A router is down between the source host and the server web-s1.cisco.com.",
+            "There is a problem with the web server software on web-s1.cisco.com.",
+            "The default gateway between the source host and the server at 192.168.0.10 is down."
+        ],
+        "correct": [0,1],
+        "image": null
+    },
+    {
+        "id": 165,
+        "question": "What type of traffic is described as tending to be unpredictable, inconsistent, and bursty?",
+        "options": [
+            "video",
+            "voice",
+            "data"
         ],
         "correct": 0,
         "image": null
     },
-
+    {
+        "id": 166,
+        "question": "Match the functions to the corresponding layers. (Not all options are used.)",
+        "left_items": ["access layer", "distribution layer", "core layer"],
+        "right_items": ["represents the network edge", "implements network access policy", "functions as an aggregator for all the campus blocks"],
+        "correct_matches": [[0, 0], [1, 1], [2, 2]],
+        "image": null,
+        "type": "matching"
+    },
+    {
+        "id": 167,
+        "question": "What type of traffic is described as consisting of traffic that requires a higher priority if interactive?",
+        "options": [
+            "data",
+            "voice",
+            "video"
+        ],
+        "correct": 0,
+        "image": null
+    },
+    {
+        "id": 168,
+        "question": "Which type of VPN provides a flexible option to connect a central site with branch sites?",
+        "options": [
+            "dynamic multipoint VPN",
+            "IPsec virtual tunnel interface",
+            "MPLS VPN",
+            "GRE over IPsec"
+        ],
+        "correct": 0,
+        "image": null
+    },
+    {
+        "id": 169,
+        "question": "A company has contracted with a network security firm to help identify the vulnerabilities of the corporate network. The firm sends a team to perform penetration tests to the company network. Why would the team use fuzzers?",
+        "options": [
+            "to discover security vulnerabilities of a computer",
+            "to detect any evidence of a hack or malware in a computer or network",
+            "to reverse engineer binary files when writing exploits and when analyzing malware",
+            "to detect installed tools within files and directories that provide threat actors remote access and control over a computer or network"
+        ],
+        "correct": 0,
+        "image": null
+    },
+    {
+        "id": 170,
+        "question": "Refer to the exhibit. A network administrator has configured a standard ACL to permit only the two LAN networks attached to R1 to access the network that connects to R2 G0/1 interface, but not the G0/0 interface. When following the best practices, in what location should the standard ACL be applied?",
+        "options": [
+            "R2 G0/0 outbound",
+            "R1 S0/0/0 outbound",
+            "R2 S0/0/1 outbound",
+            "R1 S0/0/0 inbound",
+            "R2 G0/1 inbound"
+        ],
+        "correct": 0,
+        "image": "170.jpg"
+    },
+    {
+        "id": 171,
+        "question": "Two OSPF-enabled routers are connected over a point-to-point link. During the ExStart state, which router will be chosen as the first one to send DBD packets?",
+        "options": [
+            "the router with the highest router ID",
+            "the router with the lowest IP address on the connecting interface",
+            "the router with the highest IP address on the connecting interface",
+            "the router with the lowest router ID"
+        ],
+        "correct": 0,
+        "image": null
+    },
+    {
+        "id": 172,
+        "question": "Which step in the link-state routing process is described by a router sending Hello packets out all of the OSPF-enabled interfaces?",
+        "options": [
+            "establishing neighbor adjacencies",
+            "injecting the default route",
+            "electing the designated router",
+            "exchanging link-state advertisements"
+        ],
+        "correct": 0,
+        "image": null
+    },
+    {
+        "id": 173,
+        "question": "A company has contracted with a network security firm to help identify the vulnerabilities of the corporate network. The firm sends a team to perform penetration tests to the company network. Why would the team use forensic tools?",
+        "options": [
+            "to detect any evidence of a hack or malware in a computer or network",
+            "to obtain specially designed operating systems preloaded with tools optimized for hacking",
+            "to detect installed tools within files and directories that provide threat actors remote access and control over a computer or network",
+            "to reverse engineer binary files when writing exploits and when analyzing malware"
+        ],
+        "correct": 0,
+        "image": null
+    },
+    {
+        "id": 174,
+        "question": "Refer to the exhibit. A network administrator has configured OSPFv2 on the two Cisco routers but PC1 is unable to connect to PC2. What is the most likely problem?",
+        "options": [
+            "Interface Fa0/0 has not been activated for OSPFv2 on router R2.",
+            "Interface Fa0/0 is configured as a passive-interface on router R2.",
+            "Interface S0/0 is configured as a passive-interface on router R2.",
+            "Interface s0/0 has not been activated for OSPFv2 on router R2."
+        ],
+        "correct": 0,
+        "image": "174.jpg"
+    },
+    {
+        "id": 175,
+        "question": "ABCTech is investigating the use of automation for some of its products. In order to control and test these products, the programmers require Windows, Linux, and MAC OS on their computers. What service or technology would support this requirement?",
+        "options": [
+            "virtualization",
+            "Cisco ACI",
+            "software defined networking",
+            "dedicated servers"
+        ],
+        "correct": 0,
+        "image": null
+    },
+    {
+        "id": 176,
+        "question": " A network engineer has noted that some expected network route entries are not displayed in the routing table. Which two commands will provide additional information about the state of router adjacencies, timer intervals, and the area ID? (Choose two.)",
+        "options": [
+            "show ip ospf neighbor",
+            "show ip ospf interface",
+            "show ip protocols",
+            "show running-configuration",
+            "show ip route ospf"
+        ],
+        "correct": [0,1],
+        "image": null
+    },
+    {
+        "id": 177,
+        "question": "Which type of VPN involves the forwarding of traffic over the backbone through the use of labels distributed among core routers?",
+        "options": [
+            "MPLS VPN",
+            "GRE over IPsec",
+            "IPsec virtual tunnel interface",
+            "dynamic multipoint VPN"
+        ],
+        "correct": 0,
+        "image": null
+    },
+    {
+        "id": 178,
+        "question": "Which type of VPN involves a nonsecure tunneling protocol being encapsulated by IPsec?",
+        "options": [
+            "GRE over IPsec",
+            "dynamic multipoint VPN",
+            "SSL VPN",
+            "IPsec virtual tunnel interface"
+        ],
+        "correct": 0,
+        "image": null
+    },
+    {
+        "id": 179,
+        "question": "A company has contracted with a network security firm to help identify the vulnerabilities of the corporate network. The firm sends a team to perform penetration tests to the company network. Why would the team use hacking operation systems?",
+        "options": [
+            "to obtain specially designed operating systems preloaded with tools optimized for hacking",
+            "to detect any evidence of a hack or malware in a computer or network",
+            "to encode data, using algorithm schemes, to prevent unauthorized access to the encrypted data",
+            "to reverse engineer binary files when writing exploits and when analyzing malware"
+        ],
+        "correct": 0,
+        "image": null
+    },
+    {
+        "id": 180,
+        "question": "What command would be used as part of configuring NAT or PAT to identify an interface as part of the external global network?",
+        "options": [
+            "ip nat outside",
+            "ip pat inside",
+            "access-list 10 permit 172.19.89.0 0.0.0.255v",
+            "ip nat inside"
+        ],
+        "correct": 0,
+        "image": null
+    },
+    {
+        "id": 181,
+        "question": "To avoid purchasing new hardware, a company wants to take advantage of idle system resources and consolidate the number of servers while allowing for multiple operating systems on a single hardware platform. What service or technology would support this requirement?",
+        "options": [
+            "virtualization",
+            "data center",
+            "cloud services",
+            "dedicated servers"
+        ],
+        "correct": 0,
+        "image": null
+    },
+    {
+        "id": 182,
+        "question": "Which type of VPN routes packets through virtual tunnel interfaces for encryption and forwarding?",
+        "options": [
+            "IPsec virtual tunnel interface",
+            "MPLS VPN",
+            "dynamic multipoint VPN",
+            "GRE over IPsec"
+        ],
+        "correct": 0,
+        "image": null
+    },
+    {
+        "id": 183,
+        "question": "Which step in the link-state routing process is described by a router flooding link-state and cost information about each directly connected link?",
+        "options": [
+            "exchanging link-state advertisements",
+            "building the topology table",
+            "selecting the router ID",
+            "injecting the default route"
+        ],
+        "correct": 0,
+        "image": null
+    },
+    {
+        "id": 184,
+        "question": "What type of traffic is described as using either TCP or UDP depending on the need for error recovery?",
+        "options": [
+            "data",
+            "video",
+            "voice"
+        ],
+        "correct": 0,
+        "image": null
+    },
+    {
+        "id": 185,
+        "question": "Refer to the exhibit. The company CEO demands that one ACL be created to permit email traffic to the internet and deny FTP access. What is the best ACL type and placement to use in this situation?",
+        "options": [
+            "extended ACL outbound on R2 WAN interface towards the internet",
+            "standard ACL outbound on R2 S0/0/0",
+            "extended ACL inbound on R2 S0/0/0",
+            "standard ACL inbound on R2 WAN interface connecting to the internet"
+        ],
+        "correct": 0,
+        "image": "185.jpg"
+    },
+    {
+        "id": 186,
+        "question": "What command would be used as part of configuring NAT or PAT to define a pool of addresses for translation?",
+        "options": [
+            "ip nat pool POOL-STAT 64.100.14.17 64.100.14.30 netmask 255.255.255.240",
+            "ip nat outside",
+            "ip nat inside source list 24 interface serial 0/1/0 overload",
+            "ip nat inside source static 172.19.89.13 198.133.219.65"
+        ],
+        "correct": 0,
+        "image": null
+    },
+    {
+        "id": 187,
+        "question": "",
+        "options": [
+            "core",
+            "data link",
+            "access",
+            "network",
+            "network access"
+        ],
+        "correct": 0,
+        "image": null
+    },
+    {
+        "id": 188,
+        "question": "If a packet with a source address of 172.18.20.40, a destination address of 10.33.19.2, and a protocol of 21 is received on the interface, is the packet permitted or denied?",
+        "options": [
+            "permitted",
+            "denied"
+        ],
+        "correct": 0,
+        "image": "188.jpg"
+    },
+    {
+        "id": 189,
+        "question": "What type of traffic is described as consisting of traffic that gets a lower priority if it is not mission-critical?",
+        "options": [
+            "data",
+            "video",
+            "voice"
+        ],
+        "correct": 0,
+        "image": null
+    },
+    {
+        "id": 190,
+        "question": "Which OSPF table is identical on all converged routers within the same OSPF area?",
+        "options": [
+            "topology",
+            "adjacency",
+            "neighbor",
+            "routing"
+        ],
+        "correct": 0,
+        "image": null
+    },
+    {
+        "id": 191,
+        "question": "If a packet with a source address of 192.168.10.45, a destination address of 10.10.3.27, and a protocol of 80 is received on the interface, is the packet permitted or denied?",
+        "options": [
+            "permitted",
+            "denied"
+        ],
+        "correct": 0,
+        "image": "191.jpg"
+    },
+    {
+        "id": 192,
+        "question": "What protocol allows the manager to poll agents to access information from the agent MIB?",
+        "options": [
+            "SNMP",
+            "TFTP",
+            "SYSLOG",
+            "CBWFQ"
+        ],
+        "correct": 0,
+        "image": null
+    },
+    {
+        "id": 193,
+        "question": "Match each component of a WAN connection to its description. (Not all options are used.)",
+        "left_items": ["customer premises equipment", "demarcation point", "data terminal equipment", "data communications equipment"],
+        "right_items": ["devices and inside wiring that are located on the enterprise edge and connect to a carrier link", "a point that is established in a building or complex to seperate customer equipment from service provider equipment", "customer devices that pass the data from a customer network for transmission over the WAN", "devices that put data on the local loop", "the point of prescence that is the local service provider facility or building that connects the CPE to the provider network"],
+        "correct_matches": [[0, 0], [1, 1], [2, 2], [3,3]],
+        "image": null,
+        "type": "matching"
+    },
+    {
+        "id": 194,
+        "question": "What type of traffic is described as being able to tolerate a certain amount of latency, jitter, and loss without any noticeable effects?",
+        "options": [
+            "voice",
+            "video",
+            "data"
+        ],
+        "correct": 0,
+        "image": null
+    },
+    {
+        "id": 195,
+        "question": "What term describes adding a value to the packet header, as close to the source as possible, so that the packet matches a defined policy?",
+        "options": [
+            "traffic marking",
+            "policing",
+            "weighted random early detection (WRED)",
+            "traffic shaping",
+            "tail drop"
+        ],
+        "correct": 0,
+        "image": null
+    },
+    {
+        "id": 196,
+        "question": "Which three traffic-related factors would influence selecting a particular WAN link type? (Choose three.)",
+        "options": [
+            "amount of traffic",
+            "security needs",
+            "type of traffic",
+            "cost of the link",
+            "distance between sites",
+            "reliability"
+        ],
+        "correct": [0,1,2],
+        "image": null
+    },
+    {
+        "id": 197,
+        "question": "What command would be used as part of configuring NAT or PAT to link the inside local addresses to the pool of addresses available for PAT translation?",
+        "options": [
+            "ip nat inside source list 14 pool POOL-STAT overload",
+            "ip nat inside source list ACCTNG pool POOL-STAT",
+            "ip nat translation timeout 36000",
+            "ip nat inside source static 172.19.89.13 198.133.219.65"
+        ],
+        "correct": 0,
+        "image": null
+    },
+    {
+        "id": 198,
+        "question": "What protocol is a vendor-neutral Layer 2 discovery protocol that must be configured separately to transmit and receive information packets?",
+        "options": [
+            "LLDP",
+            "SNMP",
+            "MPLS",
+            "NTP"
+        ],
+        "correct": 0,
+        "image": null
+    },
+    {
+        "id": 199,
+        "question": "If a packet with a source address of 172.18.20.55, a destination address of 172.18.20.3, and a protocol of 21 is received on the interface, is the packet permitted or denied?",
+        "options": [
+            "denied",
+            "permitted"
+        ],
+        "correct": 0,
+        "image": "199.jpg"
+    },
+    {
+        "id": 200,
+        "question": "Refer to the exhibit. Corporate policy demands that access to the server network be restricted to internal employees only. What is the best ACL type and placement to use in this situation?",
+        "options": [
+            "extended ACL outbound on R2 S0/0/1",
+            "standard ACL outbound on R2 S0/0/0",
+            "standard ACL inbound on R2 WAN interface connecting to the internet",
+            "extended ACL inbound on R2 S0/0/0"
+        ],
+        "correct": 0,
+        "image": "200.jpg"
+    },
+    {
+        "id": 201,
+        "question": "A technician is working on a Layer 2 switch and notices that a %CDP-4-DUPLEX_MISMATCH message keeps appearing for port G0/5. What command should the technician issue on the switch to start the troubleshooting process?",
+        "options": [
+            "show interface g0/5",
+            "show cdp",
+            "show ip interface brief",
+            "show cdp neighbors"
+        ],
+        "correct": 0,
+        "image": null
+    },
+    {
+        "id": 202,
+        "question": "Which virtual resource would be installed on a network server to provide direct access to hardware resources?",
+        "options": [
+            "a Type 1 hypervisor",
+            "a dedicated VLAN",
+            "a management console",
+            "VMware Fusion"
+        ],
+        "correct": 0,
+        "image": null
+    },
+    {
+        "id": 203,
+        "question": "Refer to the exhibit. A network administrator has configured a standard ACL to permit only the two LAN networks attached to R1 to access the network that connects to R2 G0/1 interface. When following the best practices, in what location should the standard ACL be applied?",
+        "options": [
+            "R2 G0/1 outbound",
+            "R2 G0/1 inbound",
+            "R2 S0/0/1 outbound",
+            "R1 S0/0/0 outbound",
+            "R2 G0/0 outbound"
+        ],
+        "correct": 0,
+        "image": "203.jpg"
+    },
+    {
+        "id": 204,
+        "question": "Which OSPF database is identical on all converged routers within the same OSPF area?",
+        "options": [
+            "link-state",
+            "neighbor",
+            "forwarding",
+            "adjacency"
+        ],
+        "correct": 0,
+        "image": null
+    },
+    {
+        "id": 205,
+        "question": "What are two features to consider when creating a named ACL? (Choose two.)",
+        "options": [
+            "Use alphanumeric characters if needed.",
+            "Be descriptive when creating the ACL name.",
+            "Use special characters, such as ! or * to show the importance of the ACL.",
+            "Modify the ACL using a text editor.",
+            "Use a space for ease of reading to separate the name from the description"
+        ],
+        "correct": 0,
+        "image": null
+    },
+    {
+        "id": 207,
+        "question": "What type of traffic is described as requiring at least 384 Kbps of bandwidth?",
+        "options": [
+            "video",
+            "data",
+            "voice"
+        ],
+        "correct": 0,
+        "image": null
+    },
+    {
+        "id": 208,
+        "question": "Which step in the link-state routing process is described by a router inserting best paths into the routing table?",
+        "options": [
+            "choosing the best route",
+            "load balancing equal-cost paths",
+            "executing the SPF algorithm",
+            "declaring a neighbor to be inaccessible"
+        ],
+        "correct": 0,
+        "image": null
+    },
+    {
+        "id": 209,
+        "question": "Anycompany has decided to reduce its environmental footprint by reducing energy costs, moving to a smaller facility, and promoting telecommuting. What service or technology would support this requirement?",
+        "options": [
+            "cloud services",
+            "virtualization",
+            "data center",
+            "dedicated servers"
+        ],
+        "correct": 0,
+        "image": null
+    },
+    {
+        "id": 210,
+        "question": "Which QoS technique smooths packet output rate?",
+        "options": [
+            "shaping",
+            "policing",
+            "weighted random early detection",
+            "Integrated Services (IntServ)",
+            "marking"
+        ],
+        "correct": 0,
+        "image": null
+    },
+    {
+        "id": 211,
+        "question": "Refer to the exhibit. The company has provided IP phones to employees on the 192.168.10.0/24 network and the voice traffic will need priority over data traffic. What is the best ACL type and placement to use in this situation?",
+        "options": [
+            "extended ACL inbound on R1 G0/0",
+            "extended ACL outbound on R2 WAN interface towards the internet",
+            "extended ACL outbound on R2 S0/0/1",
+            "extended ACLs inbound on R1 G0/0 and G0/1"
+        ],
+        "correct": 0,
+        "image": "211.jpg"
+    },
+    {
+        "id": 212,
+        "question": "A network technician is configuring SNMPv3 and has set a security level of SNMPv3 authPriv. What is a feature of using this level?",
+        "options": [
+            "authenticates a packet by using either the HMAC with MD5 method or the SHA method",
+            "authenticates a packet by using the SHA algorithm only",
+            "authenticates a packet by a string match of the username or community string",
+            "authenticates a packet by using either the HMAC MD5 or HMAC SHA algorithms and a username"
+        ],
+        "correct": 0,
+        "image": null
+    }
 ]
