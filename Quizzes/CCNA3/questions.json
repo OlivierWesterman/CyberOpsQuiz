@@ -1,0 +1,1261 @@
+[
+    {
+        "id": 1,
+        "question": "Which design feature will limit the size of a failure domain in an enterprise network?",
+        "options": [
+            "the purchase of enterprise equipment that is designed for large traffic volume",
+            "the installation of redundant power supplies",
+            "the use of a collapsed core design",
+            "the use of the building switch block approach"
+        ],
+        "correct": 3,
+        "image": null
+    },
+    {
+        "id": 2,
+        "question": "Which two things should a network administrator modify on a router to perform password recovery? (Choose two.)",
+        "options": [
+            "the configuration register value",
+            "the startup configuration file",
+            "system ROM",
+            "the system image file",
+            "the NVRAM file system"
+        ],
+        "correct": [0,1],
+        "image": null
+    },
+    {
+        "id": 3,
+        "question": "What type of network uses one common infrastructure to carry voice, data, and video signals?",
+        "options": [
+            "converged",
+            "managed",
+            "borderless",
+            "switched"
+        ],
+        "correct": 0,
+        "image": null
+    },
+    {
+        "id": 4,
+        "question": "What are three advantages of using private IP addresses and NAT? (Choose three.)",
+        "options": [
+            "hides private LAN addressing from outside devices that are connected to the Internet",
+            "permits LAN expansion without additional public IP addresses",
+            "conserves registered public IP addresses",
+            "reduces CPU usage on customer routers",
+            "creates multiple public IP addresses",
+            "improves the performance of the router that is connected to the Internet"
+        ],
+        "correct": [0,1,2],
+        "image": null
+    },
+    {
+        "id": 5,
+        "question": "Which two scenarios are examples of remote access VPNs? (Choose two.)",
+        "options": [
+            "An employee who is working from home uses VPN client software on a laptop in order to connect to the company network.",
+            "A mobile sales agent is connecting to the company network via the Internet connection at a hotel.",
+            "A toy manufacturer has a permanent VPN connection to one of its parts suppliers.",
+            "A small branch office with three employees has a Cisco ASA that is used to create a VPN connection to the HQ.",
+            "All users at a large branch office can access company resources through a single VPN connection."
+        ],
+        "correct": [0,1],
+        "image": null
+    },
+    {
+        "id": 6,
+        "question": "What are three benefits of cloud computing? (Choose three.)",
+        "options": [
+            "It eliminates or reduces the need for onsite IT equipment, maintenance, and management.",
+            "It streamlines the IT operations of an organization by subscribing only to needed services.",
+            "It enables access to organizational data anywhere and at any time.",
+            "It turns raw data into meaningful information by discovering patterns and relationships.",
+            "It uses open-source software for distributed processing of large datasets.",
+            "It utilizes end-user clients to do a substantial amount of data preprocessing and storage."
+        ],
+        "correct": [0,1,2],
+        "image": null
+    },
+    {
+        "id": 7,
+        "question": "What is a characteristic of a single-area OSPF network?",
+        "options": [
+            "All routers are in the backbone area.",
+            "All routers have the same routing table.",
+            "All routers have the same neighbor table.",
+            "All routers share a common forwarding database."
+        ],
+        "correct": 0,
+        "image": null
+    },
+    {
+        "id": 8,
+        "question": "What is a WAN?",
+        "options": [
+            "a network infrastructure that provides access to other networks over a large geographic area",
+            "a network infrastructure that spans a limited physical area such as a city",
+            "a network infrastructure that provides access in a small geographic area",
+            "a network infrastructure designed to provide data storage, retrieval, and replication"
+        ],
+        "correct": 0,
+        "image": null
+    },
+    {
+        "id": 9,
+        "question": "A network administrator has been tasked with creating a disaster recovery plan. As part of this plan, the administrator is looking for a backup site for all of the data on the company servers. What service or technology would support this requirement?",
+        "options": [
+            "data center",
+            "virtualization",
+            "dedicated servers",
+            "software defined networking"
+        ],
+        "correct": 0,
+        "image": null
+    },
+    {
+        "id": 10,
+        "question": "Which type of OSPF packet is used by a router to discover neighbor routers and establish neighbor adjacency?",
+        "options": [
+            "hello",
+            "link-state update",
+            "database description",
+            "link-state request"
+        ],
+        "correct": 0,
+        "image": null
+    },
+    {
+        "id": 11,
+        "question": "Which two statements are characteristics of a virus? (Choose two.)",
+        "options": [
+            "A virus can be dormant and then activate at a specific time or date.",
+            "A virus typically requires end-user activation.",
+            "A virus replicates itself by independently exploiting vulnerabilities in networks.",
+            "A virus provides the attacker with sensitive data, such as passwords.",
+            "A virus has an enabling vulnerability, a propagation mechanism, and a payload."
+        ],
+        "correct": [0,1],
+        "image": null
+    },
+    {
+        "id": 12,
+        "question": "Which public WAN access technology utilizes copper telephone lines to provide access to subscribers that are multiplexed into a single T3 link connection?",
+        "options": [
+            "DSL",
+            "ISDN",
+            "cable",
+            "dialup"
+        ],
+        "correct": 0,
+        "image": null
+    },
+    {
+        "id": 13,
+        "question": "A customer needs a metropolitan area WAN connection that provides high-speed, dedicated bandwidth between two sites. Which type of WAN connection would best fulfill this need?",
+        "options": [
+            "Ethernet WAN",
+            "packet-switched network",
+            "circuit-switched network",
+            "MPLS"
+        ],
+        "correct": 0,
+        "image": null
+    },
+    {
+        "id": 14,
+        "question": "A company has contracted with a network security firm to help identify the vulnerabilities of the corporate network. The firm sends a team to perform penetration tests to the company network. Why would the team use debuggers?",
+        "options": [
+            "to reverse engineer binary files when writing exploits and when analyzing malware",
+            "to detect installed tools within files and directories that provide threat actors remote access and control over a computer or network",
+            "to obtain specially designed operating systems preloaded with tools optimized for hacking",
+            "to detect any evidence of a hack or malware in a computer or network"
+        ],
+        "correct": 0,
+        "image": null
+    },
+    {
+        "id": 15,
+        "question": "Consider the following output for an ACL that has been applied to a router via the access-class in command. What can a network administrator determine from the output that is shown?",
+        "options": [
+            "Two devices were able to use SSH or Telnet to gain access to the router.",
+            "Two devices connected to the router have IP addresses of 192.168.10. x .",
+            "Traffic from one device was not allowed to come into one router port and be routed outbound a different router port.",
+            "Traffic from two devices was allowed to enter one router port and be routed outbound to a different router port."
+        ],
+        "correct": 0,
+        "image": "15.jpg"
+    },
+    {
+        "id": 16,
+        "question": "What command would be used as part of configuring NAT or PAT to clear dynamic entries before the timeout has expired?",
+        "options": [
+            "clear ip nat translation",
+            "clear ip dhcp",
+            "clear access-list counters",
+            "clear ip pat statistics"
+        ],
+        "correct": 0,
+        "image": null
+    },
+    {
+        "id": 17,
+        "question": "What are two characteristics of video traffic? (Choose two.)",
+        "options": [
+            "Video traffic latency should not exceed 400 ms.",
+            "Video traffic is unpredictable and inconsistent.",
+            "Video traffic requires a minimum of 30 kbs of bandwidth.",
+            "Video traffic is more resilient to loss than voice traffic is.",
+            "Video traffic consumes less network resources than voice traffic consumes."
+        ],
+        "correct": [0,1],
+        "image": null
+    },
+    {
+        "id": 18,
+        "question": "Refer to the exhibit. A technician is configuring R2 for static NAT to allow the client to access the web server. What is a possible reason that the client PC cannot access the web server?",
+        "options": [
+            "Interface S0/0/0 should be identified as the outside NAT interface.",
+            "The configuration is missing a valid access control list.",
+            "Interface Fa0/1 should be identified as the outside NAT interface.",
+            "The IP NAT statement is incorrect."
+        ],
+        "correct": 0,
+        "image": "18.jpg"
+    },
+    {
+        "id": 19,
+        "question": "In setting up a small office network, the network administrator decides to assign private IP addresses dynamically to workstations and mobile devices. Which feature must be enabled on the company router in order for office devices to access the internet?",
+        "options": [
+            "NAT",
+            "UPnP",
+            "QoS",
+            "MAC filtering"
+        ],
+        "correct": 0,
+        "image": null
+    },
+    {
+        "id": 20,
+        "question": "A data center has recently updated a physical server to host multiple operating systems on a single CPU. The data center can now provide each customer with a separate web server without having to allocate an actual discrete server for each customer. What is the networking trend that is being implemented by the data center in this situation?",
+        "options": [
+            "virtualization",
+            "online collaboration",
+            "BYOD",
+            "maintaining communication integrity"
+        ],
+        "correct": 0,
+        "image": null
+    },
+    {
+        "id": 21,
+        "question": " Refer to the exhibit. Which address or addresses represent the inside global address?",
+        "options": [
+            "209.165.20.25",
+            "any address in the 10.1.1.0 network",
+            "10.1.1.2",
+            "192.168.0.100"
+        ],
+        "correct": 0,
+        "image": "21.jpg"
+    },
+    {
+        "id": 22,
+        "question": "Which two IPsec protocols are used to provide data integrity?",
+        "options": [
+            "MD5",
+            "SHA",
+            "AES",
+            "DH",
+            "RSA"
+        ],
+        "correct": [0,1],
+        "image": null
+    },
+    {
+        "id": 23,
+        "question": "If an outside host does not have the Cisco AnyConnect client preinstalled, how would the host gain access to the client image?",
+        "options": [
+            "The host initiates a clientless VPN connection using a compliant web browser to download the client.",
+            "The Cisco AnyConnect client is installed by default on most major operating systems.",
+            "The host initiates a clientless connection to a TFTP server to download the client.",
+            "The host initiates a clientless connection to an FTP server to download the client."
+        ],
+        "correct": 0,
+        "image": null
+    },
+    {
+        "id": 24,
+        "question": "A company is considering updating the campus WAN connection. Which two WAN options are examples of the private WAN architecture? (Choose two.)",
+        "options": [
+            "leased line",
+            "Ethernet WAN",
+            "cable",
+            "digital subscriber line",
+            "municipal Wi-Fi"
+        ],
+        "correct": [0,1],
+        "image": null
+    },
+    {
+        "id": 25,
+        "question": "Which type of QoS marking is applied to Ethernet frames?",
+        "options": [
+            "CoS",
+            "ToS",
+            "DSCP",
+            "IP precedence"
+        ],
+        "correct": 0,
+        "image": null
+    },
+    {
+        "id": 26,
+        "question": "Refer to the exhibit. Routers R1 and R2 are connected via a serial link. One router is configured as the NTP master, and the other is an NTP client. Which two pieces of information can be obtained from the partial output of the show ntp associations detail command on R2? (Choose two.)",
+        "options": [
+            "Router R1 is the master, and R2 is the client",
+            "The IP address of R1 is 192.168.1.2",
+            "Router R2 is the master, and R1 is the client",
+            "The IP address of R2 is 192 168.1.2.",
+            "Both routers are configured to use NTPv2."
+        ],
+        "correct": [0,1],
+        "image": "26.jpg"
+    },
+    {
+        "id": 27,
+        "question": "Refer to the exhibit. The network administrator that has the IP address of 10.0.70.23/25 needs to have access to the corporate FTP server (10.0.54.5/28). The FTP server is also a web server that is accessible to all internal employees on networks within the 10.x.x.x address. No other traffic should be allowed to this server. Which extended ACL would be used to filter this traffic, and how would this ACL be applied? (Choose two.)",
+        "options": [
+            "R1(config)# interface gi0/0 R1(config-if)# ip access-group 105 out",
+            "access-list 105 permit tcp host 10.0.70.23 host 10.0.54.5 eq 20 access-list 105 permit tcp host 10.0.70.23 host 10.0.54.5 eq 21 access-list 105 permit tcp 10.0.0.0 0.255.255.255 host 10.0.54.5 eq www access-list 105 deny ip any host 10.0.54.5 access-list 105 permit ip any any",
+            "R1(config)# interface s0/0/0 R1(config-if)# ip access-group 105 out R2(config)# interface gi0/0  R2(config-if)# ip access-group 105 in",
+            "access-list 105 permit tcp host 10.0.54.5 any eq www access-list 105 permit tcp host 10.0.70.23 host 10.0.54.5 eq 20 access-list 105 permit tcp host 10.0.70.23 host 10.0.54.5 eq 21",
+            "access-list 105 permit ip host 10.0.70.23 host 10.0.54.5 access-list 105 permit tcp any host 10.0.54.5 eq www access-list 105 permit ip any any"
+        ],
+        "correct": [0,1],
+        "image": "27.jpg"
+    },
+    {
+        "id": 28,
+        "question": "Refer to the exhibit. If the network administrator created a standard ACL that allows only devices that connect to the R2 G0/0 network access to the devices on the R1 G0/1 interface, how should the ACL be applied?",
+        "options": [
+            "outbound on the R1 G0/1 interface",
+            "inbound on the R2 G0/0 interface",
+            "inbound on the R1 G0/1 interface",
+            "outbound on the R2 S0/0/1 interface"
+        ],
+        "correct": 0,
+        "image": "28.jpg"
+    },
+    {
+        "id": 29,
+        "question": "Which is a characteristic of a Type 2 hypervisor?​",
+        "options": [
+            "does not require management console software",
+            "has direct access to server hardware resources",
+            "best suited for enterprise environments",
+            "installs directly on hardware"
+        ],
+        "correct": 0,
+        "image": null
+    },
+    {
+        "id": 30,
+        "question": "What are the two types of VPN connections? (Choose two.)",
+        "options": [
+            "remote access",
+            "site-to-site",
+            "Frame Relay",
+            "PPPoE",
+            "leased line"
+        ],
+        "correct": [0,1],
+        "image": null
+    },
+    {
+        "id": 31,
+        "question": "Refer to the exhibit. What three conclusions can be drawn from the displayed output? (Choose three.)",
+        "options": [
+            "The DR can be reached through the GigabitEthernet 0/0 interface.",
+            "There have been 9 seconds since the last hello packet sent.",
+            "The router ID values were not the criteria used to select the DR and the BDR.",
+            "This interface is using the default priority.",
+            "The router ID on the DR router is 3.3.3.3",
+            "The BDR has three neighbors."
+        ],
+        "correct": [0,1,2],
+        "image": "31.jpg"
+    },
+    {
+        "id": 32,
+        "question": "Refer to the exhibit. A network administrator is configuring an ACL to limit the connection to R1 vty lines to only the IT group workstations in the network 192.168.22.0/28. The administrator verifies the successful Telnet connections from a workstation with IP 192.168.22.5 to R1 before the ACL is applied. However, after the ACL is applied to the interface Fa0/0, Telnet connections are denied. What is the cause of the connection failure?",
+        "options": [
+            "The IT group network is included in the deny statement.",
+            "The enable secret password is not configured on R1.",
+            "The permit ACE specifies a wrong port number",
+            "The permit ACE should specify protocol ip instead of tcp.",
+            "The login command has not been entered for vty lines."
+        ],
+        "correct": 0,
+        "image": "32.jpg"
+    },
+    {
+        "id": 33,
+        "question": "What functionality does mGRE provide to the DMVPN technology?",
+        "options": [
+            "It allows the creation of dynamically allocated tunnels through a permanent tunnel source at the hub and dynamically allocated tunnel destinations at the spokes.",
+            "It provides secure transport of private information over public networks, such as the Internet.",
+            "It is a Cisco software solution for building multiple VPNs in an easy, dynamic, and scalable manner.",
+            "It creates a distributed mapping database of public IP addresses for all VPN tunnel spokes."
+        ],
+        "correct": 0,
+        "image": null
+    },
+    {
+        "id": 34,
+        "question": "What is used to pre-populate the adjacency table on Cisco devices that use CEF to process packets?",
+        "options": [
+            "the ARP table",
+            "the FIB",
+            "the routing table",
+            "the DSP"
+        ],
+        "correct": 0,
+        "image": null
+    },
+    {
+        "id": 35,
+        "question": "What command would be used as part of configuring NAT or PAT to display information about NAT configuration parameters and the number of addresses in the pool?",
+        "options": [
+            "show ip nat statistics",
+            "show running-config",
+            "show ip cache",
+            "show version"
+        ],
+        "correct": 0,
+        "image": null
+    },
+    {
+        "id": 36,
+        "question": "What is a purpose of establishing a network baseline?",
+        "options": [
+            "It creates a point of reference for future network evaluations.",
+            "It provides a statistical average for network performance.",
+            "It manages the performance of network devices.",
+            "It checks the security configuration of network devices."
+        ],
+        "correct": 0,
+        "image": null
+    },
+    {
+        "id": 37,
+        "question": "Match the type of WAN device or service to the description. (Not all options are used.)",
+        "left_items": ["CPE", "DCE", "DTE", "local loop"],
+        "right_items": ["devices and inside wiring that are located on the enterprise edge and connect to a carrier link", "devices that provide an interface for customers to connect to within the WAN cloud", "customer devices that pass the data from a customer network for transmission over the WAN", "a physical connection from the customer to the service provider POP", "location where the responsibility for the connection changes from the customer to the service provider", "service provider facility that connects the CPE to the provider network"],
+        "correct_matches": [[0, 0], [1, 1], [2, 2], [3,3]],
+        "image": null,
+        "type": "matching"
+    },
+    {
+        "id": 38,
+        "question": "Which statement describes a characteristic of standard IPv4 ACLs?",
+        "options": [
+            "They filter traffic based on source IP addresses only.",
+            "They can be created with a number but not with a name.",
+            "They are configured in the interface configuration mode.",
+            "They can be configured to filter traffic based on both source IP addresses and source ports."
+        ],
+        "correct": 0,
+        "image": null
+    },
+    {
+        "id": 39,
+        "question": "Refer to the exhibit. R1 is configured for NAT as displayed. What is wrong with the configuration?",
+        "options": [
+            "NAT-POOL2 is not bound to ACL 1.",
+            "Interface Fa0/0 should be identified as an outside NAT interface.",
+            "The NAT pool is incorrect.",
+            "Access-list 1 is misconfigured."
+        ],
+        "correct": 0,
+        "image": "39.jpg"
+    },
+    {
+        "id": 40,
+        "question": "Refer to the exhibit. What method can be used to enable an OSPF router to advertise a default route to neighboring OSPF routers?",
+        "options": [
+            "Use the default-information originate command on R0-A.",
+            "Use the default-information originate command on ISP.",
+            "Use the redistribute static command on R0-A.",
+            "Use a static route pointing to the ISP and redistribute it."
+        ],
+        "correct": 0,
+        "image": "40.jpg"
+    },
+    {
+        "id": 41,
+        "question": "A company has contracted with a network security firm to help identify the vulnerabilities of the corporate network. The firm sends a team to perform penetration tests to the company network. Why would the team use applications such as John the Ripper,THC Hydra, RainbowCrack, and Medusa?",
+        "options": [
+            "to make repeated guesses in order to crack a password",
+            "to probe and test the robustness of a firewall by using specially created forged packets",
+            "to capture and analyze packets within traditional Ethernet LANs or WLANs"
+        ],
+        "correct": 0,
+        "image": null
+    },
+    {
+        "id": 42,
+        "question": "What are two syntax rules for writing a JSON array? (Choose two.)",
+        "options": [
+            "Each value in the array is separated by a comma.",
+            "Values are enclosed in square brackets.",
+            "A semicolon separates the key and list of values.",
+            "A space must separate each value in the array.",
+            "The array can include only one value type."
+        ],
+        "correct": [0,1],
+        "image": null
+    },
+    {
+        "id": 43,
+        "question": "What is a characteristic of a Trojan horse as it relates to network security?",
+        "options": [
+            "Malware is contained in a seemingly legitimate executable program.",
+            "An electronic dictionary is used to obtain a password to be used to infiltrate a key network device.",
+            "Extreme quantities of data are sent to a particular network device interface.",
+            "Too much information is destined for a particular memory block, causing additional memory areas to be affecte"
+        ],
+        "correct": 0,
+        "image": null
+    },
+    {
+        "id": 44,
+        "question": "An attacker is redirecting traffic to a false default gateway in an attempt to intercept the data traffic of a switched network. What type of attack could achieve this?",
+        "options": [
+            "DHCP spoofing",
+            "TCP SYN flood",
+            "DNS tunneling",
+            "ARP cache poisoning"
+        ],
+        "correct": 0,
+        "image": null
+    },
+    {
+        "id": 45,
+        "question": "A company is developing a security policy for secure communication. In the exchange of critical messages between a headquarters office and a branch office, a hash value should only be recalculated with a predetermined code, thus ensuring the validity of data source. Which aspect of secure communications is addressed?",
+        "options": [
+            "origin authentication",
+            "non-repudiation",
+            "data integrity",
+            "data confidentiality"
+        ],
+        "correct": 0,
+        "image": null
+    },
+    {
+        "id": 46,
+        "question": "A company has contracted with a network security firm to help identify the vulnerabilities of the corporate network. The firm sends a team to perform penetration tests to the company network. Why would the team use packet sniffers?",
+        "options": [
+            "to capture and analyze packets within traditional Ethernet LANs or WLANs",
+            "to probe and test the robustness of a firewall by using specially created forged packets",
+            "to detect any evidence of a hack or malware in a computer or network",
+            "to detect installed tools within files and directories that provide threat actors remote access and control over a computer or network"
+        ],
+        "correct": 0,
+        "image": null
+    },
+    {
+        "id": 47,
+        "question": "An administrator is configuring single-area OSPF on a router. One of the networks that must be advertised is 172.20.0.0 255.255.252.0. What wildcard mask would the administrator use in the OSPF network statement?",
+        "options": [
+            "0.0.3.255",
+            "0.0.15.255",
+            "0.0.7.255",
+            "0.0.1.255"
+        ],
+        "correct": 0,
+        "image": null
+    },
+    {
+        "id": 48,
+        "question": "Match the HTTP method with the RESTful operation.",
+        "left_items": ["POST", "GET", "PUT/PATCH", "Delete"],
+        "right_items": ["Create", "Read", "Update/Replace/Modify", "Delete"],
+        "correct_matches": [[0, 0], [1, 1], [2, 2]],
+        "image": null,
+        "type": "matching"
+    },
+    {
+        "id": 49,
+        "question": "Refer to the exhibit. What is the OSPF cost to reach the West LAN 172.16.2.0/24 from East?​",
+        "options": [
+            "65",
+            "128",
+            "74",
+            "782"
+        ],
+        "correct": 0,
+        "image": "49.jpg"
+    },
+    {
+        "id": 50,
+        "question": "What is one reason to use the ip ospf priority command when the OSPF routing protocol is in use?",
+        "options": [
+            "to influence the DR/BDR election process",
+            "to activate the OSPF neighboring process",
+            "to provide a backdoor for connectivity during the convergence process",
+            "to streamline and speed up the convergence process"
+        ],
+        "correct": 0,
+        "image": null
+    },
+    {
+        "id": 51,
+        "question": "An ACL is applied inbound on a router interface. The ACL consists of a single entry: access-list 210 permit tcp 172.18.20.0 0.0.0.31 172.18.20.32 0.0.0.31 eq ftp .  If a packet with a source address of 172.18.20.14, a destination address of 172.18.20.40, and a protocol of 21 is received on the interface, is the packet permitted or denied?",
+        "options": [
+            "permitted",
+            "denied"
+        ],
+        "correct": 0,
+        "image": null
+    },
+    {
+        "id": 52,
+        "question": "What is a characteristic of the two-tier spine-leaf topology of the Cisco ACI fabric architecture?​",
+        "options": [
+            "The leaf switches always attach to the spines, but they never attach to each other.",
+            "The leaf switches always attach to the spines and they are interlinked through a trunk line.",
+            "The spine switches attach to the leaf switches and attach to each other for redundancy.",
+            "The spine and leaf switches are always linked through core switches."
+        ],
+        "correct": 0,
+        "image": null
+    },
+    {
+        "id": 53,
+        "question": "Which two scenarios would result in a duplex mismatch? (Choose two.)",
+        "options": [
+            "connecting a device with autonegotiation to another that is manually set to full-duplex",
+            "manually setting the two connected devices to different duplex modes",
+            "starting and stopping a router interface during a normal operation",
+            "connecting a device with an interface running at 100 Mbps to another with an interface running at 1000 Mbps",
+            "configuring dynamic routing incorrectly"
+        ],
+        "correct": [0,1],
+        "image": null
+    },
+    {
+        "id": 54,
+        "question": "A network technician is configuring SNMPv3 and has set a security level of auth . What is the effect of this setting?",
+        "options": [
+            "authenticates a packet by using either the HMAC with MD5 method or the SHA method",
+            "authenticates a packet by a string match of the username or community string",
+            "authenticates a packet by using either the HMAC MD5 or 3.HMAC SHA algorithms and encrypts the packet with either the DES, 3DES or AES algorithms",
+            "authenticates a packet by using the SHA algorithm only"
+        ],
+        "correct": 0,
+        "image": null
+    },
+    {
+        "id": 55,
+        "question": "What are two types of attacks used on DNS open resolvers? (Choose two.)",
+        "options": [
+            "amplification and reflection",
+            "resource utilization",
+            "fast flux",
+            "ARP poisoning",
+            "cushioning"
+        ],
+        "correct": [0,1],
+        "image": null
+    },
+    {
+        "id": 57,
+        "question": " Which type of resources are required for a Type 1 hypervisor?",
+        "options": [
+            "a management console",
+            "a dedicated VLAN",
+            "a host operating system",
+            "a server running VMware Fusion"
+        ],
+        "correct": 0,
+        "image": null
+    },
+    {
+        "id": 58,
+        "question": "In JSON, what is held within square brackets [ ]?",
+        "options": [
+            "an array",
+            "an object",
+            "key/value pairs",
+            "nested values"
+        ],
+        "correct": 0,
+        "image": null
+    },
+    {
+        "id": 59,
+        "question": "What are three components used in the query portion of a typical RESTful API request? (Choose three.)",
+        "options": [
+            "parameters",
+            "key",
+            "format",
+            "API server",
+            "protocol",
+            "resources"
+        ],
+        "correct": [0,1,2],
+        "image": null
+    },
+    {
+        "id": 60,
+        "question": "A user reports that when the corporate web page URL is entered on a web browser, an error message indicates that the page cannot be displayed. The help-desk technician asks the user to enter the IP address of the web server to see if the page can be displayed. Which troubleshooting method is being used by the technician?",
+        "options": [
+            "divide-and-conquer",
+            "bottom-up",
+            "top-down",
+            "substitution"
+        ],
+        "correct": 0,
+        "image": null
+    },
+    {
+        "id": 61,
+        "question": "Which protocol provides authentication, integrity, and confidentiality services and is a type of VPN?",
+        "options": [
+            "IPsec",
+            "MD5",
+            "AES",
+            "ESP"
+        ],
+        "correct": 0,
+        "image": null
+    },
+    {
+        "id": 62,
+        "question": "Which statement describes a characteristic of Cisco Catalyst 2960 switches?",
+        "options": [
+            "New Cisco Catalyst 2960-C switches support PoE pass-through.",
+            "They are best used as distribution layer switches.",
+            "They are modular switches.",
+            "They do not support an active switched virtual interface (SVI) with IOS versions prior to 15.x."
+        ],
+        "correct": 0,
+        "image": null
+    },
+    {
+        "id": 63,
+        "question": "Which component of the ACI architecture translates application policies into network programming?",
+        "options": [
+            "the Application Policy Infrastructure Controller",
+            "the hypervisor​",
+            "the Application Network Profile endpoints",
+            "the Nexus 9000 switch"
+        ],
+        "correct": 0,
+        "image": null
+    },
+    {
+        "id": 64,
+        "question": "Which two pieces of information should be included in a logical topology diagram of a network? (Choose two.)",
+        "options": [
+            "connection type",
+            "interface identifier",
+            "device type",
+            "cable specification",
+            "OS/IOS version",
+            "cable type and identifier"
+        ],
+        "correct": [0,1],
+        "image": null
+    },
+    {
+        "id": 65,
+        "question": "Refer to the exhibit. A PC at address 10.1.1.45 is unable to access the Internet. What is the most likely cause of the problem?",
+        "options": [
+            "The NAT pool has been exhausted.",
+            "The wrong netmask was used on the NAT pool",
+            "Access-list 1 has not been configured properly.",
+            "The inside and outside interfaces have been configured backwards."
+        ],
+        "correct": 0,
+        "image": null
+    },
+    {
+        "id": 66,
+        "question": "What are two benefits of using SNMP traps? (Choose two.)",
+        "options": [
+            "They reduce the load on network and agent resources.",
+            "They eliminate the need for some periodic polling requests.",
+            "They limit access for management systems only.",
+            "They can provide statistics on TCP/IP packets that flow through Cisco devices.",
+            "They can passively listen for exported NetFlow datagrams."
+        ],
+        "correct": [0,1],
+        "image": null
+    },
+    {
+        "id": 67,
+        "question": "Which statement accurately describes a characteristic of IPsec?",
+        "options": [
+            "IPsec is a framework of open standards that relies on existing algorithms.",
+            "IPsec works at the transport layer and protects data at the network layer.",
+            "IPsec is a framework of proprietary standards that depend on Cisco specific algorithms.",
+            "IPsec is a framework of standards developed by Cisco that relies on OSI algorithms.",
+            "IPsec works at the application layer and protects all application data."
+        ],
+        "correct": 0,
+        "image": null
+    },
+    {
+        "id": 68,
+        "question": "In a large enterprise network, which two functions are performed by routers at the distribution layer? (Choose two.)",
+        "options": [
+            "provide data traffic security",
+            "connect remote networks",
+            "provide Power over Ethernet to devices",
+            "provide a high-speed network backbone",
+            "connect users to the network"
+        ],
+        "correct": [0,1],
+        "image": null
+    },
+    {
+        "id": 69,
+        "question": "Which two statements describe the use of asymmetric algorithms? (Choose two.)",
+        "options": [
+            "If a public key is used to encrypt the data, a private key must be used to decrypt the data.",
+            "If a public key is used to encrypt the data, a private key must be used to decrypt the data.",
+            "If a public key is used to encrypt the data, a public key must be used to decrypt the data.",
+            "Public and private keys may be used interchangeably.",
+            "If a private key is used to encrypt the data, a private key must be used to decrypt the data."
+        ],
+        "correct": [0,1],
+        "image": null
+    },
+    {
+        "id": 70,
+        "question": "Refer to the exhibit. A network administrator has deployed QoS and has configured the network to mark traffic on the VoIP phones as well as the Layer 2 and Layer 3 switches. Where should initial marking occur to establish the trust boundary?",
+        "options": [
+            "Trust Boundary 1",
+            "Trust Boundary 2",
+            "Trust Boundary 3",
+            "Trust Boundary 4"
+        ],
+        "correct": 0,
+        "image": null
+    },
+    {
+        "id": 71,
+        "question": "What are two benefits of extending access layer connectivity to users through a wireless medium? (Choose two.)",
+        "options": [
+            "reduced costs",
+            "increased flexibility",
+            "decreased number of critical points of failure",
+            "increased bandwidth availability",
+            "increased network management options"
+        ],
+        "correct": [0,1],
+        "image": null
+    },
+    {
+        "id": 72,
+        "question": "What are two purposes of launching a reconnaissance attack on a network? (Choose two.)",
+        "options": [
+            "to scan for accessibility",
+            "to gather information about the network and devices",
+            "to retrieve and modify data",
+            "to prevent other users from accessing the system",
+            "to escalate access privileges"
+        ],
+        "correct": [0,1],
+        "image": null
+    },
+    {
+        "id": 73,
+        "question": "A group of users on the same network are all complaining about their computers running slowly. After investigating, the technician determines that these computers are part of a zombie network. Which type of malware is used to control these computers?",
+        "options": [
+            "botnet",
+            "spyware",
+            "virus",
+            "rootkit"
+        ],
+        "correct": 0,
+        "image": null
+    },
+    {
+        "id": 74,
+        "question": "An ACL is applied inbound on a router interface. The ACL consists of a single entry: access-list 101 permit tcp 10.1.1.0 0.0.0.255 host 192.31.7.45 eq dns . If a packet with a source address of 10.1.1.201, a destination address of 192.31.7.45, and a protocol of 23 is received on the interface, is the packet permitted or denied?",
+        "options": [
+            "denied",
+            "permitted"
+        ],
+        "correct": 0,
+        "image": null
+    },
+    {
+        "id": 75,
+        "question": "Refer to the exhibit. From which location did this router load the IOS?",
+        "options": [
+            "flash memory",
+            "NVRAM",
+            "RAM",
+            "ROM",
+            "a TFTP server"
+        ],
+        "correct": 0,
+        "image": "75.jpg"
+    },
+    {
+        "id": 76,
+        "question": "Refer to the exhibit. Which data format is used to represent the data for network automation applications?",
+        "options": [
+            "JSON",
+            "HTML",
+            "YAML",
+            "XML"
+        ],
+        "correct": 0,
+        "image": "76.jpg"
+    },
+    {
+        "id": 77,
+        "question": "What QoS step must occur before packets can be marked?",
+        "options": [
+            "classifying",
+            "shaping",
+            "queuing",
+            "policing"
+        ],
+        "correct": 0,
+        "image": null
+    },
+    {
+        "id": 78,
+        "question": "What is the main function of a hypervisor?",
+        "options": [
+            "It is used to create and manage multiple VM instances on a host machine.",
+            "It is a device that filters and checks security credentials.",
+            "It is a device that synchronizes a group of sensors.",
+            "It is software used to coordinate and prepare data for analysis.",
+            "It is used by ISPs to monitor cloud computing resources."
+        ],
+        "correct": 0,
+        "image": null
+    },
+    {
+        "id": 79,
+        "question": "A company needs to interconnect several branch offices across a metropolitan area. The network engineer is seeking a solution that provides high-speed converged traffic, including voice, video, and data on the same network infrastructure. The company also wants easy integration to their existing LAN infrastructure in their office locations. Which technology should be recommended?",
+        "options": [
+            "Ethernet WAN",
+            "Frame Relay",
+            "VSAT",
+            "ISDN"
+        ],
+        "correct": 0,
+        "image": null
+    },
+    {
+        "id": 80,
+        "question": "Refer to the exhibit. As traffic is forwarded out an egress interface with QoS treatment, which congestion avoidance technique is used?",
+        "options": [
+            "traffic policing",
+            "classification and marking",
+            "weighted random early detection",
+            "traffic shaping"
+        ],
+        "correct": 0,
+        "image": "80.jpg"
+    },
+    {
+        "id": 82,
+        "question": "Refer to the exhibit. What is the purpose of the command marked with an arrow shown in the partial configuration output of a Cisco broadband router?",
+        "options": [
+            "defines which addresses can be translated",
+            "defines which addresses are allowed into the router",
+            "defines which addresses are assigned to a NAT pool",
+            "defines which addresses are allowed out of the router"
+        ],
+        "correct": 0,
+        "image": "82.jpg"
+    },
+    {
+        "id": 83,
+        "question": "If a router has two interfaces and is routing both IPv4 and IPv6 traffic, how many ACLs could be created and applied to it?",
+        "options": [
+            "8",
+            "12",
+            "4",
+            "16",
+            "6"
+        ],
+        "correct": 0,
+        "image": null
+    },
+    {
+        "id": 84,
+        "question": "Refer to the exhibit. An administrator first configured an extended ACL as shown by the output of the show access-lists command. The administrator then edited this access-list by issuing the commands below. Which two conclusions can be drawn from this new configuration?​ (Choose two.)",
+        "options": [
+            "Ping packets will be permitted.",
+            "SSH packets will be permitted.",
+            "TFTP packets will be permitted.​",
+            "Telnet packets will be permitted.",
+            "All TCP and UDP packets will be denied.​"
+        ],
+        "correct": [0,1],
+        "image": "84.jpg"
+    },
+    {
+        "id": 85,
+        "question": "Which troubleshooting approach is more appropriate for a seasoned network administrator rather than a less-experienced network administrator?",
+        "options": [
+            "a less-structured approach based on an educated guess",
+            "an approach comparing working and nonworking components to spot significant differences",
+            "a structured approach starting with the physical layer and moving up through the layers of the OSI model until the cause of the problem is identified",
+            "an approach that starts with the end-user applications and moves down through the layers of the OSI model until the cause of the problem has been identified"
+        ],
+        "correct": 0,
+        "image": null
+    },
+    {
+        "id": 86,
+        "question": "Refer to the exhibit. Many employees are wasting company time accessing social media on their work computers. The company wants to stop this access. What is the best ACL type and placement to use in this situation?",
+        "options": [
+            "extended ACLs inbound on R1 G0/0 and G0/1",
+            "standard ACL outbound on R2 S0/0/0",
+            "standard ACL outbound on R2 WAN interface towards the internet",
+            "extended ACL outbound on R2 WAN interface towards the internet"
+        ],
+        "correct": 0,
+        "image": "86.jpg"
+    },
+    {
+        "id": 87,
+        "question": "Refer to the exhibit. An administrator is trying to configure PAT on R1, but PC-A is unable to access the Internet. The administrator tries to ping a server on the Internet from PC-A and collects the debugs that are shown in the exhibit. Based on this output, what is most likely the cause of the problem?",
+        "options": [
+            "The inside global address is not on the same subnet as the ISP",
+            "The inside and outside NAT interlaces have been configured backwards",
+            "The address on Fa0/0 should be 64.100.0.1.",
+            "The NAT source access list matches the wrong address range."
+        ],
+        "correct": 0,
+        "image": "87.jpg"
+    },
+    {
+        "id": 88,
+        "question": "Why is QoS an important issue in a converged network that combines voice, video, and data communications?",
+        "options": [
+            "Voice and video communications are more sensitive to latency.",
+            "Data communications must be given the first priority.",
+            "Legacy equipment is unable to transmit voice and video without QoS.",
+            "Data communications are sensitive to jitter."
+        ],
+        "correct": 0,
+        "image": null
+    },
+    {
+        "id": 1,
+        "question": "",
+        "options": [
+            "",
+            "",
+            "",
+            ""
+        ],
+        "correct": 0,
+        "image": null
+    },
+    {
+        "id": 1,
+        "question": "",
+        "options": [
+            "",
+            "",
+            "",
+            ""
+        ],
+        "correct": 0,
+        "image": null
+    },
+    {
+        "id": 1,
+        "question": "",
+        "options": [
+            "",
+            "",
+            "",
+            ""
+        ],
+        "correct": 0,
+        "image": null
+    },
+    {
+        "id": 1,
+        "question": "",
+        "options": [
+            "",
+            "",
+            "",
+            ""
+        ],
+        "correct": 0,
+        "image": null
+    },
+    {
+        "id": 1,
+        "question": "",
+        "options": [
+            "",
+            "",
+            "",
+            ""
+        ],
+        "correct": 0,
+        "image": null
+    },
+    {
+        "id": 1,
+        "question": "",
+        "options": [
+            "",
+            "",
+            "",
+            ""
+        ],
+        "correct": 0,
+        "image": null
+    },
+    {
+        "id": 1,
+        "question": "",
+        "options": [
+            "",
+            "",
+            "",
+            ""
+        ],
+        "correct": 0,
+        "image": null
+    },
+    {
+        "id": 1,
+        "question": "",
+        "options": [
+            "",
+            "",
+            "",
+            ""
+        ],
+        "correct": 0,
+        "image": null
+    },
+    {
+        "id": 1,
+        "question": "",
+        "options": [
+            "",
+            "",
+            "",
+            ""
+        ],
+        "correct": 0,
+        "image": null
+    },
+    {
+        "id": 1,
+        "question": "",
+        "options": [
+            "",
+            "",
+            "",
+            ""
+        ],
+        "correct": 0,
+        "image": null
+    },
+    {
+        "id": 1,
+        "question": "",
+        "options": [
+            "",
+            "",
+            "",
+            ""
+        ],
+        "correct": 0,
+        "image": null
+    },
+    {
+        "id": 1,
+        "question": "",
+        "options": [
+            "",
+            "",
+            "",
+            ""
+        ],
+        "correct": 0,
+        "image": null
+    },
+    {
+        "id": 1,
+        "question": "",
+        "options": [
+            "",
+            "",
+            "",
+            ""
+        ],
+        "correct": 0,
+        "image": null
+    },
+    {
+        "id": 1,
+        "question": "",
+        "options": [
+            "",
+            "",
+            "",
+            ""
+        ],
+        "correct": 0,
+        "image": null
+    },
+    {
+        "id": 1,
+        "question": "",
+        "options": [
+            "",
+            "",
+            "",
+            ""
+        ],
+        "correct": 0,
+        "image": null
+    },
+    {
+        "id": 1,
+        "question": "",
+        "options": [
+            "",
+            "",
+            "",
+            ""
+        ],
+        "correct": 0,
+        "image": null
+    },
+    {
+        "id": 1,
+        "question": "",
+        "options": [
+            "",
+            "",
+            "",
+            ""
+        ],
+        "correct": 0,
+        "image": null
+    }
+
+]
