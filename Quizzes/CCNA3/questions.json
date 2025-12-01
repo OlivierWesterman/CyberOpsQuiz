@@ -1054,6 +1054,394 @@
         "image": null
     },
     {
+        "id": 89,
+        "question": "Which statement describes a VPN?",
+        "options": [
+            "VPNs use virtual connections to create a private network through a public network.",
+            "VPNs use dedicated physical connections to transfer data between remote users.",
+            "VPNs use open source virtualization software to create the tunnel through the Internet.",
+            "VPNs use logical connections to create public networks through the Internet."
+        ],
+        "correct": 0,
+        "image": null
+    },
+    {
+        "id": 90,
+        "question": "In which OSPF state is the DR/BDR election conducted?",
+        "options": [
+            "Two-Way",
+            "ExStart",
+            "Init",
+            "Exchange"
+        ],
+        "correct": 0,
+        "image": null
+    },
+    {
+        "id": 91,
+        "question": "Two corporations have just completed a merger. The network engineer has been asked to connect the two corporate networks without the expense of leased lines. Which solution would be the most cost effective method of providing a proper and secure connection between the two corporate networks?",
+        "options": [
+            "site-to-site VPN",
+            "Cisco AnyConnect Secure Mobility Client with SSL",
+            "remote access VPN using IPsec",
+            "Frame Relay",
+            "Cisco Secure Mobility Clientless SSL VPN"
+        ],
+        "correct": 0,
+        "image": null
+    },
+    {
+        "id": 92,
+        "question": "What is the final operational state that will form between an OSPF DR and a DROTHER once the routers reach convergence?",
+        "options": [
+            "full",
+            "loading",
+            "established",
+            "two-way"
+        ],
+        "correct": 0,
+        "image": null
+    },
+    {
+        "id": 93,
+        "question": "Refer to the exhibit. If the switch reboots and all routers have to re-establish OSPF adjacencies, which routers will become the new DR and BDR?",
+        "options": [
+            "Router R3 will become the DR and router R1 will become the BDR.",
+            "Router R4 will become the DR and router R3 will become the BDR.",
+            "Router R1 will become the DR and router R2 will become the BDR.",
+            "Router R3 will become the DR and router R2 will become the BDR."
+        ],
+        "correct": 0,
+        "image": "93.jpg"
+    },
+    {
+        "id": 93,
+        "question": "Refer to the exhibit. If the switch reboots and all routers have to re-establish OSPF adjacencies, which routers will become the new DR and BDR?",
+        "options": [
+            "Router R1 will become the DR and router R3 will become the BDR.",
+            "Router R2 will become the DR and router R4 will become the BDR.",
+            "Router R4 will become the DR and router R3 will become the BDR.",
+            "Router R3 will become the DR and router R2 will become the BDR."
+        ],
+        "correct": 0,
+        "image": "93B.jpg"
+    },
+    {
+        "id": 94,
+        "question": "Which type of server would be used to keep a historical record of messages from monitored network devices?",
+        "options": [
+            "syslog",
+            "DNS",
+            "print",
+            "DHCP",
+            "authentication"
+        ],
+        "correct": 0,
+        "image": null
+    },
+    {
+        "id": 95,
+        "question": "When QoS is implemented in a converged network, which two factors can be controlled to improve network performance for real-time traffic? (Choose two.)",
+        "options": [
+            "jitter",
+            "delay",
+            "packet addressing",
+            "packet routing",
+            "link speed"
+        ],
+        "correct": [0,1],
+        "image": null
+    },
+    {
+        "id": 96,
+        "question": "In which step of gathering symptoms does the network engineer determine if the problem is at the core, distribution, or access layer of the network?",
+        "options": [
+            "Narrow the scope.",
+            "Determine the symptoms.",
+            "Determine ownership.",
+            "Document the symptoms.",
+            "Gather information."
+        ],
+        "correct": 0,
+        "image": null
+    },
+    {
+        "id": 97,
+        "question": "What protocol sends periodic advertisements between connected Cisco devices in order to learn device name, IOS version, and the number and type of interfaces?",
+        "options": [
+            "CDP",
+            "SNMP",
+            "NTP",
+            "LLDP"
+        ],
+        "correct": 0,
+        "image": null
+    },
+    {
+        "id": 98,
+        "question": "An administrator is configuring single-area OSPF on a router. One of the networks that must be advertised is 192.168.0.0 255.255.252.0. What wildcard mask would the administrator use in the OSPF network statement?",
+        "options": [
+            "0.0.3.255",
+            "0.0.0.31",
+            "0.0.0.127",
+            "0.0.0.63"
+        ],
+        "correct": 0,
+        "image": null
+    },
+    {
+        "id": 99,
+        "question": "Refer to the exhibit. An administrator configures the following ACL in order to prevent devices on the 192.168.1.0 subnet from accessing the server at 10.1.1.5. Where should the administrator place this ACL for the most efficient use of network resources?",
+        "options": [
+            "inbound on router A Fa0/0",
+            "outbound on router B Fa0/0",
+            "outbound on router A Fa0/1",
+            "inbound on router B Fa0/1"
+        ],
+        "correct": 0,
+        "image": "99.jpg"
+    },
+    {
+        "id": 100,
+        "question": "Which type of OSPFv2 packet is used to forward OSPF link change information?",
+        "options": [
+            "link-state update",
+            "hello",
+            "link-state acknowledgment",
+            "database description"
+        ],
+        "correct": 0,
+        "image": null
+    },
+    {
+        "id": 101,
+        "question": "What protocol synchronizes with a private master clock or with a publicly available server on the internet?",
+        "options": [
+            "NTP",
+            "TFTP",
+            "CBWFQ",
+            "MPLS"
+        ],
+        "correct": 0,
+        "image": null
+    },
+    {
+        "id": 102,
+        "question": "Which type of VPN allows multicast and broadcast traffic over a secure site-to-site VPN?",
+        "options": [
+            "GRE over IPsec",
+            "IPsec virtual tunnel interface",
+            "SSL VPN",
+            "dynamic multipoint VPN"
+        ],
+        "correct": 0,
+        "image": null
+    },
+    {
+        "id": 103,
+        "question": "An OSPF router has three directly connected networks; 10.0.0.0/16, 10.1.0.0/16, and 10.2.0.0/16. Which OSPF network command would advertise only the 10.1.0.0 network to neighbors?",
+        "options": [
+            "router(config-router)# network 10.1.0.0 0.0.255.255 area 0",
+            "router(config-router)# network 10.1.0.0 0.0.15.255 area 0",
+            "router(config-router)# network 10.1.0.0 255.255.255.0 area 0",
+            "router(config-router)# network 10.1.0.0 0.0.0.0 area 0"
+        ],
+        "correct": 0,
+        "image": null
+    },
+    {
+        "id": 104,
+        "question": "Refer to the exhibit. Which sequence of commands should be used to configure router A for OSPF?",
+        "options": [
+            "router ospf 1 network 192.168.10.64 0.0.0.63 area 0 network 192.168.10.192 0.0.0.3 area 0",
+            "router ospf 1 network 192.168.10.64 255.255.255.192 network 192.168.10.192 255.255.255.252",
+            "router ospf 1 network 192.168.10.0",
+            "router ospf 1 network 192.168.10.0 area 0"
+        ],
+        "correct": 0,
+        "image": null
+    },
+    {
+        "id": 1,
+        "question": "",
+        "options": [
+            "",
+            "",
+            "",
+            ""
+        ],
+        "correct": 0,
+        "image": null
+    },
+    {
+        "id": 1,
+        "question": "",
+        "options": [
+            "",
+            "",
+            "",
+            ""
+        ],
+        "correct": 0,
+        "image": null
+    },
+    {
+        "id": 1,
+        "question": "",
+        "options": [
+            "",
+            "",
+            "",
+            ""
+        ],
+        "correct": 0,
+        "image": null
+    },
+    {
+        "id": 1,
+        "question": "",
+        "options": [
+            "",
+            "",
+            "",
+            ""
+        ],
+        "correct": 0,
+        "image": null
+    },
+    {
+        "id": 1,
+        "question": "",
+        "options": [
+            "",
+            "",
+            "",
+            ""
+        ],
+        "correct": 0,
+        "image": null
+    },
+    {
+        "id": 1,
+        "question": "",
+        "options": [
+            "",
+            "",
+            "",
+            ""
+        ],
+        "correct": 0,
+        "image": null
+    },
+    {
+        "id": 1,
+        "question": "",
+        "options": [
+            "",
+            "",
+            "",
+            ""
+        ],
+        "correct": 0,
+        "image": null
+    },
+    {
+        "id": 1,
+        "question": "",
+        "options": [
+            "",
+            "",
+            "",
+            ""
+        ],
+        "correct": 0,
+        "image": null
+    },
+    {
+        "id": 1,
+        "question": "",
+        "options": [
+            "",
+            "",
+            "",
+            ""
+        ],
+        "correct": 0,
+        "image": null
+    },
+    {
+        "id": 1,
+        "question": "",
+        "options": [
+            "",
+            "",
+            "",
+            ""
+        ],
+        "correct": 0,
+        "image": null
+    },
+    {
+        "id": 1,
+        "question": "",
+        "options": [
+            "",
+            "",
+            "",
+            ""
+        ],
+        "correct": 0,
+        "image": null
+    },
+    {
+        "id": 1,
+        "question": "",
+        "options": [
+            "",
+            "",
+            "",
+            ""
+        ],
+        "correct": 0,
+        "image": null
+    },
+    {
+        "id": 1,
+        "question": "",
+        "options": [
+            "",
+            "",
+            "",
+            ""
+        ],
+        "correct": 0,
+        "image": null
+    },
+    {
+        "id": 1,
+        "question": "",
+        "options": [
+            "",
+            "",
+            "",
+            ""
+        ],
+        "correct": 0,
+        "image": null
+    },
+    {
+        "id": 1,
+        "question": "",
+        "options": [
+            "",
+            "",
+            "",
+            ""
+        ],
+        "correct": 0,
+        "image": null
+    },
+    {
         "id": 1,
         "question": "",
         "options": [
@@ -1256,6 +1644,234 @@
         ],
         "correct": 0,
         "image": null
-    }
-
+    },
+    {
+        "id": 1,
+        "question": "",
+        "options": [
+            "",
+            "",
+            "",
+            ""
+        ],
+        "correct": 0,
+        "image": null
+    },
+    {
+        "id": 1,
+        "question": "",
+        "options": [
+            "",
+            "",
+            "",
+            ""
+        ],
+        "correct": 0,
+        "image": null
+    },
+    {
+        "id": 1,
+        "question": "",
+        "options": [
+            "",
+            "",
+            "",
+            ""
+        ],
+        "correct": 0,
+        "image": null
+    },
+    {
+        "id": 1,
+        "question": "",
+        "options": [
+            "",
+            "",
+            "",
+            ""
+        ],
+        "correct": 0,
+        "image": null
+    },
+    {
+        "id": 1,
+        "question": "",
+        "options": [
+            "",
+            "",
+            "",
+            ""
+        ],
+        "correct": 0,
+        "image": null
+    },
+    {
+        "id": 1,
+        "question": "",
+        "options": [
+            "",
+            "",
+            "",
+            ""
+        ],
+        "correct": 0,
+        "image": null
+    },
+    {
+        "id": 1,
+        "question": "",
+        "options": [
+            "",
+            "",
+            "",
+            ""
+        ],
+        "correct": 0,
+        "image": null
+    },
+    {
+        "id": 1,
+        "question": "",
+        "options": [
+            "",
+            "",
+            "",
+            ""
+        ],
+        "correct": 0,
+        "image": null
+    },
+    {
+        "id": 1,
+        "question": "",
+        "options": [
+            "",
+            "",
+            "",
+            ""
+        ],
+        "correct": 0,
+        "image": null
+    },
+    {
+        "id": 1,
+        "question": "",
+        "options": [
+            "",
+            "",
+            "",
+            ""
+        ],
+        "correct": 0,
+        "image": null
+    },
+    {
+        "id": 1,
+        "question": "",
+        "options": [
+            "",
+            "",
+            "",
+            ""
+        ],
+        "correct": 0,
+        "image": null
+    },
+    {
+        "id": 1,
+        "question": "",
+        "options": [
+            "",
+            "",
+            "",
+            ""
+        ],
+        "correct": 0,
+        "image": null
+    },
+    {
+        "id": 1,
+        "question": "",
+        "options": [
+            "",
+            "",
+            "",
+            ""
+        ],
+        "correct": 0,
+        "image": null
+    },
+    {
+        "id": 1,
+        "question": "",
+        "options": [
+            "",
+            "",
+            "",
+            ""
+        ],
+        "correct": 0,
+        "image": null
+    },
+    {
+        "id": 1,
+        "question": "",
+        "options": [
+            "",
+            "",
+            "",
+            ""
+        ],
+        "correct": 0,
+        "image": null
+    },
+    {
+        "id": 1,
+        "question": "",
+        "options": [
+            "",
+            "",
+            "",
+            ""
+        ],
+        "correct": 0,
+        "image": null
+    },
+    {
+        "id": 1,
+        "question": "",
+        "options": [
+            "",
+            "",
+            "",
+            ""
+        ],
+        "correct": 0,
+        "image": null
+    },
+    {
+        "id": 1,
+        "question": "",
+        "options": [
+            "",
+            "",
+            "",
+            ""
+        ],
+        "correct": 0,
+        "image": null
+    },
+    {
+        "id": 1,
+        "question": "",
+        "options": [
+            "",
+            "",
+            "",
+            ""
+        ],
+        "correct": 0,
+        "image": null
+    },
+    
 ]
