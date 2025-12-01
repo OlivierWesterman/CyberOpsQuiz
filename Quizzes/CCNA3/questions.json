@@ -1262,16 +1262,567 @@
         "image": null
     },
     {
-        "id": 1,
-        "question": "",
+        "id": 105,
+        "question": "An administrator is configuring single-area OSPF on a router. One of the networks that must be advertised is 192.168.0.0 255.255.254.0. What wildcard mask would the administrator use in the OSPF network statement?",
         "options": [
-            "",
-            "",
-            "",
-            ""
+            "0.0.1.255",
+            "0.0.7.255",
+            "0.0.3.255",
+            "0.0.15.255"
         ],
         "correct": 0,
         "image": null
+    },
+    {
+        "id": 106,
+        "question": "How does virtualization help with disaster recovery within a data center?",
+        "options": [
+            "support of live migration",
+            "improvement of business practices",
+            "supply of consistent air flow",
+            "guarantee of power"
+        ],
+        "correct": 0,
+        "image": null
+    },
+    {
+        "id": 106,
+        "question": "How does virtualization help with disaster recovery within a data center?",
+        "options": [
+            "Hardware at the recovery site does not have to be identical to production equipment.",
+            "Server provisioning is faster.",
+            "Less energy is consumed.",
+            "Power is always provided."
+        ],
+        "correct": 0,
+        "image": null
+    },
+    {
+        "id": 107,
+        "question": "How does virtualization help with disaster recovery within a data center?",
+        "options": [
+            "Hardware does not have to be identical.",
+            "Power is always provided.",
+            "Less energy is consumed.",
+            "Server provisioning is faster"
+        ],
+        "correct": 0,
+        "image": null
+    },
+    {
+        "id": 107,
+        "question": "How does virtualization help with disaster recovery within a data center?",
+        "options": [
+            "Hardware at the recovery site does not have to be identical to production equipment.",
+            "Hardware does not have to be identical.",
+            "Less energy is consumed.",
+            "Server provisioning is faster"
+        ],
+        "correct": 0,
+        "image": null
+    },
+    {
+        "id": 108,
+        "question": "Refer to the exhibit. Which devices exist in the failure domain when switch S3 loses power?",
+        "options": [
+            "PC_3 and AP_2",
+            "S4 and PC_2",
+            "AP_2 and AP_1",
+            "PC_3 and PC_2",
+            "S1 and S4"
+        ],
+        "correct": 0,
+        "image": "108.jpg"
+    },
+    {
+        "id": 109,
+        "question": "Which set of access control entries would allow all users on the 192.168.10.0/24 network to access a web server that is located at 172.17.80.1, but would not allow them to use Telnet?",
+        "options": [
+            "access-list 103 permit tcp 192.168.10.0 0.0.0.255 host 172.17.80.1 eq 80 access-list 103 deny tcp ​192.168.10.0 0.0.0.255 any eq 23",
+            "access-list 103 permit tcp 192.168.10.0 0.0.0.255 any eq 80 access-list 103 deny tcp 192.168.10.0 0.0.0.255 any eq 23",
+            "access-list 103 permit 192.168.10.0 0.0.0.255 host 172.17.80.1 access-list 103 deny tcp 192.168.10.0 0.0.0.255 any eq telnet​​",
+            "access-list 103 deny tcp host 192.168.10.0 any eq 23 access-list 103 permit tcp host 192.168.10.1 eq 80"
+        ],
+        "correct": 0,
+        "image": null
+    },
+    {
+        "id": 110,
+        "question": "Refer to the exhibit. A network administrator needs to add an ACE to the TRAFFIC-CONTROL ACL that will deny IP traffic from the subnet 172.23.16.0/20. Which ACE will meet this requirement?",
+        "options": [
+            "5 deny 172.23.16.0 0.0.15.255",
+            "5 deny 172.23.16.0 0.0.255.255",
+            "15 deny 172.23.16.0 0.0.15.255",
+            "30 deny 172.23.16.0 0.0.15.255"
+        ],
+        "correct": 0,
+        "image": "110.jpg"
+    },
+    {
+        "id": 111,
+        "question": "Which step in the link-state routing process is described by a router building a link-state database based on received LSAs?",
+        "options": [
+            "building the topology table",
+            "executing the SPF algorithm",
+            "selecting the router ID",
+            "declaring a neighbor to be inaccessible"
+        ],
+        "correct": 0,
+        "image": null
+    },
+    {
+        "id": 112,
+        "question": "What protocol uses agents, that reside on managed devices, to collect and store information about the device and its operation?",
+        "options": [
+            "SNMP",
+            "CBWFQ",
+            "TFTP",
+            "SYSLOG"
+        ],
+        "correct": 0,
+        "image": null
+    },
+    {
+        "id": 113,
+        "question": "An administrator is configuring single-area OSPF on a router. One of the networks that must be advertised is 10.27.27.0 255.255.255.0. What wildcard mask would the administrator use in the OSPF network statement?",
+        "options": [
+            "0.0.0.255",
+            "0.0.0.63",
+            "0.0.0.31",
+            "0.0.0.15"
+        ],
+        "correct": 0,
+        "image": null
+    },
+    {
+        "id": 114,
+        "question": "When will an OSPF-enabled router transition from the Down state to the Init state?",
+        "options": [
+            "when an OSPF-enabled interface becomes active",
+            "as soon as the router starts",
+            "when the router receives a hello packet from a neighbor router",
+            "as soon as the DR/BDR election process is complete"
+        ],
+        "correct": 0,
+        "image": null
+    },
+    {
+        "id": 115,
+        "question": "What type of traffic is described as having a high volume of data per packet?",
+        "options": [
+            "video",
+            "data",
+            "voice"
+        ],
+        "correct": 0,
+        "image": null
+    },
+    {
+        "id": 116,
+        "question": "What protocol is a vendor-neutral Layer 2 protocol that advertises the identity and capabilities of the host device to other connected network devices?",
+        "options": [
+            "LLDP",
+            "NTP",
+            "TFTP",
+            "SNMP"
+        ],
+        "correct": 0,
+        "image": null
+    },
+    {
+        "id": 117,
+        "question": "Which step in the link-state routing process is described by a router running an algorithm to determine the best path to each destination?",
+        "options": [
+            "executing the SPF algorithm",
+            "declaring a neighbor to be inaccessible",
+            "selecting the router ID",
+            "building the topology table"
+        ],
+        "correct": 0,
+        "image": null
+    },
+    {
+        "id": 118,
+        "question": "Refer to the exhibit. Which conclusion can be drawn from this OSPF multiaccess network?",
+        "options": [
+            "With an election of the DR, the number of adjacencies is reduced from 6 to 3.",
+            "If the DR stops producing Hello packets, a BDR will be elected, and then it promotes itself to assume the role of DR.​",
+            "When a DR is elected all other non-DR routers become DROTHER.",
+            "​All DROTHER routers will send LSAs to the DR and BDR to multicast 224.0.0.5."
+        ],
+        "correct": 0,
+        "image": "118.jpg"
+    },
+    {
+        "id": 119,
+        "question": "Refer to the exhibit. The network administrator has an IP address of 192.168.11.10 and needs access to manage R1. What is the best ACL type and placement to use in this situation?",
+        "options": [
+            "standard ACL inbound on R1 vty lines",
+            "extended ACL outbound on R2 WAN interface towards the internet",
+            "extended ACLs inbound on R1 G0/0 and G0/1",
+            "extended ACL outbound on R2 S0/0/1"
+        ],
+        "correct": 0,
+        "image": "119.jpg"
+    },
+    {
+        "id": 120,
+        "question": "Which type of VPN connects using the Transport Layer Security (TLS) feature?",
+        "options": [
+            "SSL VPN",
+            "IPsec virtual tunnel interface",
+            "GRE over IPsec",
+            "dynamic multipoint VPN"
+        ],
+        "correct": 0,
+        "image": null
+    },
+    {
+        "id": 121,
+        "question": "Which group of APIs are used by an SDN controller to communicate with various applications?",
+        "options": [
+            "northbound APIs",
+            "eastbound APIs",
+            "westbound APIs",
+            "southbound APIs"
+        ],
+        "correct": 0,
+        "image": null
+    },
+    {
+        "id": 122,
+        "question": "A company has consolidated a number of servers and it is looking for a program or firmware to create and control virtual machines which have access to all the hardware of the consolidated servers. What service or technology would support this requirement?",
+        "options": [
+            "Type-1 hypervisor",
+            "Cisco ACI",
+            "software defined networking",
+            "APIC-EM"
+        ],
+        "correct": 0,
+        "image": null
+    },
+    {
+        "id": 123,
+        "question": "What command would be used as part of configuring NAT or PAT to identify inside local addresses that are to be translated?",
+        "options": [
+            "access-list 10 permit 172.19.89.0 0.0.0.255",
+            "ip nat inside source list 24 interface serial 0/1/0 overload",
+            "ip nat inside source list 14 pool POOL-STAT overload",
+            "ip nat inside source list ACCTNG pool POOL-STAT"
+        ],
+        "correct": 0,
+        "image": null
+    },
+    {
+        "id": 124,
+        "question": "Anycompany has decided to reduce its environmental footprint by reducing energy costs, moving to a smaller facility, and promoting telecommuting, what service or technology would support requirement?",
+        "options": [
+            "Cloud services",
+            "Data center",
+            "APIC-EM",
+            "Cisco ACI"
+        ],
+        "correct": 0,
+        "image": null
+    },
+    {
+        "id": 125,
+        "question": "Refer to the exhibit. An administrator is trying to back up the current running configuration of the router to a USB drive, and enters the command copy usbflash0:/R1-config running-config on the router command line. After removing the USB drive and connecting it to a PC, the administrator discovers that the running configuration was not properly backed up to the R1-config file. What is the problem?",
+        "options": [
+            "The command that the administrator used was incorrect.",
+            "The USB drive is not recognized by the router.",
+            "There is no space left on the USB drive.",
+            "The drive was not properly formatted with the FAT16 file system.",
+            "The file already exists on the USB drive and cannot be overwritten."
+        ],
+        "correct": 0,
+        "image": "125.jpg"
+    },
+    {
+        "id": 126,
+        "question": "Which three types of VPNs are examples of enterprise-managed site-to-site VPNs? (Choose three.)",
+        "options": [
+            "IPsec VPN",
+            "Cisco Dynamic Multipoint VPN",
+            "GRE over IPsec VPN",
+            "Layer 3 MPLS VPN",
+            "clientless SSL VPN",
+            "client-based IPsec VPN"
+        ],
+        "correct": [0,1,2],
+        "image": null
+    },
+    {
+        "id": 127,
+        "question": "Refer to the exhibit. Employees on 192.168.11.0/24 work on critically sensitive information and are not allowed access off their network. What is the best ACL type and placement to use in this situation?",
+        "options": [
+            "standard ACL inbound on R1 G0/1",
+            "standard ACL inbound on R1 vty lines",
+            "extended ACL inbound on R1 G0/0",
+            "extended ACL inbound on R3 S0/0/1"
+        ],
+        "correct": 0,
+        "image": "127.jpg"
+    },
+    {
+        "id": 128,
+        "question": "In an OSPF network which two statements describe the link-state database (LSDB)? (Choose two.)",
+        "options": [
+            "It can be viewed by using the show ip ospf database command.",
+            "All routers within an area have an identical link-state database.",
+            "A neighbor table is created based on the LSDB.",
+            "It contains a list of only the best routes to a particular network.",
+            "It contains a list of all neighbor routers to which a router has established bidirectional communication."
+        ],
+        "correct": [0,1],
+        "image": null
+    },
+    {
+        "id": 129,
+        "question": "In an OSPF network which OSPF structure is used to create the neighbor table on a router?",
+        "options": [
+            "adjacency database",
+            "link-state database",
+            "routing table",
+            "forwarding database"
+        ],
+        "correct": 0,
+        "image": null
+    },
+    {
+        "id": 130,
+        "question": "What protocol is used in a system that consists of three elements--a manager, agents, and an information database?",
+        "options": [
+            "SNMP",
+            "MPLS",
+            "SYSLOG",
+            "TFTP"
+        ],
+        "correct": 0,
+        "image": null
+    },
+    {
+        "id": 131,
+        "question": "What type of traffic is described as not resilient to loss?",
+        "options": [
+            "video",
+            "data",
+            "voice"
+        ],
+        "correct": 0,
+        "image": null
+    },
+    {
+        "id": 132,
+        "question": "Refer to the exhibit. Router R1 is configured with static NAT. Addressing on the router and the web server are correctly configured, but there is no connectivity between the web server and users on the Internet. What is a possible reason for this lack of connectivity?",
+        "options": [
+            "The router NAT configuration has an incorrect inside local address.",
+            "Interface Fa0/0 should be configured with the command ip nat outside ",
+            "The inside global address is incorrect.",
+            "The NAT configuration on interface S0/0/1 is incorrect."
+        ],
+        "correct": 0,
+        "image": "132.jpg"
+    },
+    {
+        "id": 133,
+        "question": "Which type of API would be used to allow authorized salespeople of an organization access to internal sales data from their mobile devices?",
+        "options": [
+            "private",
+            "public",
+            "partner",
+            "open"
+        ],
+        "correct": 0,
+        "image": null
+    },
+    {
+        "id": 134,
+        "question": "Refer to the exhibit. Which data format is used to represent the data for network automation applications?",
+        "options": [
+            "XML",
+            "HTML",
+            "YAML",
+            "JSON"
+        ],
+        "correct": 0,
+        "image": "134.jpg"
+    },
+    {
+        "id": 135,
+        "question": "If a packet with a source address of 198.133.219.100, a destination address of 198.133.219.170, and a protocol of 23 is received on the interface, is the packet permitted or denied?",
+        "options": [
+            "denied",
+            "permitted"
+        ],
+        "correct": 0,
+        "image": "135.jpg"
+    },
+    {
+        "id": 136,
+        "question": "Refer to the exhibit. If no router ID was manually configured, what would router R1 use as its OSPF router ID?",
+        "options": [
+            "192.168.1.100",
+            "10.0.0.1",
+            "10.1.0.1",
+            "209.165.201.1"
+        ],
+        "correct": 0,
+        "image": "136.jpg"
+    },
+    {
+        "id": 137,
+        "question": "What protocol is a vendor-neutral Layer 2 protocol that advertises the identity and capabilities of the host device to other connected network devices?",
+        "options": [
+            "LLDP",
+            "NTP",
+            "SNMP",
+            "MPLS"
+        ],
+        "correct": 0,
+        "image": null
+    },
+    {
+        "id": 138,
+        "question": "Which type of VPN uses a hub-and-spoke configuration to establish a full mesh topology?",
+        "options": [
+            "dynamic multipoint VPN",
+            "IPsec virtual tunnel interface",
+            "GRE over IPsec",
+            "MPLS VPN"
+        ],
+        "correct": 0,
+        "image": null
+    },
+    {
+        "id": 139,
+        "question": "What is a characteristic of the REST API?",
+        "options": [
+            "most widely used API for web services",
+            "considered slow, complex, and rigid",
+            "used for exchanging XML structured information over HTTP or SMTP",
+            "evolved into what became SOAP"
+        ],
+        "correct": 0,
+        "image": null
+    },
+    {
+        "id": 141,
+        "question": "A student, doing a summer semester of study overseas, has taken hundreds of pictures on a smartphone and wants to back them up in case of loss. What service or technology would support this requirement?",
+        "options": [
+            "cloud services",
+            "Cisco ACI",
+            "software defined networking",
+            "dedicated servers"
+        ],
+        "correct": 0,
+        "image": null
+    },
+    {
+        "id": 142,
+        "question": "Which method would allow the network administrator to modify the ACL and include FTP transfers from any source IP address?",
+        "options": [
+            "R1(config)# interface gi0/0 R1(config-if)# no ip access-group 105 out R1(config)# no access-list 105 R1(config)# access-list 105 permit udp host 10.0.70.23 host 10.0.54.5 range 1024 5000 R1(config)# access-list 105 permit tcp any host 10.0.54.5 eq 20 R1(config)# access-list 105 permit tcp any host 10.0.54.5 eq 21 R1(config)# access-list 105 deny ip any any R1(config)# interface gi0/0 R1(config-if)# ip access-group 105 out",
+            "R1(config)# access-list 105 permit udp host 10.0.70.23 host 10.0.54.5 range 1024 5000 R1(config)# access-list 105 permit tcp any host 10.0.54.5 eq 20 R1(config)# access-list 105 permit tcp any host 10.0.54.5 eq 21 R1(config)# access-list 105 deny ip any any",
+            "R1(config)# access-list 105 permit tcp any host 10.0.54.5 eq 20 R1(config)# access-list 105 permit tcp any host 10.0.54.5 eq 21",
+            "R1(config)# interface gi0/0 R1(config-if)# no ip access-group 105 out R1(config)# access-list 105 permit tcp any host 10.0.54.5 eq 20 R1(config)# access-list 105 permit tcp any host 10.0.54.5 eq 21 R1(config)# interface gi0/0 R1(config-if)# ip access-group 105 out"
+        ],
+        "correct": 0,
+        "image": null
+    },
+    {
+        "id": 143,
+        "question": "Which three statements are generally considered to be best practices in the placement of ACLs? (Choose three.)",
+        "options": [
+            "Filter unwanted traffic before it travels onto a low-bandwidth link.",
+            "Place standard ACLs close to the destination IP address of the traffic.",
+            "Place extended ACLs close to the source IP address of the traffic.",
+            "Place standard ACLs close to the source IP address of the traffic.",
+            "Place extended ACLs close to the destination IP address of the traffic.",
+            "For every inbound ACL placed on an interface, there should be a matching outbound ACL."
+        ],
+        "correct": [0,1,2],
+        "image": null
+    },
+    {
+        "id": 144,
+        "question": "Match the term to the web link http://www.buycarsfromus.com/2020models/ford/suv.html#Escape component. (Not all options are used.)",
+        "left_items": ["protocol", "Uniform Resource Name (URN)", "Uniform Resource Locator (URL)", "Uniform Resource Identifier (URI)", "fragment"],
+        "right_items": ["http", "www.buycarsfromus.com/2020models/ford/suv.html", "http://www.buycarsfromus.com/2020models/ford/suv.html", "http://www.buycarsfromus.com/2020models/ford/suv.html#Escape", "#Escape"],
+        "correct_matches": [[0, 0], [1, 1], [2, 2], [3,3], [4,4]],
+        "image": null,
+        "type": "matching"
+    },
+    {
+        "id": 145,
+        "question": "What command would be used as part of configuring NAT or PAT to display all static translations that have been configured?",
+        "options": [
+            "show ip nat translations",
+            "show ip pat translations",
+            "show ip cache",
+            "show running-config"
+        ],
+        "correct": 0,
+        "image": null
+    },
+    {
+        "id": 146,
+        "question": "A network administrator modified an OSPF-enabled router to have a hello timer setting of 20 seconds. What is the new dead interval time setting by default?",
+        "options": [
+            "80 seconds",
+            "40 seconds",
+            "60 seconds",
+            "100 seconds"
+        ],
+        "correct": 0,
+        "image": null
+    },
+    {
+        "id": 147,
+        "question": "Which type of VPN is the preferred choice for support and ease of deployment for remote access?",
+        "options": [
+            "SSL VPN",
+            "GRE over IPsec",
+            "dynamic multipoint VPN",
+            "IPsec virtual tunnel interface"
+        ],
+        "correct": 0,
+        "image": null
+    },
+    {
+        "id": 148,
+        "question": "What type of traffic is described as predictable and smooth?",
+        "options": [
+            "voice",
+            "data",
+            "video"
+        ],
+        "correct": 0,
+        "image": null
+    },
+    {
+        "id": 149,
+        "question": "Which queuing mechanism has no provision for prioritizing or buffering but simply forwards packets in the order they arrive?",
+        "options": [
+            "FIFO",
+            "LLQ",
+            "CBWFQ",
+            "WFQ"
+        ],
+        "correct": 0,
+        "image": null
+    },
+    {
+        "id": 150,
+        "question": "Refer to the exhibit. A network administrator has configured OSPFv2 on the two Cisco routers. The routers are unable to form a neighbor adjacency. What should be done to fix the problem on router R2?",
+        "options": [
+            "Implement the command no passive-interface Serial0/1.",
+            "Implement the command network 192.168.2.6 0.0.0.0 area 0 on router R2.",
+            "Change the router-id of router R2 to 2.2.2.2.",
+            "Implement the command network 192.168.3.1 0.0.0.0 area 0 on router R2."
+        ],
+        "correct": 0,
+        "image": "150.jpg"
     },
     {
         "id": 1,
@@ -1357,521 +1908,5 @@
         "correct": 0,
         "image": null
     },
-    {
-        "id": 1,
-        "question": "",
-        "options": [
-            "",
-            "",
-            "",
-            ""
-        ],
-        "correct": 0,
-        "image": null
-    },
-    {
-        "id": 1,
-        "question": "",
-        "options": [
-            "",
-            "",
-            "",
-            ""
-        ],
-        "correct": 0,
-        "image": null
-    },
-    {
-        "id": 1,
-        "question": "",
-        "options": [
-            "",
-            "",
-            "",
-            ""
-        ],
-        "correct": 0,
-        "image": null
-    },
-    {
-        "id": 1,
-        "question": "",
-        "options": [
-            "",
-            "",
-            "",
-            ""
-        ],
-        "correct": 0,
-        "image": null
-    },
-    {
-        "id": 1,
-        "question": "",
-        "options": [
-            "",
-            "",
-            "",
-            ""
-        ],
-        "correct": 0,
-        "image": null
-    },
-    {
-        "id": 1,
-        "question": "",
-        "options": [
-            "",
-            "",
-            "",
-            ""
-        ],
-        "correct": 0,
-        "image": null
-    },
-    {
-        "id": 1,
-        "question": "",
-        "options": [
-            "",
-            "",
-            "",
-            ""
-        ],
-        "correct": 0,
-        "image": null
-    },
-    {
-        "id": 1,
-        "question": "",
-        "options": [
-            "",
-            "",
-            "",
-            ""
-        ],
-        "correct": 0,
-        "image": null
-    },
-    {
-        "id": 1,
-        "question": "",
-        "options": [
-            "",
-            "",
-            "",
-            ""
-        ],
-        "correct": 0,
-        "image": null
-    },
-    {
-        "id": 1,
-        "question": "",
-        "options": [
-            "",
-            "",
-            "",
-            ""
-        ],
-        "correct": 0,
-        "image": null
-    },
-    {
-        "id": 1,
-        "question": "",
-        "options": [
-            "",
-            "",
-            "",
-            ""
-        ],
-        "correct": 0,
-        "image": null
-    },
-    {
-        "id": 1,
-        "question": "",
-        "options": [
-            "",
-            "",
-            "",
-            ""
-        ],
-        "correct": 0,
-        "image": null
-    },
-    {
-        "id": 1,
-        "question": "",
-        "options": [
-            "",
-            "",
-            "",
-            ""
-        ],
-        "correct": 0,
-        "image": null
-    },
-    {
-        "id": 1,
-        "question": "",
-        "options": [
-            "",
-            "",
-            "",
-            ""
-        ],
-        "correct": 0,
-        "image": null
-    },
-    {
-        "id": 1,
-        "question": "",
-        "options": [
-            "",
-            "",
-            "",
-            ""
-        ],
-        "correct": 0,
-        "image": null
-    },
-    {
-        "id": 1,
-        "question": "",
-        "options": [
-            "",
-            "",
-            "",
-            ""
-        ],
-        "correct": 0,
-        "image": null
-    },
-    {
-        "id": 1,
-        "question": "",
-        "options": [
-            "",
-            "",
-            "",
-            ""
-        ],
-        "correct": 0,
-        "image": null
-    },
-    {
-        "id": 1,
-        "question": "",
-        "options": [
-            "",
-            "",
-            "",
-            ""
-        ],
-        "correct": 0,
-        "image": null
-    },
-    {
-        "id": 1,
-        "question": "",
-        "options": [
-            "",
-            "",
-            "",
-            ""
-        ],
-        "correct": 0,
-        "image": null
-    },
-    {
-        "id": 1,
-        "question": "",
-        "options": [
-            "",
-            "",
-            "",
-            ""
-        ],
-        "correct": 0,
-        "image": null
-    },
-    {
-        "id": 1,
-        "question": "",
-        "options": [
-            "",
-            "",
-            "",
-            ""
-        ],
-        "correct": 0,
-        "image": null
-    },
-    {
-        "id": 1,
-        "question": "",
-        "options": [
-            "",
-            "",
-            "",
-            ""
-        ],
-        "correct": 0,
-        "image": null
-    },
-    {
-        "id": 1,
-        "question": "",
-        "options": [
-            "",
-            "",
-            "",
-            ""
-        ],
-        "correct": 0,
-        "image": null
-    },
-    {
-        "id": 1,
-        "question": "",
-        "options": [
-            "",
-            "",
-            "",
-            ""
-        ],
-        "correct": 0,
-        "image": null
-    },
-    {
-        "id": 1,
-        "question": "",
-        "options": [
-            "",
-            "",
-            "",
-            ""
-        ],
-        "correct": 0,
-        "image": null
-    },
-    {
-        "id": 1,
-        "question": "",
-        "options": [
-            "",
-            "",
-            "",
-            ""
-        ],
-        "correct": 0,
-        "image": null
-    },
-    {
-        "id": 1,
-        "question": "",
-        "options": [
-            "",
-            "",
-            "",
-            ""
-        ],
-        "correct": 0,
-        "image": null
-    },
-    {
-        "id": 1,
-        "question": "",
-        "options": [
-            "",
-            "",
-            "",
-            ""
-        ],
-        "correct": 0,
-        "image": null
-    },
-    {
-        "id": 1,
-        "question": "",
-        "options": [
-            "",
-            "",
-            "",
-            ""
-        ],
-        "correct": 0,
-        "image": null
-    },
-    {
-        "id": 1,
-        "question": "",
-        "options": [
-            "",
-            "",
-            "",
-            ""
-        ],
-        "correct": 0,
-        "image": null
-    },
-    {
-        "id": 1,
-        "question": "",
-        "options": [
-            "",
-            "",
-            "",
-            ""
-        ],
-        "correct": 0,
-        "image": null
-    },
-    {
-        "id": 1,
-        "question": "",
-        "options": [
-            "",
-            "",
-            "",
-            ""
-        ],
-        "correct": 0,
-        "image": null
-    },
-    {
-        "id": 1,
-        "question": "",
-        "options": [
-            "",
-            "",
-            "",
-            ""
-        ],
-        "correct": 0,
-        "image": null
-    },
-    {
-        "id": 1,
-        "question": "",
-        "options": [
-            "",
-            "",
-            "",
-            ""
-        ],
-        "correct": 0,
-        "image": null
-    },
-    {
-        "id": 1,
-        "question": "",
-        "options": [
-            "",
-            "",
-            "",
-            ""
-        ],
-        "correct": 0,
-        "image": null
-    },
-    {
-        "id": 1,
-        "question": "",
-        "options": [
-            "",
-            "",
-            "",
-            ""
-        ],
-        "correct": 0,
-        "image": null
-    },
-    {
-        "id": 1,
-        "question": "",
-        "options": [
-            "",
-            "",
-            "",
-            ""
-        ],
-        "correct": 0,
-        "image": null
-    },
-    {
-        "id": 1,
-        "question": "",
-        "options": [
-            "",
-            "",
-            "",
-            ""
-        ],
-        "correct": 0,
-        "image": null
-    },
-    {
-        "id": 1,
-        "question": "",
-        "options": [
-            "",
-            "",
-            "",
-            ""
-        ],
-        "correct": 0,
-        "image": null
-    },
-    {
-        "id": 1,
-        "question": "",
-        "options": [
-            "",
-            "",
-            "",
-            ""
-        ],
-        "correct": 0,
-        "image": null
-    },
-    {
-        "id": 1,
-        "question": "",
-        "options": [
-            "",
-            "",
-            "",
-            ""
-        ],
-        "correct": 0,
-        "image": null
-    },
-    {
-        "id": 1,
-        "question": "",
-        "options": [
-            "",
-            "",
-            "",
-            ""
-        ],
-        "correct": 0,
-        "image": null
-    },
-    {
-        "id": 1,
-        "question": "",
-        "options": [
-            "",
-            "",
-            "",
-            ""
-        ],
-        "correct": 0,
-        "image": null
-    },
-    
+
 ]
