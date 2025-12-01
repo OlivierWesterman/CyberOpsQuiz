@@ -26,7 +26,7 @@ class QuizDataManager:
                 if os.path.isdir(os.path.join(self.quiz_dir, d))]
 
     def load_questions(self, subject):
-        path = os.path.join(self.quiz_dir, subject, "questions.json")
+        path = os.path.join(self.quiz_dir, subject, "questions_deduplicated.json")
         if not os.path.exists(path): return []
         try:
             with open(path, 'r') as f:
