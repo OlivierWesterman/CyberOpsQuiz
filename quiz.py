@@ -3,7 +3,21 @@ from tkinter import ttk, messagebox
 import random
 import json
 import os
-from PIL import Image, ImageTk
+import sys
+import subprocess
+
+try:
+    from PIL import Image, ImageTk
+    HAS_PIL = True
+except ImportError:
+    # Attempt to auto-install Pillow if missing
+    try:
+        subprocess.check_call([sys.executable, "-m", "pip", "install", "pillow"])
+        from PIL import Image, ImageTk
+        HAS_PIL = True
+    except Exception as e:
+        print(f"Warning: Pillow auto-install failed: {e}")
+        HAS_PIL = False
 
 # --- Constants & Configuration ---
 THEME_COLOR = '#f5f5f5'
@@ -241,7 +255,11 @@ class QuizApp:
     def _render_image(self, image_name):
         img_path = self.data_manager.get_image_path(self.current_subject, image_name)
         
-        if img_path and os.path.exists(img_path):
+        if not img_path or not os.path.exists(img_path):
+            ttk.Label(self.scrollable_frame, text=f"[Image '{image_name}' not found]", foreground="red").pack()
+            return
+
+        if HAS_PIL:
             try:
                 pil_img = Image.open(img_path)
                 w, h = pil_img.size
@@ -250,7 +268,11 @@ class QuizApp:
                 ratio = min(ratio_w, ratio_h)
                 new_w = int(w * ratio)
                 new_h = int(h * ratio)
-                pil_img = pil_img.resize((new_w, new_h), Image.Resampling.LANCZOS)
+                
+                # Compatibility for older Pillow versions
+                resample_mode = Image.Resampling.LANCZOS if hasattr(Image, 'Resampling') else Image.LANCZOS
+                
+                pil_img = pil_img.resize((new_w, new_h), resample_mode)
                 photo = ImageTk.PhotoImage(pil_img)
                 lbl = ttk.Label(self.scrollable_frame, image=photo)
                 lbl.image = photo 
@@ -258,7 +280,44 @@ class QuizApp:
             except Exception as e:
                 ttk.Label(self.scrollable_frame, text=f"[Error loading image: {e}]", foreground="red").pack()
         else:
-            ttk.Label(self.scrollable_frame, text=f"[Image '{image_name}' not found]", foreground="red").pack()
+            # Fallback: Native Tkinter (supports PNG/GIF, no JPEG)
+            try:
+                photo = tk.PhotoImage(file=img_path)
+                
+                # Basic integer downscaling (subsample)
+                w, h = photo.width(), photo.height()
+                scale_w = int(w / IMG_MAX_WIDTH) + 1
+                scale_h = int(h / IMG_MAX_HEIGHT) + 1
+                scale = max(scale_w, scale_h)
+                
+                if scale > 1:
+                    photo = photo.subsample(scale)
+                
+                lbl = ttk.Label(self.scrollable_frame, image=photo)
+                lbl.image = photo
+                lbl.pack(pady=10)
+            except tk.TclError:
+                # Fallback 2: Check if a PNG version exists (e.g. image.jpg -> image.png)
+                png_path = os.path.splitext(img_path)[0] + ".png"
+                if os.path.exists(png_path):
+                    try:
+                        photo = tk.PhotoImage(file=png_path)
+                        w, h = photo.width(), photo.height()
+                        scale_w = int(w / IMG_MAX_WIDTH) + 1
+                        scale_h = int(h / IMG_MAX_HEIGHT) + 1
+                        scale = max(scale_w, scale_h)
+                        if scale > 1:
+                            photo = photo.subsample(scale)
+                        lbl = ttk.Label(self.scrollable_frame, image=photo)
+                        lbl.image = photo
+                        lbl.pack(pady=10)
+                        return
+                    except Exception:
+                        pass
+                
+                ttk.Label(self.scrollable_frame, text="[Format unsupported. Convert image to PNG]", foreground="red").pack()
+            except Exception as e:
+                ttk.Label(self.scrollable_frame, text=f"[Error: {e}]", foreground="red").pack()
 
     def _render_multichoice(self, q_data):
         self.mc_vars = []
